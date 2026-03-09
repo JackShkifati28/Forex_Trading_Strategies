@@ -4,7 +4,7 @@ A fully automated, multi-threaded algorithmic trading engine built in Python. De
 
 ## System Architecture & Key Features
 
- **Modular Strategy Framework (Extensibility):** The architecture utilizes object-oriented polymorphism via a `BaseStrategy` abstract class. The core engine (threading, API clients, and network resilience) is completely decoupled from the trading logic. This plug-and-play design allows for rapid deployment of new quantitative models (e.g., Mean Reversion, Statistical Arbitrage) simply by subclassing the base strategy, without ever touching the core execution loop. Future roadmap includes deploying additional momentum and volatility-based strategies.
+ * **Modular Strategy Framework (Extensibility):** The architecture utilizes object-oriented polymorphism via a `BaseStrategy` abstract class. The core engine (threading, API clients, and network resilience) is completely decoupled from the trading logic. This plug-and-play design allows for rapid deployment of new quantitative models (e.g., Mean Reversion, Statistical Arbitrage) simply by subclassing the base strategy, without ever touching the core execution loop. Future roadmap includes deploying additional momentum and volatility-based strategies.
 * **Concurrent Execution:** Utilizes memory-isolated OS-level threads to monitor up to 70+ currency pairs simultaneously without blocking the main execution loop.
 * **API Resilience & Rate Limit Handling:** Implements exponential backoff and randomized execution jitter to gracefully handle HTTP 429 (Too Many Requests) errors and prevent "Thundering Herd" API bottlenecks.
 * **Dynamic Market Scanning:** Automatically queries the broker on boot to map available instruments, adapting instantly to broker-side additions or removals.
