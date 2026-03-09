@@ -1,4 +1,4 @@
-# Florex: Quantitative Forex Trading Engine
+# Forex: Quantitative Forex Trading Engine
 
 A fully automated, multi-threaded algorithmic trading engine built in Python. Designed to interface directly with the Oanda v3 REST API, this system dynamically scans available forex pairs, processes historical market data, and executes a custom Stochastic Bollinger Band strategy across dozens of concurrent threads.
 
@@ -13,7 +13,7 @@ A fully automated, multi-threaded algorithmic trading engine built in Python. De
 
 ## 📁 Directory Structure
 
-    Florex/
+    Forex/
     │
     ├── Core/
     │   ├── indicator.py        # Mathematical formulation for Bollinger Bands & Stochastics
