@@ -2,8 +2,9 @@
 
 A fully automated, multi-threaded algorithmic trading engine built in Python. Designed to interface directly with the Oanda v3 REST API, this system dynamically scans available forex pairs, processes historical market data, and executes a custom Stochastic Bollinger Band strategy across dozens of concurrent threads.
 
-## 🚀 System Architecture & Key Features
+## System Architecture & Key Features
 
+ **Modular Strategy Framework (Extensibility):** The architecture utilizes object-oriented polymorphism via a `BaseStrategy` abstract class. The core engine (threading, API clients, and network resilience) is completely decoupled from the trading logic. This plug-and-play design allows for rapid deployment of new quantitative models (e.g., Mean Reversion, Statistical Arbitrage) simply by subclassing the base strategy, without ever touching the core execution loop. Future roadmap includes deploying additional momentum and volatility-based strategies.
 * **Concurrent Execution:** Utilizes memory-isolated OS-level threads to monitor up to 70+ currency pairs simultaneously without blocking the main execution loop.
 * **API Resilience & Rate Limit Handling:** Implements exponential backoff and randomized execution jitter to gracefully handle HTTP 429 (Too Many Requests) errors and prevent "Thundering Herd" API bottlenecks.
 * **Dynamic Market Scanning:** Automatically queries the broker on boot to map available instruments, adapting instantly to broker-side additions or removals.
@@ -11,7 +12,8 @@ A fully automated, multi-threaded algorithmic trading engine built in Python. De
 * **Asynchronous SMS Broadcasting:** Built-in SMTP notification system to broadcast real-time buy/sell signals and technical breakouts to an array of target phone numbers.
 * **Stateless Actuators:** Database and notification clients are engineered as strictly stateless services, completely eliminating the need for thread-locking mechanisms (Mutexes).
 
-## 📁 Directory Structure
+
+## Directory Structure
 
     Florex/
     │
@@ -59,7 +61,7 @@ GMAIL_APP_PASSWORD=your_16_digit_app_password
 TARGET_PHONE_EMAILS=5551234567@vtext.com,5559876543@txt.att.net
 ```
 
-## 📈 The Strategy: Stochastic Bollinger Ping-Pong
+## The Strategy: Stochastic Bollinger Ping-Pong
 
 This engine currently runs a custom state-machine strategy designed to filter out market noise during heavy trends. 
 
