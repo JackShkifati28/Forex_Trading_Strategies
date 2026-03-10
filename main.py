@@ -36,7 +36,7 @@ def strategy_worker(bot_instance):
         jitter = random.uniform(1, 30)
         total_sleep = base_sleep + jitter
         
-        bot_instance.log(f"Sleeping... Waking up in {total_sleep/3600:.2f} hours.")
+        bot_instance.log(f"Sleeping... Waking up in {total_sleep/60:.2f} minutes.")
         
         time.sleep(total_sleep)
         bot_instance.run_cycle()

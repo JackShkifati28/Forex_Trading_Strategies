@@ -14,7 +14,8 @@ class Stoch_Bolinger(BaseStrategy):
         self.cached_monthly_trend = None
         # Tracker to know exactly when we last updated the cache
         self.last_4h_fetch_hour = None
-        
+        self.cached_K = None
+        self.cached_D = None
         # --- THE PING-PONG STATE ---
         # Can be "UPPER", "LOWER", or None (if it hasn't synced yet)
         self.last_touched_band = None
@@ -40,8 +41,8 @@ class Stoch_Bolinger(BaseStrategy):
             for i in range(len(df) - 1, -1, -1):
                 high = df['High'].iloc[i]
                 low = df['Low'].iloc[i]
-                upper = df['BBU_20_2.0_2.0'].iloc[i]
-                lower = df['BBL_20_2.0_2.0'].iloc[i]
+                upper = df['BBU_30_2.0_2.0'].iloc[i]
+                lower = df['BBL_30_2.0_2.0'].iloc[i]
                 
                 if high >= upper:
                     self.last_touched_band = "UPPER"
@@ -78,7 +79,7 @@ class Stoch_Bolinger(BaseStrategy):
             
             self.log(f"{self.pair} 4-Hour Boundary. Refreshing Macro Cache...")
        
-            df_monthly = self.api_client.get_candles(self.pair, "M", 20)
+            df_monthly = self.api_client.get_candles(self.pair, "M", 21)
             df_h4 = self.api_client.get_candles(self.pair, "H4", 50)
         
             if df_monthly is None or df_h4 is None:
@@ -89,13 +90,13 @@ class Stoch_Bolinger(BaseStrategy):
             df_h4 = Indicator.bollinger(df_h4)
 
             # 3. Monthly Gate Logic
-            k_monthly = df_monthly['STOCHk_14_3_3'].iloc[-1]
-            d_monthly = df_monthly['STOCHd_14_3_3'].iloc[-1]
+            k_monthly = df_monthly['STOCHk_14_3_3'].iloc[-2]
+            d_monthly = df_monthly['STOCHd_14_3_3'].iloc[-2]
             self.cached_monthly_trend = "BUY" if k_monthly > d_monthly else "SHORT"
             
             # 4. 4H Trigger Logic
-            self.cached_4h_lower = df_h4['BBL_20_2.0_2.0'].iloc[-1]
-            self.cached_4h_upper = df_h4['BBU_20_2.0_2.0'].iloc[-1]
+            self.cached_4h_lower = df_h4['BBL_30_2.0_2.0'].iloc[-1]
+            self.cached_4h_upper = df_h4['BBU_30_2.0_2.0'].iloc[-1]
 
             # Lock the cache so it doesn't fetch again this hour
             self.last_4h_fetch_hour = current_hour
@@ -109,27 +110,28 @@ class Stoch_Bolinger(BaseStrategy):
         if df_m15 is None:
             self.log(f"{self.pair} Network dropped during 15m fetch. Skipping cycle.")
             return
-        current_low = df_m15['Low'].iloc[-1]
-        current_high = df_m15['High'].iloc[-1]
+        
+        current_close = df_m15['Close'].iloc[-1]
+   
 
 
         # Check what band the CURRENT candle is touching
         current_touch = None
 
-        if current_low <= self.cached_4h_lower:
+        if  current_close <= self.cached_4h_lower:
             current_touch = "LOWER"
 
-        elif current_high >= self.cached_4h_upper:
+        elif  current_close >= self.cached_4h_upper:
             current_touch = "UPPER"
 
         # 5. The Ping-Pong Execution Logic
         if self.cached_monthly_trend == "BUY" and current_touch == "LOWER" and self.last_touched_band == "UPPER":
-            self.alert(f"{self.pair}  LONG SETUP: Traveled Top-to-Bottom. Price hit Lower Band.")
+            self.alert("BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.")
             # Update RAM so we don't buy again until it hits the top band and comes back down
             self.last_touched_band = "LOWER" 
             
         elif self.cached_monthly_trend == "SHORT" and current_touch == "UPPER" and self.last_touched_band == "LOWER":
-            self.alert(f"{self.pair} SHORT SETUP: Traveled Bottom-to-Top. Price hit Upper Band.")
+            self.alert("SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.")
             # Update RAM
             self.last_touched_band = "UPPER"
 

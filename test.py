@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv, dotenv_values 
 from Core.oanda_client import OandaClient
 from Core.smsNotifier import SMSNotifier
+from Core.indicator import Indicator
 
 import requests
 
@@ -19,7 +20,22 @@ ms_client = SMSNotifier(
         target_sms_email=email_list
     )
 
-ms_client.send_alert("Testing Message")
+db_client = OandaClient(
+        api_token=os.getenv("API_TOKEN"), 
+        account_id=os.getenv("ACCOUNT_ID")
+    )
+
+df_monthly = db_client.get_candles("USD_CNH", "M", 20)
+
+df =Indicator.stocastic(df_monthly)
+
+k_monthly = df_monthly['STOCHk_14_3_3'].iloc[-2]
+d_monthly = df_monthly['STOCHd_14_3_3'].iloc[-2]
+
+print(k_monthly )
+print(d_monthly)
+
+# ms_client.send_alert("Testing Message")
 
 
 
