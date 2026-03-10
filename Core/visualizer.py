@@ -1,4 +1,5 @@
 import mplfinance as mpf
+import pandas as pd
 
 class Visualizer:
 
@@ -13,7 +14,7 @@ class Visualizer:
         mpf.make_addplot(df['STOCHd_14_3_3'], panel=1, color='red')
         ]
 
-        pf.plot(
+        mpf.plot(
         df, 
          type='candle', 
          style='charles', 

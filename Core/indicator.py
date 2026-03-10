@@ -11,7 +11,7 @@ class Indicator:
 
     
     @staticmethod
-    def bollinger(df,length =20, std=2 ):
+    def bollinger(df,length =30, std=2 ):
         df.ta.bbands(close='Close', length=length, std=std, append=True)
         df.dropna(inplace=True)
         return df

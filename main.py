@@ -9,19 +9,16 @@ from Core.oanda_client import OandaClient
 from Core.smsNotifier import SMSNotifier
 from strategies.stoch_bollinger import Stoch_Bolinger
 
-def get_seconds_to_next_h4():
-    """Calculates the exact seconds until the next 4-hour candle close."""
+def get_seconds_to_next_m15():
+    """Calculates the exact seconds until the next 15-minute candle close (:00, :15, :30, :45)."""
     now = datetime.now(timezone.utc)
     
-    # Oanda H4 candles align with 21:00 UTC (which is 5:00 PM NY time).
-    # This means candles close at hours divisible by 4, plus 1 (1, 5, 9, 13, 17, 21 UTC).
-    # We calculate the next hour that matches this pattern.
-    next_hour = now.hour + 1
-    while (next_hour - 1) % 4 != 0:
-        next_hour += 1
-        
-    # Create a datetime object for that exact future hour
-    next_run_time = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(hours=next_hour)
+    # Calculate how many minutes until the next 15-minute boundary
+    minutes_to_next = 15 - (now.minute % 15)
+    
+    # Create a datetime object for that exact future minute
+    next_run_time = now + timedelta(minutes=minutes_to_next)
+    next_run_time = next_run_time.replace(second=0, microsecond=0)
     
     # Add a 5-second buffer to ensure Oanda has actually painted the new candle
     seconds_to_sleep = (next_run_time - now).total_seconds() + 5
@@ -33,7 +30,7 @@ def strategy_worker(bot_instance):
     
     while True:
         # Get the exact base time
-        base_sleep = get_seconds_to_next_h4()
+        base_sleep = get_seconds_to_next_m15()
         
         # THE FIX: Add a random delay between 1 and 30 seconds
         jitter = random.uniform(1, 30)
