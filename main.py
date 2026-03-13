@@ -64,11 +64,13 @@ if __name__ == "__main__":
     raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
     email_list = raw_emails_string.split(",")
 
-    sms_client = SMSNotifier(
-        sender_email=os.getenv("GMAIL_ADDRESS"),
-        sender_password=os.getenv("GMAIL_APP_PASSWORD"),
-        target_sms_email=email_list
-    )
+    # sms_client = SMSNotifier(
+    #     sender_email=os.getenv("GMAIL_ADDRESS"),
+    #     sender_password=os.getenv("GMAIL_APP_PASSWORD"),
+    #     target_sms_email=email_list
+    # )
+
+    
 
     # # 2. Instantiate the independent, stateful Strategy Agents
     # bots = [
