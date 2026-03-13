@@ -1,6 +1,9 @@
 from abc import ABC, abstractmethod
 import random 
 import time
+import logging
+import os
+from logging.handlers import TimedRotatingFileHandler
 
 class BaseStrategy(ABC):
     def __init__(self, pair, api_client, notifier):
@@ -13,9 +16,35 @@ class BaseStrategy(ABC):
         # This state belongs ONLY to this specific currency pair instance.
         self.current_position = "NONE" 
 
+        # --- LOGGING SETUP ---
+        log_dir = "Logs"
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+
+        # Set up a logger specific to this pair
+        self.logger = logging.getLogger(self.pair)
+        self.logger.setLevel(logging.INFO)
+
+        # 1. File Handler: Creates 'logs/EUR_USD.log', rotates at midnight
+        # 'when="midnight"' creates a new file every day
+        log_file = os.path.join(log_dir, f"{self.pair}.log")
+        file_handler = TimedRotatingFileHandler(log_file, when="midnight", interval=1, backupCount=30)
+        file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler.setFormatter(file_formatter)
+
+        # Avoid adding multiple handlers if the strategy is re-initialized
+        if not self.logger.handlers:
+            self.logger.addHandler(file_handler)
+
     def log(self, message):
-        """Standardized console logging so threads don't create a messy terminal."""
-        print(f"[{self.pair}] {message}")
+       
+        formatted_message = f"[{self.pair}] {message}"
+        
+        # Print to terminal for live monitoring
+        print(formatted_message)
+        
+        # Write to daily log file
+        self.logger.info(message)
 
     def alert(self, message):
         """Combines console logging and SMS dispatch into one clean method."""
