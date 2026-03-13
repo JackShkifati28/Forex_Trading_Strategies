@@ -7,7 +7,7 @@ import random
 from zoneinfo import ZoneInfo
 
 from Core.oanda_client import OandaClient
-from Core.smsNotifier import SMSNotifier
+from Core.smsNotifier import TelegramNotifier
 from strategies.stoch_bollinger import Stoch_Bolinger
 
 def get_seconds_to_next_m15():
@@ -64,10 +64,15 @@ if __name__ == "__main__":
     raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
     email_list = raw_emails_string.split(",")
 
-    sms_client = SMSNotifier(
-        sender_email=os.getenv("GMAIL_ADDRESS"),
-        sender_password=os.getenv("GMAIL_APP_PASSWORD"),
-        target_sms_email=email_list
+    # sms_client = SMSNotifier(
+    #     sender_email=os.getenv("GMAIL_ADDRESS"),
+    #     sender_password=os.getenv("GMAIL_APP_PASSWORD"),
+    #     target_sms_email=email_list
+    # )
+
+    sms_client = tms = TelegramNotifier( 
+    token = os.getenv("TELEGRAM_API_TOKEN"), 
+    chat_ids= os.getenv("GROUP_ID")
     )
 
     
@@ -100,7 +105,7 @@ if __name__ == "__main__":
         active_threads.append(t)
         
         # Slight stagger so we don't bombard the Oanda API with 10 concurrent requests
-        time.sleep(100)
+        time.sleep(1)
 
     print("All threads active. Engine is running.")
 

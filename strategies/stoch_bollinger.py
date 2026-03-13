@@ -73,7 +73,7 @@ class Stoch_Bolinger(BaseStrategy):
         self.log(f"{self.pair} Syncing historical state... Finding the signal.")
 
         # Getting 150 candles of 4 Hour data 
-        df_sync = self.fetch_candles(self.pair, "H4", 150)
+        df_sync = self.fetch_candles("H4", 150)
        
 
         df = Indicator.bollinger(df_sync)
@@ -138,7 +138,7 @@ class Stoch_Bolinger(BaseStrategy):
     def _get_Month(self):
         self.log(f"{self.pair} Resetting Monthly Trend ")
 
-        df_monthly = self.fetch_candles(self.pair, "M", 21)
+        df_monthly = self.fetch_candles("M", 21)
         if df_monthly is None:
             self.log(f"{self.pair} Network dropped. Skipping this cycle.")
             return
@@ -154,7 +154,7 @@ class Stoch_Bolinger(BaseStrategy):
     def _get_4hour(self):
         self.log(f"{self.pair} Resetting 4-Hour Boundary.")
         
-        df_h4 = self.fetch_candles(self.pair, "H4", 50)
+        df_h4 = self.fetch_candles( "H4", 50)
         
         if df_h4 is None:
             self.log(f"{self.pair} Network dropped. Skipping this cycle.")
@@ -169,7 +169,7 @@ class Stoch_Bolinger(BaseStrategy):
     
     def _get_15Min(self):
 
-        df_m15 = self.fetch_candles(self.pair, "M15", 5)
+        df_m15 = self.fetch_candles("M15", 5)
 
         if df_m15 is None:
             self.log(f"{self.pair} Network dropped during 15m fetch. Skipping cycle.")

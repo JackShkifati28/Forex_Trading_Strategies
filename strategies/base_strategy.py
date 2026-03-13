@@ -55,6 +55,7 @@ class BaseStrategy(ABC):
         # so a failed text message doesn't crash your trading loop.
         try:
             self.notifier.send_alert(full_message)
+            self.log(full_message)
         except Exception as e:
             self.log(f"Failed to send SMS: {e}")
 
