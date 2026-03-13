@@ -4,6 +4,7 @@ import threading
 from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 import random 
+from zoneinfo import ZoneInfo
 
 from Core.oanda_client import OandaClient
 from Core.smsNotifier import SMSNotifier
@@ -11,7 +12,12 @@ from strategies.stoch_bollinger import Stoch_Bolinger
 
 def get_seconds_to_next_m15():
     """Calculates the exact seconds until the next 15-minute candle close (:00, :15, :30, :45)."""
-    now = datetime.now(timezone.utc)
+
+    ny_tz = ZoneInfo("America/New_York")
+       
+        # Get current time specifically for NY
+    now = datetime.now(ny_tz)
+   
     
     # Calculate how many minutes until the next 15-minute boundary
     minutes_to_next = 15 - (now.minute % 15)

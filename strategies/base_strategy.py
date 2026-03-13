@@ -1,4 +1,6 @@
 from abc import ABC, abstractmethod
+import random 
+import time
 
 class BaseStrategy(ABC):
     def __init__(self, pair, api_client, notifier):
@@ -26,6 +28,34 @@ class BaseStrategy(ABC):
             self.notifier.send_alert(full_message)
         except Exception as e:
             self.log(f"Failed to send SMS: {e}")
+
+    
+    def fetch_candles(self, timeframe, count, max_retries=5):
+        """
+        Standardized fetcher for all child strategies.
+        Implements exponential backoff to handle Oanda/Cloudflare 502 errors.
+        """
+        retries = 0
+        while retries < max_retries:
+            try:
+                df = self.api_client.get_candles(self.pair, timeframe, count)
+                if df is not None:
+                    return df
+            except Exception as e:
+                # This catches connection resets and timeout errors
+                print(f"[{self.pair}] API Exception: {e}")
+            
+            retries += 1
+            if retries < max_retries:
+                # Exponential backoff: 2, 4, 8, 16... plus jitter
+                wait_time = (2 ** retries) + random.uniform(0.1, 1.0)
+                print(f"[{self.pair}] Network issue. Retry {retries}/{max_retries} in {wait_time:.2f}s...")
+                time.sleep(wait_time)
+        
+        print(f"[{self.pair}] CRITICAL: Could not recover connection after {max_retries} retries.")
+        return None
+
+    
 
     @abstractmethod
     def run_cycle(self):

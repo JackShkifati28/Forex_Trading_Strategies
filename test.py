@@ -5,7 +5,8 @@ from dotenv import load_dotenv, dotenv_values
 from Core.oanda_client import OandaClient
 from Core.smsNotifier import SMSNotifier
 from Core.indicator import Indicator
-
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 import requests
 
 # loading variables from .env file
@@ -27,13 +28,38 @@ db_client = OandaClient(
 
 df_monthly = db_client.get_candles("USD_CNH", "M", 20)
 
-df =Indicator.stocastic(df_monthly)
+df_4hour= db_client.get_candles("USD_CNH", "H4", 150)
 
-k_monthly = df_monthly['STOCHk_14_3_3'].iloc[-2]
-d_monthly = df_monthly['STOCHd_14_3_3'].iloc[-2]
+df = Indicator.bollinger(df_4hour)
 
-print(k_monthly )
-print(d_monthly)
+print(df.iloc[120])
+   
+
+
+# print(df_monthly.tail(10))
+
+
+
+# df =Indicator.stocastic(df_monthly)
+
+# k_monthly = df_monthly['STOCHk_14_3_3'].iloc[-2]
+# d_monthly = df_monthly['STOCHd_14_3_3'].iloc[-2]
+
+# print(datetime.now(timezone.utc))
+
+# Define the NY timezone
+ny_tz = ZoneInfo("America/New_York")
+
+# Get current time specifically for NY
+now_ny = datetime.now(ny_tz)
+
+# Get the month as an integer (1-12)
+current_month = now_ny.month
+current_hour = now_ny.hour
+
+# print(f"Current NY Month: {current_month}")
+# print(f"Current NY Hour: {current_hour}")
+
 
 # ms_client.send_alert("Testing Message")
 
