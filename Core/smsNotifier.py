@@ -22,18 +22,18 @@ class TelegramNotifier:
             print(f"Telegram Boot Warning: {e}")
 
     def send_alert(self, message_body):
-        for chat_id in self.chat_ids:
-            url = f"https://api.telegram.org/bot{self.token}/sendMessage"
-            payload = {
-                "chat_id": chat_id, 
-                "text": f"🔔 *Forex Alert*\n{message_body}", 
-                "parse_mode": "Markdown"
+       
+        url = f"https://api.telegram.org/bot{self.token}/sendMessage"
+        payload = {
+            "chat_id": self.chat_ids , 
+            "text": f"🔔 *Forex Alert*\n{message_body}", 
+            "parse_mode": "Markdown"
             }
-            try:
-                requests.post(url, data=payload, timeout=10)
-                print(f"Telegram sent to {chat_id}")
-            except Exception as e:
-                print(f"Telegram failed for {chat_id}: {e}")
+        try:
+            requests.post(url, data=payload, timeout=10)
+            print(f"Telegram sent to {self.chat_ids }")
+        except Exception as e:
+             print(f"Telegram failed for {self.chat_ids }: {e}")
 
 class SMSNotifier:
     def __init__(self, sender_email, sender_password, target_sms_email):

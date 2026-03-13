@@ -3,7 +3,7 @@ import os
 # importing necessary functions from dotenv library
 from dotenv import load_dotenv, dotenv_values 
 from Core.oanda_client import OandaClient
-from Core.smsNotifier import SMSNotifier
+from Core.smsNotifier import TelegramNotifier
 from Core.indicator import Indicator
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
@@ -15,24 +15,35 @@ load_dotenv()
 raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
 email_list = raw_emails_string.split(",")
 
-ms_client = SMSNotifier(
-        sender_email=os.getenv("GMAIL_ADDRESS"),
-        sender_password=os.getenv("GMAIL_APP_PASSWORD"),
-        target_sms_email=email_list
+# ms_client = SMSNotifier(
+#         sender_email=os.getenv("GMAIL_ADDRESS"),
+#         sender_password=os.getenv("GMAIL_APP_PASSWORD"),
+#         target_sms_email=email_list
+#     )
+
+tms = TelegramNotifier( 
+    token = os.getenv("TELEGRAM_API_TOKEN"), 
+    chat_ids= os.getenv("GROUP_ID")
     )
+
+tms.send_alert("This is a test message")
+
+
 
 db_client = OandaClient(
         api_token=os.getenv("API_TOKEN"), 
         account_id=os.getenv("ACCOUNT_ID")
     )
 
-df_monthly = db_client.get_candles("USD_CNH", "M", 20)
 
-df_4hour= db_client.get_candles("USD_CNH", "H4", 150)
 
-df = Indicator.bollinger(df_4hour)
+# df_monthly = db_client.get_candles("USD_CNH", "M", 20)
 
-print(df.iloc[120])
+# df_4hour= db_client.get_candles("USD_CNH", "H4", 150)
+
+# df = Indicator.bollinger(df_4hour)
+
+# print(df.iloc[120])
    
 
 
