@@ -4,4 +4,4 @@ venv/
 __pycache__/
 *.pyc
 ForexEngineNotes
-echo "Logs/" >> .gitignore
+Logs/
