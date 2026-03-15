@@ -1,0 +1,36 @@
+2026-03-15 09:26:10,257 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:26:10,952 - INFO - Sleeping... Waking up in 4.22 minutes.
+2026-03-15 09:30:24,214 - INFO - Sleeping... Waking up in 14.70 minutes.
+2026-03-15 09:33:45,993 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:45,994 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-15 09:33:46,136 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:33:46,266 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-15 09:33:46,353 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:46,354 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:46,357 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:46,384 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-15 09:33:46,384 - INFO - Sleeping... Waking up in 11.38 minutes.
+2026-03-15 09:45:09,218 - INFO - Sleeping... Waking up in 15.27 minutes.
+2026-03-15 10:43:22,402 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:22,403 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-15 10:43:22,486 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:43:22,573 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:43:22,657 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:22,659 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:22,662 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:22,688 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-15 10:43:22,688 - INFO - Sleeping... Waking up in 1.90 minutes.
+2026-03-15 10:45:16,964 - INFO - Sleeping... Waking up in 15.03 minutes.
+2026-03-15 10:46:55,106 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:55,107 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-15 10:46:55,335 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:46:55,535 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:46:55,633 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:55,636 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:55,643 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:55,672 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-15 10:46:55,672 - INFO - Sleeping... Waking up in 13.65 minutes.
+2026-03-15 11:00:34,677 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-15 11:00:34,911 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-15 11:22:03,160 - INFO - Sleeping... Waking up in 8.30 minutes.
+2026-03-15 11:30:21,527 - INFO - Sleeping... Waking up in 15.16 minutes.

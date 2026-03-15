@@ -1,0 +1,31 @@
+2026-03-15 00:04:46,614 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 00:04:46,794 - INFO - Sleeping... Waking up in 10.53 minutes.
+2026-03-15 09:30:08,572 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 09:30:08,744 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-15 09:33:14,885 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:14,886 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-15 09:33:14,980 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 09:33:15,118 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-15 09:33:15,272 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:15,277 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:15,277 - INFO - Sleeping... Waking up in 11.96 minutes.
+2026-03-15 09:45:12,997 - INFO - Sleeping... Waking up in 15.12 minutes.
+2026-03-15 10:42:51,244 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:51,245 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-15 10:42:51,334 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 10:42:51,421 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-15 10:42:51,602 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:51,612 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:51,612 - INFO - Sleeping... Waking up in 2.25 minutes.
+2026-03-15 10:45:06,727 - INFO - Sleeping... Waking up in 15.16 minutes.
+2026-03-15 10:46:23,950 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:23,950 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-15 10:46:24,052 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 10:46:24,131 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-15 10:46:24,217 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:24,222 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:24,222 - INFO - Sleeping... Waking up in 14.14 minutes.
+2026-03-15 11:00:32,469 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-15 11:00:32,779 - INFO - Sleeping... Waking up in 14.75 minutes.
+2026-03-15 11:21:45,668 - INFO - Sleeping... Waking up in 8.70 minutes.
+2026-03-15 11:30:27,945 - INFO - Sleeping... Waking up in 14.99 minutes.

@@ -1,0 +1,46 @@
+2026-03-15 02:23:03,933 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 02:23:04,983 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 02:23:04,983 - INFO - Sleeping... Waking up in 7.05 minutes.
+2026-03-15 09:27:53,939 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 09:27:55,056 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:27:55,056 - INFO - Sleeping... Waking up in 2.27 minutes.
+2026-03-15 09:30:11,235 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:30:11,236 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-15 09:33:27,928 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:27,930 - INFO - GBP_CHF Resetting Monthly Trend 
+2026-03-15 09:33:28,027 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 09:33:28,106 - INFO - GBP_CHF Syncing historical state... Finding the signal.
+2026-03-15 09:33:28,215 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:28,217 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:28,219 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:28,222 - INFO - GBP_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:28,222 - INFO - Sleeping... Waking up in 12.06 minutes.
+2026-03-15 09:45:32,121 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:32,122 - INFO - Sleeping... Waking up in 14.79 minutes.
+2026-03-15 10:43:04,314 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:04,316 - INFO - GBP_CHF Resetting Monthly Trend 
+2026-03-15 10:43:04,420 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:43:04,513 - INFO - GBP_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:43:04,645 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:04,650 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:04,655 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:04,657 - INFO - GBP_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:04,658 - INFO - Sleeping... Waking up in 2.18 minutes.
+2026-03-15 10:45:15,397 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:15,399 - INFO - Sleeping... Waking up in 15.31 minutes.
+2026-03-15 10:46:37,015 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:37,015 - INFO - GBP_CHF Resetting Monthly Trend 
+2026-03-15 10:46:37,119 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:46:37,239 - INFO - GBP_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:46:37,413 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:37,419 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:37,424 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:37,427 - INFO - GBP_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:37,427 - INFO - Sleeping... Waking up in 13.55 minutes.
+2026-03-15 11:00:10,144 - INFO - GBP_CHF Resetting 4-Hour Boundary.
+2026-03-15 11:00:10,323 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:10,323 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-15 11:21:42,681 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:42,682 - INFO - Sleeping... Waking up in 8.46 minutes.
+2026-03-15 11:30:10,249 - INFO - GBP_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:10,251 - INFO - Sleeping... Waking up in 14.94 minutes.

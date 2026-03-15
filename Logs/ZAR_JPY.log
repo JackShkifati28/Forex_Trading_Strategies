@@ -1,0 +1,38 @@
+2026-03-15 09:33:58,034 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:58,040 - INFO - ZAR_JPY Resetting Monthly Trend 
+2026-03-15 09:33:58,249 - INFO - ZAR_JPY Resetting 4-Hour Boundary.
+2026-03-15 09:33:58,317 - INFO - ZAR_JPY Syncing historical state... Finding the signal.
+2026-03-15 09:33:58,402 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:58,406 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:58,407 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:58,411 - INFO - ZAR_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:58,411 - INFO - Sleeping... Waking up in 11.19 minutes.
+2026-03-15 09:45:10,089 - INFO - ZAR_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:10,089 - INFO - Sleeping... Waking up in 15.10 minutes.
+2026-03-15 10:43:34,458 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:34,460 - INFO - ZAR_JPY Resetting Monthly Trend 
+2026-03-15 10:43:34,568 - INFO - ZAR_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:43:34,668 - INFO - ZAR_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:43:34,782 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:34,790 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:34,793 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:34,797 - INFO - ZAR_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:34,798 - INFO - Sleeping... Waking up in 1.66 minutes.
+2026-03-15 10:45:14,649 - INFO - ZAR_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:14,649 - INFO - Sleeping... Waking up in 15.11 minutes.
+2026-03-15 10:47:07,160 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:07,161 - INFO - ZAR_JPY Resetting Monthly Trend 
+2026-03-15 10:47:07,274 - INFO - ZAR_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:47:07,428 - INFO - ZAR_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:47:08,656 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:08,665 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:08,668 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:08,671 - INFO - ZAR_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 10:47:08,671 - INFO - Sleeping... Waking up in 13.32 minutes.
+2026-03-15 11:00:27,720 - INFO - ZAR_JPY Resetting 4-Hour Boundary.
+2026-03-15 11:00:27,938 - INFO - ZAR_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:27,938 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-15 11:21:47,020 - INFO - ZAR_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:47,021 - INFO - Sleeping... Waking up in 8.71 minutes.
+2026-03-15 11:30:29,633 - INFO - ZAR_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:29,633 - INFO - Sleeping... Waking up in 15.01 minutes.

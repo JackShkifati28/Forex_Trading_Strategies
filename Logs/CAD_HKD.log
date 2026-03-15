@@ -1,0 +1,47 @@
+2026-03-15 00:49:36,226 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 00:49:36,446 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 00:49:36,446 - INFO - Sleeping... Waking up in 10.90 minutes.
+2026-03-15 09:30:53,851 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 09:30:54,154 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:30:54,154 - INFO - Sleeping... Waking up in 14.32 minutes.
+2026-03-15 09:33:32,949 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:32,951 - INFO - CAD_HKD Resetting Monthly Trend 
+2026-03-15 09:33:33,155 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 09:33:33,263 - INFO - CAD_HKD Syncing historical state... Finding the signal.
+2026-03-15 09:33:33,354 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:33,355 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:33,357 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:33,358 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:33,359 - INFO - CAD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 09:33:33,359 - INFO - Sleeping... Waking up in 11.55 minutes.
+2026-03-15 09:45:06,931 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:45:06,934 - INFO - Sleeping... Waking up in 15.23 minutes.
+2026-03-15 10:43:09,341 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:09,343 - INFO - CAD_HKD Resetting Monthly Trend 
+2026-03-15 10:43:09,439 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:43:09,779 - INFO - CAD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:43:09,962 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:09,965 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:09,968 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:09,974 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:09,975 - INFO - CAD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 10:43:09,975 - INFO - Sleeping... Waking up in 2.29 minutes.
+2026-03-15 10:45:27,478 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 10:45:27,480 - INFO - Sleeping... Waking up in 14.74 minutes.
+2026-03-15 10:46:42,038 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:42,038 - INFO - CAD_HKD Resetting Monthly Trend 
+2026-03-15 10:46:42,148 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:46:42,245 - INFO - CAD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:46:42,346 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:42,349 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:42,353 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:42,358 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:42,360 - INFO - CAD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 10:46:42,360 - INFO - Sleeping... Waking up in 13.74 minutes.
+2026-03-15 11:00:27,059 - INFO - CAD_HKD Resetting 4-Hour Boundary.
+2026-03-15 11:00:27,253 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:00:27,253 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-15 11:21:50,770 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:21:50,772 - INFO - Sleeping... Waking up in 8.63 minutes.
+2026-03-15 11:30:28,462 - INFO - CAD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:30:28,464 - INFO - Sleeping... Waking up in 14.86 minutes.

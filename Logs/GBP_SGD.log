@@ -1,0 +1,47 @@
+2026-03-15 00:04:45,454 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 00:04:45,631 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 00:04:45,632 - INFO - Sleeping... Waking up in 10.46 minutes.
+2026-03-15 09:30:03,485 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:30:03,659 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:30:03,659 - INFO - Sleeping... Waking up in 15.14 minutes.
+2026-03-15 09:34:03,060 - INFO - Thread started. Syncing state...
+2026-03-15 09:34:03,062 - INFO - GBP_SGD Resetting Monthly Trend 
+2026-03-15 09:34:03,182 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:34:03,265 - INFO - GBP_SGD Syncing historical state... Finding the signal.
+2026-03-15 09:34:03,371 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:34:03,371 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:34:03,373 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:34:03,375 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:34:03,376 - INFO - GBP_SGD Final Sync Result: SignalState.BUY
+2026-03-15 09:34:03,377 - INFO - Sleeping... Waking up in 11.42 minutes.
+2026-03-15 09:45:28,624 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:45:28,626 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-15 10:43:39,481 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:39,483 - INFO - GBP_SGD Resetting Monthly Trend 
+2026-03-15 10:43:39,655 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:43:39,752 - INFO - GBP_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:43:39,833 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:39,834 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:39,839 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:39,844 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:39,845 - INFO - GBP_SGD Final Sync Result: SignalState.BUY
+2026-03-15 10:43:39,845 - INFO - Sleeping... Waking up in 1.72 minutes.
+2026-03-15 10:45:23,254 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 10:45:23,255 - INFO - Sleeping... Waking up in 14.87 minutes.
+2026-03-15 10:47:12,184 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:12,185 - INFO - GBP_SGD Resetting Monthly Trend 
+2026-03-15 10:47:12,293 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:47:12,376 - INFO - GBP_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:47:12,497 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:12,499 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:12,505 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:12,509 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:12,510 - INFO - GBP_SGD Final Sync Result: SignalState.BUY
+2026-03-15 10:47:12,510 - INFO - Sleeping... Waking up in 13.22 minutes.
+2026-03-15 11:00:25,844 - INFO - GBP_SGD Resetting 4-Hour Boundary.
+2026-03-15 11:00:26,259 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:00:26,266 - INFO - Sleeping... Waking up in 14.76 minutes.
+2026-03-15 11:21:39,739 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:21:39,740 - INFO - Sleeping... Waking up in 8.48 minutes.
+2026-03-15 11:30:08,495 - INFO - GBP_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:30:08,496 - INFO - Sleeping... Waking up in 15.22 minutes.

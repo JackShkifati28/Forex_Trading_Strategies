@@ -1,0 +1,44 @@
+2026-03-15 00:04:46,789 - INFO - USD_NOK Resetting 4-Hour Boundary.
+2026-03-15 00:17:48,423 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 00:17:48,423 - INFO - Sleeping... Waking up in 12.56 minutes.
+2026-03-15 09:33:12,879 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:12,880 - INFO - USD_NOK Resetting Monthly Trend 
+2026-03-15 09:33:12,969 - INFO - USD_NOK Resetting 4-Hour Boundary.
+2026-03-15 09:33:13,057 - INFO - USD_NOK Syncing historical state... Finding the signal.
+2026-03-15 09:33:13,156 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:13,157 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:13,159 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:13,160 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:13,161 - INFO - USD_NOK Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:13,161 - INFO - Sleeping... Waking up in 12.01 minutes.
+2026-03-15 09:45:14,214 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:14,215 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 10:42:49,234 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:49,236 - INFO - USD_NOK Resetting Monthly Trend 
+2026-03-15 10:42:49,368 - INFO - USD_NOK Resetting 4-Hour Boundary.
+2026-03-15 10:42:49,469 - INFO - USD_NOK Syncing historical state... Finding the signal.
+2026-03-15 10:42:49,567 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:49,569 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:49,576 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:49,579 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:49,581 - INFO - USD_NOK Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:49,582 - INFO - Sleeping... Waking up in 2.62 minutes.
+2026-03-15 10:45:27,096 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:27,098 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-15 10:46:21,937 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:21,937 - INFO - USD_NOK Resetting Monthly Trend 
+2026-03-15 10:46:22,025 - INFO - USD_NOK Resetting 4-Hour Boundary.
+2026-03-15 10:46:22,110 - INFO - USD_NOK Syncing historical state... Finding the signal.
+2026-03-15 10:46:22,211 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:22,213 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:22,220 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:22,223 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:22,224 - INFO - USD_NOK Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:22,225 - INFO - Sleeping... Waking up in 13.83 minutes.
+2026-03-15 11:00:11,902 - INFO - USD_NOK Resetting 4-Hour Boundary.
+2026-03-15 11:00:12,124 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:12,124 - INFO - Sleeping... Waking up in 15.19 minutes.
+2026-03-15 11:21:51,563 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:51,563 - INFO - Sleeping... Waking up in 8.36 minutes.
+2026-03-15 11:30:13,372 - INFO - USD_NOK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:13,374 - INFO - Sleeping... Waking up in 15.21 minutes.

@@ -1,0 +1,38 @@
+2026-03-15 00:33:30,731 - INFO - SGD_JPY Resetting 4-Hour Boundary.
+2026-03-15 00:33:31,103 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 00:33:31,103 - INFO - Sleeping... Waking up in 11.61 minutes.
+2026-03-15 09:33:16,893 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:16,894 - INFO - SGD_JPY Resetting Monthly Trend 
+2026-03-15 09:33:16,982 - INFO - SGD_JPY Resetting 4-Hour Boundary.
+2026-03-15 09:33:17,050 - INFO - SGD_JPY Syncing historical state... Finding the signal.
+2026-03-15 09:33:17,146 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:17,147 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:17,149 - INFO - SGD_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:17,150 - INFO - Sleeping... Waking up in 12.20 minutes.
+2026-03-15 09:45:29,315 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:29,317 - INFO - Sleeping... Waking up in 14.80 minutes.
+2026-03-15 10:42:53,253 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:53,253 - INFO - SGD_JPY Resetting Monthly Trend 
+2026-03-15 10:42:53,354 - INFO - SGD_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:42:53,559 - INFO - SGD_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:42:53,659 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:53,661 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:53,666 - INFO - SGD_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:53,667 - INFO - Sleeping... Waking up in 2.55 minutes.
+2026-03-15 10:45:26,615 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:26,617 - INFO - Sleeping... Waking up in 14.85 minutes.
+2026-03-15 10:46:25,964 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:25,964 - INFO - SGD_JPY Resetting Monthly Trend 
+2026-03-15 10:46:26,080 - INFO - SGD_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:46:26,188 - INFO - SGD_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:46:26,308 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:26,311 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:26,316 - INFO - SGD_JPY Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:26,317 - INFO - Sleeping... Waking up in 13.72 minutes.
+2026-03-15 11:00:09,227 - INFO - SGD_JPY Resetting 4-Hour Boundary.
+2026-03-15 11:00:09,388 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:09,389 - INFO - Sleeping... Waking up in 15.31 minutes.
+2026-03-15 11:21:56,244 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:56,245 - INFO - Sleeping... Waking up in 8.29 minutes.
+2026-03-15 11:30:13,800 - INFO - SGD_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:13,802 - INFO - Sleeping... Waking up in 15.20 minutes.

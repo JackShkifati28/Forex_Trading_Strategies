@@ -1,0 +1,28 @@
+2026-03-15 01:52:04,912 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 01:52:05,542 - INFO - Sleeping... Waking up in 8.12 minutes.
+2026-03-15 09:28:42,126 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 09:28:42,348 - INFO - Sleeping... Waking up in 1.85 minutes.
+2026-03-15 09:30:34,053 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-15 09:33:49,001 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:49,002 - INFO - USD_TRY Resetting Monthly Trend 
+2026-03-15 09:33:49,117 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 09:33:49,255 - INFO - USD_TRY Syncing historical state... Finding the signal.
+2026-03-15 09:33:49,373 - INFO - USD_TRY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 09:33:49,373 - INFO - Sleeping... Waking up in 11.29 minutes.
+2026-03-15 09:45:07,564 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-15 10:43:25,414 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:25,415 - INFO - USD_TRY Resetting Monthly Trend 
+2026-03-15 10:43:25,501 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 10:43:25,583 - INFO - USD_TRY Syncing historical state... Finding the signal.
+2026-03-15 10:43:25,700 - INFO - USD_TRY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:43:25,700 - INFO - Sleeping... Waking up in 1.79 minutes.
+2026-03-15 10:45:13,464 - INFO - Sleeping... Waking up in 15.31 minutes.
+2026-03-15 10:46:58,119 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:58,119 - INFO - USD_TRY Resetting Monthly Trend 
+2026-03-15 10:46:58,215 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 10:46:58,437 - INFO - USD_TRY Syncing historical state... Finding the signal.
+2026-03-15 10:46:58,544 - INFO - USD_TRY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:46:58,544 - INFO - Sleeping... Waking up in 13.16 minutes.
+2026-03-15 11:00:08,079 - INFO - USD_TRY Resetting 4-Hour Boundary.
+2026-03-15 11:00:08,287 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-15 11:15:44,413 - INFO - Sleeping... Waking up in 14.61 minutes.

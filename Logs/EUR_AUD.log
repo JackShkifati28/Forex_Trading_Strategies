@@ -1,0 +1,29 @@
+2026-03-15 02:17:05,761 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 02:23:04,866 - INFO - Sleeping... Waking up in 7.41 minutes.
+2026-03-15 09:28:15,427 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 09:28:15,648 - INFO - Sleeping... Waking up in 2.31 minutes.
+2026-03-15 09:30:34,331 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 09:34:11,094 - INFO - Thread started. Syncing state...
+2026-03-15 09:34:11,095 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-15 09:34:11,180 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 09:34:11,273 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-15 09:34:11,361 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 09:34:11,361 - INFO - Sleeping... Waking up in 11.24 minutes.
+2026-03-15 09:45:25,708 - INFO - Sleeping... Waking up in 14.95 minutes.
+2026-03-15 10:43:47,518 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:47,519 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-15 10:43:47,624 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 10:43:47,795 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-15 10:43:47,896 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:43:47,896 - INFO - Sleeping... Waking up in 1.59 minutes.
+2026-03-15 10:45:23,389 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-15 10:47:20,225 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:20,226 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-15 10:47:20,328 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 10:47:20,433 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-15 10:47:20,541 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:47:20,541 - INFO - Sleeping... Waking up in 13.00 minutes.
+2026-03-15 11:00:20,644 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-15 11:00:20,840 - INFO - Sleeping... Waking up in 15.19 minutes.
+2026-03-15 11:22:00,808 - INFO - Sleeping... Waking up in 8.44 minutes.
+2026-03-15 11:30:27,154 - INFO - Sleeping... Waking up in 15.08 minutes.

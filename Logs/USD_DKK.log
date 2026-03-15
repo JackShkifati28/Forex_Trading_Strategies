@@ -1,0 +1,47 @@
+2026-03-15 00:49:33,811 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 00:49:34,309 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 00:49:34,309 - INFO - Sleeping... Waking up in 10.69 minutes.
+2026-03-15 09:30:38,948 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 09:30:39,230 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:30:39,230 - INFO - Sleeping... Waking up in 14.83 minutes.
+2026-03-15 09:33:35,957 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:35,958 - INFO - USD_DKK Resetting Monthly Trend 
+2026-03-15 09:33:36,168 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 09:33:36,274 - INFO - USD_DKK Syncing historical state... Finding the signal.
+2026-03-15 09:33:36,353 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:36,354 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:36,357 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:36,358 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:36,358 - INFO - USD_DKK Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:36,358 - INFO - Sleeping... Waking up in 11.96 minutes.
+2026-03-15 09:45:33,986 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:33,986 - INFO - Sleeping... Waking up in 14.71 minutes.
+2026-03-15 10:43:12,354 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:12,356 - INFO - USD_DKK Resetting Monthly Trend 
+2026-03-15 10:43:12,484 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 10:43:12,601 - INFO - USD_DKK Syncing historical state... Finding the signal.
+2026-03-15 10:43:12,763 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:12,765 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:12,771 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:12,775 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:12,775 - INFO - USD_DKK Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:12,776 - INFO - Sleeping... Waking up in 1.96 minutes.
+2026-03-15 10:45:10,380 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:10,381 - INFO - Sleeping... Waking up in 15.30 minutes.
+2026-03-15 10:46:45,052 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:45,053 - INFO - USD_DKK Resetting Monthly Trend 
+2026-03-15 10:46:45,156 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 10:46:45,246 - INFO - USD_DKK Syncing historical state... Finding the signal.
+2026-03-15 10:46:45,356 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:45,358 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:45,365 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:45,369 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:45,370 - INFO - USD_DKK Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:45,371 - INFO - Sleeping... Waking up in 13.61 minutes.
+2026-03-15 11:00:22,095 - INFO - USD_DKK Resetting 4-Hour Boundary.
+2026-03-15 11:00:22,363 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:22,363 - INFO - Sleeping... Waking up in 15.08 minutes.
+2026-03-15 11:21:55,480 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:55,480 - INFO - Sleeping... Waking up in 8.61 minutes.
+2026-03-15 11:30:32,319 - INFO - USD_DKK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:32,320 - INFO - Sleeping... Waking up in 14.65 minutes.

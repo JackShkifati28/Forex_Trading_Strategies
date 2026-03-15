@@ -1,0 +1,32 @@
+2026-03-15 00:17:53,021 - INFO - EUR_HUF Resetting 4-Hour Boundary.
+2026-03-15 00:17:53,241 - INFO - Sleeping... Waking up in 12.48 minutes.
+2026-03-15 09:33:43,979 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:43,980 - INFO - EUR_HUF Resetting Monthly Trend 
+2026-03-15 09:33:44,083 - INFO - EUR_HUF Resetting 4-Hour Boundary.
+2026-03-15 09:33:44,188 - INFO - EUR_HUF Syncing historical state... Finding the signal.
+2026-03-15 09:33:44,271 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:44,272 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:44,275 - INFO - EUR_HUF Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:44,275 - INFO - Sleeping... Waking up in 11.81 minutes.
+2026-03-15 09:45:33,030 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-15 10:43:20,394 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:20,394 - INFO - EUR_HUF Resetting Monthly Trend 
+2026-03-15 10:43:20,584 - INFO - EUR_HUF Resetting 4-Hour Boundary.
+2026-03-15 10:43:20,664 - INFO - EUR_HUF Syncing historical state... Finding the signal.
+2026-03-15 10:43:20,761 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:20,766 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:20,771 - INFO - EUR_HUF Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:20,771 - INFO - Sleeping... Waking up in 2.05 minutes.
+2026-03-15 10:45:24,241 - INFO - Sleeping... Waking up in 14.88 minutes.
+2026-03-15 10:46:53,092 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:53,093 - INFO - EUR_HUF Resetting Monthly Trend 
+2026-03-15 10:46:53,250 - INFO - EUR_HUF Resetting 4-Hour Boundary.
+2026-03-15 10:46:53,333 - INFO - EUR_HUF Syncing historical state... Finding the signal.
+2026-03-15 10:46:53,425 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:53,430 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:53,436 - INFO - EUR_HUF Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:53,436 - INFO - Sleeping... Waking up in 13.65 minutes.
+2026-03-15 11:00:32,253 - INFO - EUR_HUF Resetting 4-Hour Boundary.
+2026-03-15 11:00:32,444 - INFO - Sleeping... Waking up in 14.76 minutes.
+2026-03-15 11:21:46,517 - INFO - Sleeping... Waking up in 8.72 minutes.
+2026-03-15 11:30:29,595 - INFO - Sleeping... Waking up in 15.02 minutes.

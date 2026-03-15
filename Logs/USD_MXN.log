@@ -1,0 +1,37 @@
+2026-03-15 09:27:30,218 - INFO - USD_MXN Resetting 4-Hour Boundary.
+2026-03-15 09:27:30,401 - INFO - Sleeping... Waking up in 3.05 minutes.
+2026-03-15 09:30:33,351 - INFO - Sleeping... Waking up in 14.67 minutes.
+2026-03-15 09:33:55,027 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:55,029 - INFO - USD_MXN Resetting Monthly Trend 
+2026-03-15 09:33:55,177 - INFO - USD_MXN Resetting 4-Hour Boundary.
+2026-03-15 09:33:55,262 - INFO - USD_MXN Syncing historical state... Finding the signal.
+2026-03-15 09:33:55,362 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:55,363 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:55,364 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:55,368 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:55,371 - INFO - USD_MXN Final Sync Result: SignalState.BUY
+2026-03-15 09:33:55,371 - INFO - Sleeping... Waking up in 11.23 minutes.
+2026-03-15 09:45:09,018 - INFO - Sleeping... Waking up in 15.09 minutes.
+2026-03-15 10:43:31,443 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:31,445 - INFO - USD_MXN Resetting Monthly Trend 
+2026-03-15 10:43:31,545 - INFO - USD_MXN Resetting 4-Hour Boundary.
+2026-03-15 10:43:31,630 - INFO - USD_MXN Syncing historical state... Finding the signal.
+2026-03-15 10:43:31,740 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:31,744 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:31,745 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:31,755 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:31,757 - INFO - USD_MXN Final Sync Result: SignalState.BUY
+2026-03-15 10:43:31,757 - INFO - Sleeping... Waking up in 2.00 minutes.
+2026-03-15 10:45:32,108 - INFO - Sleeping... Waking up in 14.94 minutes.
+2026-03-15 10:47:04,143 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:04,145 - INFO - USD_MXN Resetting Monthly Trend 
+2026-03-15 10:47:04,287 - INFO - USD_MXN Resetting 4-Hour Boundary.
+2026-03-15 10:47:04,421 - INFO - USD_MXN Syncing historical state... Finding the signal.
+2026-03-15 10:47:04,582 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:04,585 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:04,586 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:04,594 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:04,595 - INFO - USD_MXN Final Sync Result: SignalState.BUY
+2026-03-15 10:47:04,595 - INFO - Sleeping... Waking up in 13.24 minutes.
+2026-03-15 11:00:19,167 - INFO - USD_MXN Resetting 4-Hour Boundary.
+2026-03-15 11:00:19,350 - INFO - Sleeping... Waking up in 14.84 minutes.

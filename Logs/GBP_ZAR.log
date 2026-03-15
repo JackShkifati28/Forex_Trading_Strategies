@@ -1,0 +1,46 @@
+2026-03-15 01:52:02,759 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 01:52:03,932 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 01:52:03,933 - INFO - Sleeping... Waking up in 8.35 minutes.
+2026-03-15 09:28:54,167 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 09:28:54,363 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:28:54,364 - INFO - Sleeping... Waking up in 1.46 minutes.
+2026-03-15 09:30:21,981 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:30:21,982 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-15 09:33:17,894 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:17,895 - INFO - GBP_ZAR Resetting Monthly Trend 
+2026-03-15 09:33:18,009 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 09:33:18,320 - INFO - GBP_ZAR Syncing historical state... Finding the signal.
+2026-03-15 09:33:18,462 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:18,463 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:18,465 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:18,468 - INFO - GBP_ZAR Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:18,469 - INFO - Sleeping... Waking up in 11.95 minutes.
+2026-03-15 09:45:15,397 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:15,398 - INFO - Sleeping... Waking up in 14.89 minutes.
+2026-03-15 10:42:54,263 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:54,266 - INFO - GBP_ZAR Resetting Monthly Trend 
+2026-03-15 10:42:54,358 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 10:42:54,447 - INFO - GBP_ZAR Syncing historical state... Finding the signal.
+2026-03-15 10:42:54,547 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:54,551 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:54,554 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:54,561 - INFO - GBP_ZAR Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:54,562 - INFO - Sleeping... Waking up in 2.29 minutes.
+2026-03-15 10:45:11,985 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:11,986 - INFO - Sleeping... Waking up in 15.37 minutes.
+2026-03-15 10:46:26,965 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:26,965 - INFO - GBP_ZAR Resetting Monthly Trend 
+2026-03-15 10:46:27,066 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 10:46:27,190 - INFO - GBP_ZAR Syncing historical state... Finding the signal.
+2026-03-15 10:46:27,312 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:27,317 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:27,321 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:27,328 - INFO - GBP_ZAR Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:27,328 - INFO - Sleeping... Waking up in 14.12 minutes.
+2026-03-15 11:00:34,450 - INFO - GBP_ZAR Resetting 4-Hour Boundary.
+2026-03-15 11:00:34,649 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:34,650 - INFO - Sleeping... Waking up in 14.63 minutes.
+2026-03-15 11:21:40,715 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:40,716 - INFO - Sleeping... Waking up in 8.54 minutes.
+2026-03-15 11:30:13,073 - INFO - GBP_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:13,074 - INFO - Sleeping... Waking up in 15.07 minutes.

@@ -1,0 +1,35 @@
+2026-03-15 09:33:52,011 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:52,012 - INFO - AUD_CAD Resetting Monthly Trend 
+2026-03-15 09:33:52,194 - INFO - AUD_CAD Resetting 4-Hour Boundary.
+2026-03-15 09:33:52,264 - INFO - AUD_CAD Syncing historical state... Finding the signal.
+2026-03-15 09:33:52,365 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:52,367 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:52,369 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:52,371 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:52,373 - INFO - AUD_CAD Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:52,373 - INFO - Sleeping... Waking up in 11.30 minutes.
+2026-03-15 09:45:10,238 - INFO - Sleeping... Waking up in 15.10 minutes.
+2026-03-15 10:43:28,427 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:28,428 - INFO - AUD_CAD Resetting Monthly Trend 
+2026-03-15 10:43:28,514 - INFO - AUD_CAD Resetting 4-Hour Boundary.
+2026-03-15 10:43:28,604 - INFO - AUD_CAD Syncing historical state... Finding the signal.
+2026-03-15 10:43:28,707 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:28,710 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:28,715 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:28,723 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:28,728 - INFO - AUD_CAD Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:28,729 - INFO - Sleeping... Waking up in 2.01 minutes.
+2026-03-15 10:45:29,646 - INFO - Sleeping... Waking up in 15.09 minutes.
+2026-03-15 10:47:01,130 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:01,131 - INFO - AUD_CAD Resetting Monthly Trend 
+2026-03-15 10:47:01,354 - INFO - AUD_CAD Resetting 4-Hour Boundary.
+2026-03-15 10:47:01,468 - INFO - AUD_CAD Syncing historical state... Finding the signal.
+2026-03-15 10:47:01,638 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:01,642 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:01,645 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:01,650 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:01,654 - INFO - AUD_CAD Final Sync Result: SignalState.SHORT
+2026-03-15 10:47:01,654 - INFO - Sleeping... Waking up in 13.22 minutes.
+2026-03-15 11:00:14,699 - INFO - AUD_CAD Resetting 4-Hour Boundary.
+2026-03-15 11:00:14,913 - INFO - Sleeping... Waking up in 14.85 minutes.
+2026-03-15 11:15:44,122 - INFO - Sleeping... Waking up in 14.46 minutes.

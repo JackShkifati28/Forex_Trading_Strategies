@@ -1,0 +1,41 @@
+2026-03-15 00:17:53,832 - INFO - AUD_HKD Resetting 4-Hour Boundary.
+2026-03-15 00:17:54,031 - INFO - Sleeping... Waking up in 12.43 minutes.
+2026-03-15 09:33:30,938 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:30,939 - INFO - AUD_HKD Resetting Monthly Trend 
+2026-03-15 09:33:31,044 - INFO - AUD_HKD Resetting 4-Hour Boundary.
+2026-03-15 09:33:31,133 - INFO - AUD_HKD Syncing historical state... Finding the signal.
+2026-03-15 09:33:31,232 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:31,234 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:31,236 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:31,239 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:31,241 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:31,242 - INFO - AUD_HKD Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:31,243 - INFO - Sleeping... Waking up in 11.97 minutes.
+2026-03-15 09:45:29,400 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-15 10:43:07,328 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:07,329 - INFO - AUD_HKD Resetting Monthly Trend 
+2026-03-15 10:43:07,447 - INFO - AUD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:43:07,583 - INFO - AUD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:43:07,679 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:07,681 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:07,684 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:07,687 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:07,692 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:07,694 - INFO - AUD_HKD Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:07,694 - INFO - Sleeping... Waking up in 2.15 minutes.
+2026-03-15 10:45:16,723 - INFO - Sleeping... Waking up in 15.30 minutes.
+2026-03-15 10:46:40,028 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:40,028 - INFO - AUD_HKD Resetting Monthly Trend 
+2026-03-15 10:46:40,134 - INFO - AUD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:46:40,216 - INFO - AUD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:46:40,339 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:40,341 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:40,344 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:40,348 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:40,354 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:40,355 - INFO - AUD_HKD Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:40,355 - INFO - Sleeping... Waking up in 13.61 minutes.
+2026-03-15 11:00:16,801 - INFO - AUD_HKD Resetting 4-Hour Boundary.
+2026-03-15 11:00:17,017 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-15 11:21:44,906 - INFO - Sleeping... Waking up in 8.51 minutes.
+2026-03-15 11:30:15,678 - INFO - Sleeping... Waking up in 15.07 minutes.

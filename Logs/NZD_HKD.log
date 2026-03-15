@@ -1,0 +1,47 @@
+2026-03-15 00:04:44,409 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 00:04:44,588 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 00:04:44,588 - INFO - Sleeping... Waking up in 10.46 minutes.
+2026-03-15 09:30:02,329 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 09:30:02,531 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:30:02,532 - INFO - Sleeping... Waking up in 15.28 minutes.
+2026-03-15 09:34:05,068 - INFO - Thread started. Syncing state...
+2026-03-15 09:34:05,070 - INFO - NZD_HKD Resetting Monthly Trend 
+2026-03-15 09:34:05,159 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 09:34:05,240 - INFO - NZD_HKD Syncing historical state... Finding the signal.
+2026-03-15 09:34:05,317 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:34:05,318 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:34:05,321 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:34:05,322 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:34:05,323 - INFO - NZD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 09:34:05,323 - INFO - Sleeping... Waking up in 11.19 minutes.
+2026-03-15 09:45:17,015 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:45:17,015 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 10:43:41,492 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:41,495 - INFO - NZD_HKD Resetting Monthly Trend 
+2026-03-15 10:43:41,578 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:43:41,690 - INFO - NZD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:43:41,794 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:41,796 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:41,803 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:41,806 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:41,807 - INFO - NZD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 10:43:41,808 - INFO - Sleeping... Waking up in 1.70 minutes.
+2026-03-15 10:45:24,030 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 10:45:24,031 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-15 10:47:14,192 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:14,192 - INFO - NZD_HKD Resetting Monthly Trend 
+2026-03-15 10:47:14,300 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 10:47:14,381 - INFO - NZD_HKD Syncing historical state... Finding the signal.
+2026-03-15 10:47:14,475 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:14,478 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:14,486 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:14,487 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:14,488 - INFO - NZD_HKD Final Sync Result: SignalState.BUY
+2026-03-15 10:47:14,489 - INFO - Sleeping... Waking up in 13.16 minutes.
+2026-03-15 11:00:24,135 - INFO - NZD_HKD Resetting 4-Hour Boundary.
+2026-03-15 11:00:24,348 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:00:24,350 - INFO - Sleeping... Waking up in 15.10 minutes.
+2026-03-15 11:21:58,403 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:21:58,405 - INFO - Sleeping... Waking up in 8.32 minutes.
+2026-03-15 11:30:17,504 - INFO - NZD_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:30:17,506 - INFO - Sleeping... Waking up in 15.18 minutes.

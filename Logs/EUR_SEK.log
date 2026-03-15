@@ -1,0 +1,45 @@
+2026-03-15 00:49:33,663 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 00:49:34,305 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 00:49:34,305 - INFO - Sleeping... Waking up in 10.96 minutes.
+2026-03-15 09:30:55,365 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 09:30:55,595 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:30:55,595 - INFO - Sleeping... Waking up in 14.52 minutes.
+2026-03-15 09:33:44,991 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:44,992 - INFO - EUR_SEK Resetting Monthly Trend 
+2026-03-15 09:33:45,173 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 09:33:45,290 - INFO - EUR_SEK Syncing historical state... Finding the signal.
+2026-03-15 09:33:45,387 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:45,387 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:45,390 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:45,390 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:45,391 - INFO - EUR_SEK Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:45,391 - INFO - Sleeping... Waking up in 11.41 minutes.
+2026-03-15 09:45:10,087 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:10,089 - INFO - Sleeping... Waking up in 15.25 minutes.
+2026-03-15 10:43:21,398 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:21,399 - INFO - EUR_SEK Resetting Monthly Trend 
+2026-03-15 10:43:21,481 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 10:43:21,568 - INFO - EUR_SEK Syncing historical state... Finding the signal.
+2026-03-15 10:43:21,649 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:21,650 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:21,653 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:21,656 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:21,662 - INFO - EUR_SEK Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:21,663 - INFO - Sleeping... Waking up in 1.88 minutes.
+2026-03-15 10:45:14,388 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:14,390 - INFO - Sleeping... Waking up in 14.94 minutes.
+2026-03-15 10:46:54,098 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:54,098 - INFO - EUR_SEK Resetting Monthly Trend 
+2026-03-15 10:46:54,175 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 10:46:54,258 - INFO - EUR_SEK Syncing historical state... Finding the signal.
+2026-03-15 10:46:54,352 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:54,353 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:54,357 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:54,359 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:54,360 - INFO - EUR_SEK Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:54,360 - INFO - Sleeping... Waking up in 13.20 minutes.
+2026-03-15 11:00:06,322 - INFO - EUR_SEK Resetting 4-Hour Boundary.
+2026-03-15 11:00:07,071 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:07,073 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-15 11:15:44,233 - INFO - EUR_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:15:44,234 - INFO - Sleeping... Waking up in 14.57 minutes.

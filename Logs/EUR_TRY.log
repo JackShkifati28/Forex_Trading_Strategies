@@ -1,0 +1,40 @@
+2026-03-15 00:49:34,351 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 00:49:34,535 - INFO - Sleeping... Waking up in 10.77 minutes.
+2026-03-15 09:30:44,044 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 09:30:44,212 - INFO - Sleeping... Waking up in 14.79 minutes.
+2026-03-15 09:33:19,902 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:19,903 - INFO - EUR_TRY Resetting Monthly Trend 
+2026-03-15 09:33:20,008 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 09:33:20,073 - INFO - EUR_TRY Syncing historical state... Finding the signal.
+2026-03-15 09:33:20,173 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:20,178 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:20,179 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:20,180 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:20,182 - INFO - EUR_TRY Final Sync Result: SignalState.BUY
+2026-03-15 09:33:20,182 - INFO - Sleeping... Waking up in 12.06 minutes.
+2026-03-15 09:45:23,745 - INFO - Sleeping... Waking up in 14.80 minutes.
+2026-03-15 10:42:56,276 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:56,277 - INFO - EUR_TRY Resetting Monthly Trend 
+2026-03-15 10:42:56,461 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 10:42:56,557 - INFO - EUR_TRY Syncing historical state... Finding the signal.
+2026-03-15 10:42:56,652 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:56,664 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:56,665 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:56,667 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:56,671 - INFO - EUR_TRY Final Sync Result: SignalState.BUY
+2026-03-15 10:42:56,671 - INFO - Sleeping... Waking up in 2.25 minutes.
+2026-03-15 10:45:11,605 - INFO - Sleeping... Waking up in 15.19 minutes.
+2026-03-15 10:46:28,975 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:28,975 - INFO - EUR_TRY Resetting Monthly Trend 
+2026-03-15 10:46:29,071 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 10:46:29,149 - INFO - EUR_TRY Syncing historical state... Finding the signal.
+2026-03-15 10:46:29,238 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:29,246 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:29,247 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:29,249 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:29,252 - INFO - EUR_TRY Final Sync Result: SignalState.BUY
+2026-03-15 10:46:29,252 - INFO - Sleeping... Waking up in 13.81 minutes.
+2026-03-15 11:00:17,847 - INFO - EUR_TRY Resetting 4-Hour Boundary.
+2026-03-15 11:00:18,008 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 11:21:40,467 - INFO - Sleeping... Waking up in 8.51 minutes.
+2026-03-15 11:30:10,951 - INFO - Sleeping... Waking up in 15.36 minutes.

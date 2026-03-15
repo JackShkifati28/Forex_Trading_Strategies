@@ -1,0 +1,28 @@
+2026-03-15 08:37:53,038 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 08:37:53,784 - INFO - Sleeping... Waking up in 7.38 minutes.
+2026-03-15 09:31:01,993 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 09:31:02,138 - INFO - Sleeping... Waking up in 14.19 minutes.
+2026-03-15 09:33:06,855 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:06,856 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-15 09:33:06,957 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 09:33:07,040 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-15 09:33:07,133 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 09:33:07,134 - INFO - Sleeping... Waking up in 12.17 minutes.
+2026-03-15 09:45:17,398 - INFO - Sleeping... Waking up in 14.91 minutes.
+2026-03-15 10:42:43,197 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:43,197 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-15 10:42:43,397 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:42:43,548 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:42:43,646 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:42:43,646 - INFO - Sleeping... Waking up in 2.48 minutes.
+2026-03-15 10:45:12,253 - INFO - Sleeping... Waking up in 15.18 minutes.
+2026-03-15 10:46:15,907 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:15,908 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-15 10:46:16,088 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 10:46:16,167 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-15 10:46:16,271 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-15 10:46:16,271 - INFO - Sleeping... Waking up in 14.21 minutes.
+2026-03-15 11:00:29,176 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-15 11:00:29,385 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-15 11:21:55,456 - INFO - Sleeping... Waking up in 8.50 minutes.
+2026-03-15 11:30:25,835 - INFO - Sleeping... Waking up in 14.68 minutes.

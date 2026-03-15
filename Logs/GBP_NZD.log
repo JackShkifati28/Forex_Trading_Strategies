@@ -1,0 +1,40 @@
+2026-03-15 02:23:06,480 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 02:23:06,722 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 02:23:06,722 - INFO - Sleeping... Waking up in 7.13 minutes.
+2026-03-15 09:28:00,118 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 09:28:00,298 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:28:00,298 - INFO - Sleeping... Waking up in 2.42 minutes.
+2026-03-15 09:30:25,368 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:30:25,370 - INFO - Sleeping... Waking up in 14.68 minutes.
+2026-03-15 09:33:47,998 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:47,999 - INFO - GBP_NZD Resetting Monthly Trend 
+2026-03-15 09:33:48,174 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 09:33:48,266 - INFO - GBP_NZD Syncing historical state... Finding the signal.
+2026-03-15 09:33:48,352 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:48,356 - INFO - GBP_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:48,356 - INFO - Sleeping... Waking up in 11.51 minutes.
+2026-03-15 09:45:19,283 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:19,283 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-15 10:43:24,409 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:24,411 - INFO - GBP_NZD Resetting Monthly Trend 
+2026-03-15 10:43:24,513 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 10:43:24,733 - INFO - GBP_NZD Syncing historical state... Finding the signal.
+2026-03-15 10:43:24,888 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:24,892 - INFO - GBP_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:24,893 - INFO - Sleeping... Waking up in 1.91 minutes.
+2026-03-15 10:45:19,525 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:19,526 - INFO - Sleeping... Waking up in 14.86 minutes.
+2026-03-15 10:46:57,113 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:57,113 - INFO - GBP_NZD Resetting Monthly Trend 
+2026-03-15 10:46:57,232 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 10:46:57,329 - INFO - GBP_NZD Syncing historical state... Finding the signal.
+2026-03-15 10:46:57,510 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:57,518 - INFO - GBP_NZD Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:57,519 - INFO - Sleeping... Waking up in 13.18 minutes.
+2026-03-15 11:00:08,459 - INFO - GBP_NZD Resetting 4-Hour Boundary.
+2026-03-15 11:00:08,629 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:08,629 - INFO - Sleeping... Waking up in 15.05 minutes.
+2026-03-15 11:21:39,671 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:39,673 - INFO - Sleeping... Waking up in 8.85 minutes.
+2026-03-15 11:30:30,672 - INFO - GBP_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:30,673 - INFO - Sleeping... Waking up in 15.03 minutes.

@@ -1,0 +1,38 @@
+2026-03-15 00:33:31,170 - INFO - EUR_USD Resetting 4-Hour Boundary.
+2026-03-15 00:33:31,811 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 00:33:31,811 - INFO - Sleeping... Waking up in 11.84 minutes.
+2026-03-15 09:33:42,975 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:42,976 - INFO - EUR_USD Resetting Monthly Trend 
+2026-03-15 09:33:43,055 - INFO - EUR_USD Resetting 4-Hour Boundary.
+2026-03-15 09:33:43,211 - INFO - EUR_USD Syncing historical state... Finding the signal.
+2026-03-15 09:33:43,302 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:43,303 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:43,307 - INFO - EUR_USD Final Sync Result: SignalState.BUY
+2026-03-15 09:33:43,307 - INFO - Sleeping... Waking up in 11.39 minutes.
+2026-03-15 09:45:07,564 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:45:07,566 - INFO - Sleeping... Waking up in 15.30 minutes.
+2026-03-15 10:43:19,388 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:19,389 - INFO - EUR_USD Resetting Monthly Trend 
+2026-03-15 10:43:19,485 - INFO - EUR_USD Resetting 4-Hour Boundary.
+2026-03-15 10:43:19,564 - INFO - EUR_USD Syncing historical state... Finding the signal.
+2026-03-15 10:43:19,683 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:19,684 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:19,688 - INFO - EUR_USD Final Sync Result: SignalState.BUY
+2026-03-15 10:43:19,688 - INFO - Sleeping... Waking up in 2.13 minutes.
+2026-03-15 10:45:27,550 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 10:45:27,551 - INFO - Sleeping... Waking up in 14.78 minutes.
+2026-03-15 10:46:52,086 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:52,087 - INFO - EUR_USD Resetting Monthly Trend 
+2026-03-15 10:46:52,226 - INFO - EUR_USD Resetting 4-Hour Boundary.
+2026-03-15 10:46:52,348 - INFO - EUR_USD Syncing historical state... Finding the signal.
+2026-03-15 10:46:52,524 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:52,526 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:52,532 - INFO - EUR_USD Final Sync Result: SignalState.BUY
+2026-03-15 10:46:52,532 - INFO - Sleeping... Waking up in 13.28 minutes.
+2026-03-15 11:00:09,261 - INFO - EUR_USD Resetting 4-Hour Boundary.
+2026-03-15 11:00:09,577 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:00:09,577 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-15 11:21:38,984 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:21:38,985 - INFO - Sleeping... Waking up in 8.86 minutes.
+2026-03-15 11:30:30,542 - INFO - EUR_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:30:30,543 - INFO - Sleeping... Waking up in 14.66 minutes.

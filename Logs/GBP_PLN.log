@@ -1,0 +1,39 @@
+2026-03-15 09:28:18,446 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-15 09:28:18,620 - INFO - Sleeping... Waking up in 1.97 minutes.
+2026-03-15 09:30:17,191 - INFO - Sleeping... Waking up in 14.87 minutes.
+2026-03-15 09:33:51,009 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:51,010 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-15 09:33:51,256 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-15 09:33:51,365 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-15 09:33:51,466 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:51,469 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:51,471 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:51,472 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:51,478 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:51,479 - INFO - Sleeping... Waking up in 11.62 minutes.
+2026-03-15 09:45:28,519 - INFO - Sleeping... Waking up in 14.71 minutes.
+2026-03-15 10:43:27,424 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:27,425 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-15 10:43:27,507 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-15 10:43:27,707 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-15 10:43:27,795 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:27,799 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:27,801 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:27,803 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:27,807 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-15 10:43:27,808 - INFO - Sleeping... Waking up in 1.93 minutes.
+2026-03-15 10:45:23,459 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 10:47:00,125 - INFO - Thread started. Syncing state...
+2026-03-15 10:47:00,125 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-15 10:47:00,226 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-15 10:47:00,315 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-15 10:47:00,409 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:00,417 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:00,419 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:47:00,421 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:47:00,428 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-15 10:47:00,428 - INFO - Sleeping... Waking up in 13.42 minutes.
+2026-03-15 11:00:25,359 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-15 11:00:25,532 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-15 11:21:44,046 - INFO - Sleeping... Waking up in 8.80 minutes.
+2026-03-15 11:30:32,164 - INFO - Sleeping... Waking up in 14.82 minutes.

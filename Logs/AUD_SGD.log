@@ -1,0 +1,50 @@
+2026-03-15 08:55:12,819 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 08:55:13,429 - INFO - Sleeping... Waking up in 4.94 minutes.
+2026-03-15 09:28:40,536 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:28:40,760 - INFO - Sleeping... Waking up in 1.69 minutes.
+2026-03-15 09:30:22,288 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-15 09:33:21,906 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:21,907 - INFO - AUD_SGD Resetting Monthly Trend 
+2026-03-15 09:33:21,979 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 09:33:22,069 - INFO - AUD_SGD Syncing historical state... Finding the signal.
+2026-03-15 09:33:22,156 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:22,156 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:22,156 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:22,157 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:22,157 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:22,159 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:22,160 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:22,163 - INFO - AUD_SGD Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:22,163 - INFO - Sleeping... Waking up in 12.19 minutes.
+2026-03-15 09:45:33,936 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-15 10:42:58,286 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:58,287 - INFO - AUD_SGD Resetting Monthly Trend 
+2026-03-15 10:42:58,383 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:42:58,481 - INFO - AUD_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:42:58,659 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:58,660 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:58,663 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:58,665 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:58,668 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:58,670 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:58,676 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:58,678 - INFO - AUD_SGD Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:58,678 - INFO - Sleeping... Waking up in 2.23 minutes.
+2026-03-15 10:45:12,841 - INFO - Sleeping... Waking up in 15.25 minutes.
+2026-03-15 10:46:30,980 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:30,980 - INFO - AUD_SGD Resetting Monthly Trend 
+2026-03-15 10:46:31,077 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 10:46:31,212 - INFO - AUD_SGD Syncing historical state... Finding the signal.
+2026-03-15 10:46:31,331 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:31,333 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:31,336 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:31,338 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:31,341 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:31,344 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:31,349 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:31,351 - INFO - AUD_SGD Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:31,351 - INFO - Sleeping... Waking up in 14.04 minutes.
+2026-03-15 11:00:33,878 - INFO - AUD_SGD Resetting 4-Hour Boundary.
+2026-03-15 11:00:34,123 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-15 11:22:02,554 - INFO - Sleeping... Waking up in 8.11 minutes.
+2026-03-15 11:30:09,119 - INFO - Sleeping... Waking up in 15.40 minutes.

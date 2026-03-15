@@ -1,0 +1,39 @@
+2026-03-15 00:04:47,584 - INFO - CAD_CHF Resetting 4-Hour Boundary.
+2026-03-15 09:33:15,887 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:15,889 - INFO - CAD_CHF Resetting Monthly Trend 
+2026-03-15 09:33:15,972 - INFO - CAD_CHF Resetting 4-Hour Boundary.
+2026-03-15 09:33:16,055 - INFO - CAD_CHF Syncing historical state... Finding the signal.
+2026-03-15 09:33:16,141 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:16,146 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:16,147 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:16,153 - INFO - CAD_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 09:33:16,153 - INFO - Sleeping... Waking up in 12.21 minutes.
+2026-03-15 09:45:28,697 - INFO - CAD_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 09:45:28,699 - INFO - Sleeping... Waking up in 14.95 minutes.
+2026-03-15 10:42:52,250 - INFO - Thread started. Syncing state...
+2026-03-15 10:42:52,251 - INFO - CAD_CHF Resetting Monthly Trend 
+2026-03-15 10:42:52,414 - INFO - CAD_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:42:52,500 - INFO - CAD_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:42:52,599 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:52,607 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:42:52,608 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:42:52,614 - INFO - CAD_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 10:42:52,615 - INFO - Sleeping... Waking up in 2.41 minutes.
+2026-03-15 10:45:17,220 - INFO - CAD_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 10:45:17,221 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-15 10:46:24,958 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:24,958 - INFO - CAD_CHF Resetting Monthly Trend 
+2026-03-15 10:46:25,075 - INFO - CAD_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:46:25,169 - INFO - CAD_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:46:25,246 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:25,250 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:25,251 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:25,255 - INFO - CAD_CHF Final Sync Result: SignalState.SHORT
+2026-03-15 10:46:25,255 - INFO - Sleeping... Waking up in 14.07 minutes.
+2026-03-15 11:00:29,678 - INFO - CAD_CHF Resetting 4-Hour Boundary.
+2026-03-15 11:00:29,856 - INFO - CAD_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:00:29,856 - INFO - Sleeping... Waking up in 14.79 minutes.
+2026-03-15 11:21:45,436 - INFO - CAD_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:21:45,438 - INFO - Sleeping... Waking up in 8.62 minutes.
+2026-03-15 11:30:22,475 - INFO - CAD_CHF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-15 11:30:22,476 - INFO - Sleeping... Waking up in 14.98 minutes.

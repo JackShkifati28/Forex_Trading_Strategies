@@ -1,0 +1,38 @@
+2026-03-15 00:33:28,349 - INFO - NZD_CHF Resetting 4-Hour Boundary.
+2026-03-15 00:33:29,424 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 00:33:29,424 - INFO - Sleeping... Waking up in 12.01 minutes.
+2026-03-15 09:33:29,935 - INFO - Thread started. Syncing state...
+2026-03-15 09:33:29,936 - INFO - NZD_CHF Resetting Monthly Trend 
+2026-03-15 09:33:30,172 - INFO - NZD_CHF Resetting 4-Hour Boundary.
+2026-03-15 09:33:30,508 - INFO - NZD_CHF Syncing historical state... Finding the signal.
+2026-03-15 09:33:30,627 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 09:33:30,627 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 09:33:30,631 - INFO - NZD_CHF Final Sync Result: SignalState.BUY
+2026-03-15 09:33:30,632 - INFO - Sleeping... Waking up in 11.91 minutes.
+2026-03-15 09:45:25,363 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 09:45:25,364 - INFO - Sleeping... Waking up in 15.15 minutes.
+2026-03-15 10:43:06,326 - INFO - Thread started. Syncing state...
+2026-03-15 10:43:06,327 - INFO - NZD_CHF Resetting Monthly Trend 
+2026-03-15 10:43:06,411 - INFO - NZD_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:43:06,521 - INFO - NZD_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:43:06,640 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:43:06,643 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:43:06,651 - INFO - NZD_CHF Final Sync Result: SignalState.BUY
+2026-03-15 10:43:06,652 - INFO - Sleeping... Waking up in 2.31 minutes.
+2026-03-15 10:45:25,186 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 10:45:25,188 - INFO - Sleeping... Waking up in 15.09 minutes.
+2026-03-15 10:46:39,022 - INFO - Thread started. Syncing state...
+2026-03-15 10:46:39,022 - INFO - NZD_CHF Resetting Monthly Trend 
+2026-03-15 10:46:39,118 - INFO - NZD_CHF Resetting 4-Hour Boundary.
+2026-03-15 10:46:39,221 - INFO - NZD_CHF Syncing historical state... Finding the signal.
+2026-03-15 10:46:39,305 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-15 10:46:39,307 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-15 10:46:39,312 - INFO - NZD_CHF Final Sync Result: SignalState.BUY
+2026-03-15 10:46:39,313 - INFO - Sleeping... Waking up in 13.49 minutes.
+2026-03-15 11:00:08,852 - INFO - NZD_CHF Resetting 4-Hour Boundary.
+2026-03-15 11:00:09,057 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:00:09,058 - INFO - Sleeping... Waking up in 15.16 minutes.
+2026-03-15 11:21:46,682 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:21:46,684 - INFO - Sleeping... Waking up in 8.55 minutes.
+2026-03-15 11:30:19,935 - INFO - NZD_CHF Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-15 11:30:19,936 - INFO - Sleeping... Waking up in 15.22 minutes.
