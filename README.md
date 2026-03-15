@@ -21,8 +21,9 @@ A fully automated, multi-threaded algorithmic trading engine built in Python. De
     │
     ├── Core/
     │   ├── indicator.py        # Mathematical formulation for Bollinger Bands & Stochastics
-    │   ├── oanda_client.py     # Resilient HTTP client for the Oanda v3 API
     │   ├── ledger.py           # Thread-safe SQLite database manager
+    │   ├── oanda_client.py     # Resilient HTTP client for the Oanda v3 API
+    │   ├── smsNotifier.py      # Telegram API broadcast engine
     │   └── visualizer.py       # Data visualization and charting tools
     │
     ├── strategies/
