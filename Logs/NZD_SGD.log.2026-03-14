@@ -1,0 +1,6 @@
+2026-03-14 15:25:17,766 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-14 15:40:35,302 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-14 15:40:35,302 - INFO - Sleeping... Waking up in 4.71 minutes.
+2026-03-14 23:32:12,238 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-14 23:32:13,346 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-14 23:32:13,347 - INFO - Sleeping... Waking up in 13.26 minutes.

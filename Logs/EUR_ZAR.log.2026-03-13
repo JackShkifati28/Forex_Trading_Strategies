@@ -1,0 +1,50 @@
+2026-03-13 10:32:16,562 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:16,563 - INFO - EUR_ZAR Resetting Monthly Trend 
+2026-03-13 10:32:16,742 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 10:32:16,883 - INFO - EUR_ZAR Syncing historical state... Finding the signal.
+2026-03-13 10:32:17,000 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:17,003 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:17,007 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:17,008 - INFO - EUR_ZAR Final Sync Result: SignalState.BUY
+2026-03-13 10:32:17,008 - INFO - Sleeping... Waking up in 13.04 minutes.
+2026-03-13 10:45:19,578 - INFO - Sleeping... Waking up in 15.05 minutes.
+2026-03-13 11:00:22,308 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 11:00:22,653 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 11:17:17,227 - INFO - Sleeping... Waking up in 13.18 minutes.
+2026-03-13 11:30:54,563 - INFO - Sleeping... Waking up in 14.53 minutes.
+2026-03-13 11:45:26,800 - INFO - Sleeping... Waking up in 14.82 minutes.
+2026-03-13 12:58:17,621 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 12:58:17,871 - INFO - Sleeping... Waking up in 1.88 minutes.
+2026-03-13 13:00:10,756 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 13:00:10,980 - INFO - Sleeping... Waking up in 15.23 minutes.
+2026-03-13 13:25:21,929 - INFO - Sleeping... Waking up in 4.85 minutes.
+2026-03-13 13:30:13,325 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-13 13:45:14,157 - INFO - Sleeping... Waking up in 15.06 minutes.
+2026-03-13 14:00:17,929 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 14:00:18,102 - INFO - Sleeping... Waking up in 15.05 minutes.
+2026-03-13 17:32:34,491 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:34,493 - INFO - EUR_ZAR Resetting Monthly Trend 
+2026-03-13 17:32:34,609 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:32:34,711 - INFO - EUR_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:32:34,810 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:32:34,813 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:34,813 - INFO - Sleeping... Waking up in 12.93 minutes.
+2026-03-13 17:34:49,260 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:49,261 - INFO - EUR_ZAR Resetting Monthly Trend 
+2026-03-13 17:34:49,358 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:34:49,443 - INFO - EUR_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:34:49,634 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:34:49,638 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:34:49,646 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:34:49,649 - INFO - EUR_ZAR Final Sync Result: SignalState.BUY
+2026-03-13 17:34:49,649 - INFO - Sleeping... Waking up in 10.64 minutes.
+2026-03-13 17:45:28,258 - INFO - Sleeping... Waking up in 15.08 minutes.
+2026-03-13 17:48:40,637 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:40,640 - INFO - EUR_ZAR Resetting Monthly Trend 
+2026-03-13 17:48:40,740 - INFO - EUR_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:48:40,818 - INFO - EUR_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:48:40,928 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:40,932 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:40,940 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:40,943 - INFO - EUR_ZAR Final Sync Result: SignalState.BUY
+2026-03-13 17:48:40,943 - INFO - Sleeping... Waking up in 11.86 minutes.

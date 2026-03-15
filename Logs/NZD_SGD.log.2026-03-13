@@ -1,0 +1,60 @@
+2026-03-13 10:32:53,721 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:53,721 - INFO - NZD_SGD Resetting Monthly Trend 
+2026-03-13 10:32:53,860 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 10:32:53,957 - INFO - NZD_SGD Syncing historical state... Finding the signal.
+2026-03-13 10:32:54,059 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:54,061 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:54,065 - INFO - NZD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 10:32:54,065 - INFO - [NZD_SGD] BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.
+2026-03-13 10:32:54,473 - INFO - Sleeping... Waking up in 12.34 minutes.
+2026-03-13 10:45:14,945 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 10:45:14,947 - INFO - Sleeping... Waking up in 15.32 minutes.
+2026-03-13 11:00:34,051 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 11:00:34,335 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:00:34,336 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-13 11:17:27,992 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:17:27,994 - INFO - Sleeping... Waking up in 12.95 minutes.
+2026-03-13 11:30:51,636 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:30:51,636 - INFO - Sleeping... Waking up in 14.61 minutes.
+2026-03-13 11:45:28,123 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:45:28,124 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 12:58:27,315 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 12:58:27,520 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 12:58:27,521 - INFO - Sleeping... Waking up in 1.94 minutes.
+2026-03-13 13:00:24,050 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 13:00:24,359 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:00:24,359 - INFO - Sleeping... Waking up in 14.71 minutes.
+2026-03-13 13:15:24,535 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:15:24,536 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 13:39:55,320 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:39:55,321 - INFO - Sleeping... Waking up in 5.63 minutes.
+2026-03-13 13:45:33,019 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:45:33,021 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-13 14:00:34,016 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 14:00:34,208 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 14:00:34,209 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-13 17:33:11,662 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:11,664 - INFO - NZD_SGD Resetting Monthly Trend 
+2026-03-13 17:33:11,756 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:33:11,930 - INFO - NZD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:33:12,107 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:33:12,108 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:12,109 - INFO - Sleeping... Waking up in 12.19 minutes.
+2026-03-13 17:35:26,442 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:26,442 - INFO - NZD_SGD Resetting Monthly Trend 
+2026-03-13 17:35:26,545 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:35:26,688 - INFO - NZD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:35:26,836 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:26,838 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:26,867 - INFO - NZD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 17:35:26,868 - INFO - Sleeping... Waking up in 9.76 minutes.
+2026-03-13 17:45:12,577 - INFO - NZD_SGD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 17:45:12,578 - INFO - Sleeping... Waking up in 15.12 minutes.
+2026-03-13 17:49:17,805 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:17,806 - INFO - NZD_SGD Resetting Monthly Trend 
+2026-03-13 17:49:17,921 - INFO - NZD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:49:18,017 - INFO - NZD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:49:18,117 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:18,121 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:18,127 - INFO - NZD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 17:49:18,128 - INFO - Sleeping... Waking up in 11.28 minutes.

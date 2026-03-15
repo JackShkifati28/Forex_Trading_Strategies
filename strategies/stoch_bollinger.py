@@ -11,9 +11,10 @@ class SignalState(Enum):
 
 class Stoch_Bolinger(BaseStrategy):
 
-    def __init__(self, pair, api_client, notifier):
+    def __init__(self, pair, api_client, notifier, ledger):
         # Call the parent constructor first
-        super().__init__(pair, api_client, notifier)
+        super().__init__(pair, api_client, notifier, ledger)
+
 
         # --- State Cache ---
         self.cached_4h_upper = None
@@ -27,46 +28,18 @@ class Stoch_Bolinger(BaseStrategy):
         self.last_signal= SignalState.SEARCHING
         self.last_touched_band = None
         self.is_message_sent =False
-
-      
-
-    # def _sync_historical_state(self):
-        
-    #     """Looks backward in time to find the last band the price touched."""
-
-    #     self.log(f"{self.pair} Syncing historical state... hunting for last band touch.")
-        
-    #     # We try fetching progressively larger chunks of history
-    #     candle_counts = [100, 500, 1000] 
-        
-    #     for count in candle_counts:
-    #         df = self.api_client.get_candles(self.pair, "H4", count)
-    #         if df is None:
-    #             continue
-                
-    #         df = Indicator.bollinger(df)
-            
-    #         # Read the dataframe backward (from newest candle to oldest candle)
-    #         # We use Low and High to see if the wicks touched the bands
-    #         for i in range(len(df) - 1, -1, -1):
-    #             high = df['High'].iloc[i]
-    #             low = df['Low'].iloc[i]
-    #             upper = df['BBU_30_2.0_2.0'].iloc[i]
-    #             lower = df['BBL_30_2.0_2.0'].iloc[i]
-                
-    #             if high >= upper:
-    #                 self.last_touched_band = "UPPER"
-    #                 self.log(f"{self.pair} Synced! Last touch was UPPER band {len(df)-i} candles ago.")
-    #                 return
-    #             elif low <= lower:
-    #                 self.last_touched_band = "LOWER"
-    #                 self.log(f"{self.pair} Synced! Last touch was LOWER band {len(df)-i} candles ago.")
-    #                 return
-                    
-    #     # If the market was entirely flat for 1000 candles (very rare)
-    #     self.last_touched_band = "UNKNOWN"
-    #     self.log(f"{self.pair} Warning: Could not find a band touch in the last 1000 candles.")
-
+    
+    def _format_oanda_time(self, raw_time):
+        """Helper to convert Oanda UTC timestamps to clean NY time."""
+        try:
+            time_str = str(raw_time)
+            clean_str = time_str.split(".")[0].replace("T", " ").replace("Z", "")
+            utc_dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
+            utc_dt = utc_dt.replace(tzinfo=ZoneInfo("UTC"))
+            ny_dt = utc_dt.astimezone(ZoneInfo("America/New_York"))
+            return ny_dt.strftime("%Y-%m-%d %H:%M:%S")
+        except:
+            return datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M:%S")
 
     def _Sync(self):
         
@@ -74,6 +47,10 @@ class Stoch_Bolinger(BaseStrategy):
 
         # Getting 150 candles of 4 Hour data 
         df_sync = self.fetch_candles("H4", 150)
+
+        if df_sync is None:
+            self.log("Sync failed: Could not fetch H4 candles.")
+            return
        
 
         df = Indicator.bollinger(df_sync)
@@ -96,14 +73,26 @@ class Stoch_Bolinger(BaseStrategy):
             upper = df['BBU_30_2.0_2.0'].iloc[i]
             lower = df['BBL_30_2.0_2.0'].iloc[i]
 
+            # Get the exact time of THIS historical candle
+            raw_time = df.index[i]
+            candle_time_str = self._format_oanda_time(raw_time)
+
             # CASE 1: Price touches the TOP band
             if high >= upper:
                 # If our previous landmark was the BOTTOM, we just completed a BUY trip
                 # and now we are ready to look for a SHORT
                 if last_hit_band == "LOWER":
+
+                    if self.last_signal != SignalState.SEARCHING:
+                        self.ledger.deactivate_signal(self.pair, override_time=candle_time_str)
+
                     self.last_signal = SignalState.SHORT
                     self.log(f"Trip Completed: Bottom -> Top. Signal is now SHORT.")
                     self.is_message_sent =False
+
+                    if self.cached_monthly_trend =="SHORT":
+                        # ADDED: override_time here is CRITICAL
+                        self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend, override_time=candle_time_str)
                 
                 # Update our landmark to Top
                 last_hit_band = "UPPER"
@@ -113,9 +102,16 @@ class Stoch_Bolinger(BaseStrategy):
                 # If our previous landmark was the TOP, we just completed a SHORT trip
                 # and now we are ready to look for a BUY
                 if last_hit_band == "UPPER":
+
+                    if self.last_signal != SignalState.SEARCHING:
+                        self.ledger.deactivate_signal(self.pair, override_time=candle_time_str)
+
                     self.last_signal = SignalState.BUY
                     self.log(f"Trip Completed: Top -> Bottom. Signal is now BUY.")
                     self.is_message_sent =False
+
+                    if self.cached_monthly_trend =="BUY":
+                        self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend, override_time=candle_time_str)
                 
                 # Update our landmark to Bottom
                 last_hit_band = "LOWER"
@@ -139,6 +135,7 @@ class Stoch_Bolinger(BaseStrategy):
         self.log(f"{self.pair} Resetting Monthly Trend ")
 
         df_monthly = self.fetch_candles("M", 21)
+
         if df_monthly is None:
             self.log(f"{self.pair} Network dropped. Skipping this cycle.")
             return
@@ -181,8 +178,13 @@ class Stoch_Bolinger(BaseStrategy):
         if high >= self.cached_4h_upper:
             
             if self.last_touched_band =="LOWER":
-                self.last_signal = SignalState.SHORT
+
+                if self.last_signal != SignalState.SEARCHING:
+                        self.ledger.deactivate_signal(self.pair)
+            
+                self.last_signal = SignalState.SHORT        
                 self.is_message_sent =False
+                
 
             # Update RAM so we don't buy again until it hits the top band and comes back down
             self.last_touched_band = "UPPER"
@@ -191,13 +193,16 @@ class Stoch_Bolinger(BaseStrategy):
         elif low <= self.cached_4h_lower:
 
             if self.last_touched_band =="UPPER":
+                
+                if self.last_signal != SignalState.SEARCHING:
+                    self.ledger.deactivate_signal(self.pair)
+
                 self.last_signal = SignalState.BUY
                 self.is_message_sent =False
 
              # Update RAM
             self.last_touched_band = "LOWER"
         
-
         
     def run_cycle(self):
 
@@ -209,38 +214,45 @@ class Stoch_Bolinger(BaseStrategy):
 
         current_month = now_ny.month
         current_hour = now_ny.hour
+
+        try:
          
-        # Run every month
-        if self.last_month_fetch is None or self.last_month_fetch != current_month:
-            self._get_Month()
-            self.last_month_fetch = current_month
+            # Run every month
+            if self.last_month_fetch is None or self.last_month_fetch != current_month:
+                self._get_Month()
+                self.last_month_fetch = current_month
 
-        # Run every 4 hours
-        if self.cached_4h_upper is None or current_hour != self.last_4h_fetch_hour:
-            self._get_4hour()
-            # Lock the cache so it doesn't fetch again this hour
-            self.last_4h_fetch_hour = current_hour
-     
-        # INITIAL SYNC (Run only once at startup)
-        if self.last_touched_band is None: 
-            self._Sync()
+            # Run every 4 hours
+            if self.cached_4h_upper is None or current_hour != self.last_4h_fetch_hour:
+                self._get_4hour()
+                # Lock the cache so it doesn't fetch again this hour
+                self.last_4h_fetch_hour = current_hour
+        
+            # INITIAL SYNC (Run only once at startup)
+            if self.last_touched_band is None: 
+                self._Sync()
 
-        elif self.last_touched_band is not None:
-            self._get_15Min()
+            elif self.last_touched_band is not None:
+                self._get_15Min()
 
 
-        if not self.is_message_sent:
+            if not self.is_message_sent:
 
-            # 5. The Ping-Pong Execution Logic
-            if self.cached_monthly_trend == "BUY" and self.last_signal == SignalState.BUY:
-                  # Update RAM so we don't buy again until it hits the top band and comes back down
-                self.alert("BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.")
-                self.is_message_sent =True
-            
+                # 5. The Ping-Pong Execution Logic
+                if self.cached_monthly_trend == "BUY" and self.last_signal == SignalState.BUY:
+                    # Update RAM so we don't buy again until it hits the top band and comes back down
+                    # self.alert("BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.")
+                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend)
+                    self.is_message_sent =True
                 
-            elif self.cached_monthly_trend == "SHORT" and self.last_signal == SignalState.SHORT:
-                self.alert("SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.")
-                self.is_message_sent =True
-            
-        else:
-            self.log(f"{self.pair} Monitoring | Momentum: { self.cached_monthly_trend} | Last Signal: {self.last_signal}")
+                    
+                elif self.cached_monthly_trend == "SHORT" and self.last_signal == SignalState.SHORT:
+                    # self.alert("SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.")
+                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend)
+                    self.is_message_sent =True
+                
+            else:
+                self.log(f"{self.pair} Monitoring | Momentum: { self.cached_monthly_trend} | Last Signal: {self.last_signal}")
+        
+        except Exception as e:
+            self.log(f"CRITICAL ERROR in run_cycle: {e}")

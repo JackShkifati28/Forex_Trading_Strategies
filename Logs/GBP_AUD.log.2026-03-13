@@ -1,0 +1,47 @@
+2026-03-13 10:32:18,572 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:18,573 - INFO - GBP_AUD Resetting Monthly Trend 
+2026-03-13 10:32:18,696 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 10:32:18,805 - INFO - GBP_AUD Syncing historical state... Finding the signal.
+2026-03-13 10:32:18,961 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:18,964 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:18,965 - INFO - GBP_AUD Final Sync Result: SignalState.BUY
+2026-03-13 10:32:18,965 - INFO - Sleeping... Waking up in 12.88 minutes.
+2026-03-13 10:45:12,120 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-13 11:00:13,033 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 11:00:13,439 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-13 11:17:03,854 - INFO - Sleeping... Waking up in 13.11 minutes.
+2026-03-13 11:30:37,102 - INFO - Sleeping... Waking up in 14.94 minutes.
+2026-03-13 11:45:33,515 - INFO - Sleeping... Waking up in 14.65 minutes.
+2026-03-13 12:58:14,153 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 12:58:14,368 - INFO - Sleeping... Waking up in 2.21 minutes.
+2026-03-13 13:00:26,773 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 13:00:26,959 - INFO - Sleeping... Waking up in 14.89 minutes.
+2026-03-13 13:24:15,224 - INFO - Sleeping... Waking up in 5.94 minutes.
+2026-03-13 13:31:14,185 - INFO - Sleeping... Waking up in 14.33 minutes.
+2026-03-13 13:45:34,024 - INFO - Sleeping... Waking up in 14.91 minutes.
+2026-03-13 14:00:28,533 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 14:00:28,805 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 17:32:36,502 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:36,503 - INFO - GBP_AUD Resetting Monthly Trend 
+2026-03-13 17:32:36,595 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:32:36,687 - INFO - GBP_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:32:36,819 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:32:36,819 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:36,819 - INFO - Sleeping... Waking up in 12.89 minutes.
+2026-03-13 17:34:51,274 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:51,274 - INFO - GBP_AUD Resetting Monthly Trend 
+2026-03-13 17:34:51,389 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:34:51,492 - INFO - GBP_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:34:51,577 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:34:51,581 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:34:51,583 - INFO - GBP_AUD Final Sync Result: SignalState.BUY
+2026-03-13 17:34:51,583 - INFO - Sleeping... Waking up in 10.67 minutes.
+2026-03-13 17:45:31,870 - INFO - Sleeping... Waking up in 14.74 minutes.
+2026-03-13 17:48:42,647 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:42,648 - INFO - GBP_AUD Resetting Monthly Trend 
+2026-03-13 17:48:42,760 - INFO - GBP_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:48:43,153 - INFO - GBP_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:48:43,244 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:43,249 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:43,251 - INFO - GBP_AUD Final Sync Result: SignalState.BUY
+2026-03-13 17:48:43,251 - INFO - Sleeping... Waking up in 11.77 minutes.

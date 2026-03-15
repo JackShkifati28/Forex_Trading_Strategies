@@ -1,0 +1,60 @@
+2026-03-13 10:32:33,637 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:33,638 - INFO - USD_THB Resetting Monthly Trend 
+2026-03-13 10:32:33,729 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 10:32:33,808 - INFO - USD_THB Syncing historical state... Finding the signal.
+2026-03-13 10:32:33,931 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:33,934 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:33,939 - INFO - USD_THB Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:33,939 - INFO - [USD_THB] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:32:34,377 - INFO - Sleeping... Waking up in 12.73 minutes.
+2026-03-13 10:45:18,526 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:18,528 - INFO - Sleeping... Waking up in 14.91 minutes.
+2026-03-13 11:00:13,079 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 11:00:13,667 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:13,667 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 11:17:07,109 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:07,111 - INFO - Sleeping... Waking up in 13.14 minutes.
+2026-03-13 11:30:42,145 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:30:42,146 - INFO - Sleeping... Waking up in 14.59 minutes.
+2026-03-13 11:45:17,517 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:17,519 - INFO - Sleeping... Waking up in 15.25 minutes.
+2026-03-13 12:58:33,630 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 12:58:34,256 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:34,257 - INFO - Sleeping... Waking up in 1.68 minutes.
+2026-03-13 13:00:15,316 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 13:00:15,501 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:15,501 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 13:24:10,243 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:24:10,243 - INFO - Sleeping... Waking up in 5.97 minutes.
+2026-03-13 13:31:12,892 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:31:12,893 - INFO - Sleeping... Waking up in 13.89 minutes.
+2026-03-13 13:45:06,674 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:06,676 - INFO - Sleeping... Waking up in 15.31 minutes.
+2026-03-13 14:00:25,237 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 14:00:25,498 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:25,498 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 17:32:51,571 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:51,574 - INFO - USD_THB Resetting Monthly Trend 
+2026-03-13 17:32:51,685 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 17:32:51,791 - INFO - USD_THB Syncing historical state... Finding the signal.
+2026-03-13 17:32:51,929 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:32:51,932 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:51,932 - INFO - Sleeping... Waking up in 12.54 minutes.
+2026-03-13 17:35:06,343 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:06,343 - INFO - USD_THB Resetting Monthly Trend 
+2026-03-13 17:35:06,479 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 17:35:06,586 - INFO - USD_THB Syncing historical state... Finding the signal.
+2026-03-13 17:35:06,747 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:06,750 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:06,756 - INFO - USD_THB Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:06,757 - INFO - Sleeping... Waking up in 10.24 minutes.
+2026-03-13 17:45:21,439 - INFO - USD_THB Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:21,440 - INFO - Sleeping... Waking up in 15.12 minutes.
+2026-03-13 17:48:57,716 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:57,719 - INFO - USD_THB Resetting Monthly Trend 
+2026-03-13 17:48:57,836 - INFO - USD_THB Resetting 4-Hour Boundary.
+2026-03-13 17:48:57,954 - INFO - USD_THB Syncing historical state... Finding the signal.
+2026-03-13 17:48:58,105 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:58,109 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:58,117 - INFO - USD_THB Final Sync Result: SignalState.SHORT
+2026-03-13 17:48:58,118 - INFO - Sleeping... Waking up in 11.39 minutes.

@@ -1,0 +1,66 @@
+2026-03-13 10:33:10,805 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:10,806 - INFO - USD_SEK Resetting Monthly Trend 
+2026-03-13 10:33:10,919 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 10:33:10,998 - INFO - USD_SEK Syncing historical state... Finding the signal.
+2026-03-13 10:33:11,100 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:11,101 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:11,102 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:11,129 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:11,130 - INFO - USD_SEK Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:11,130 - INFO - [USD_SEK] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:33:13,191 - INFO - Sleeping... Waking up in 12.05 minutes.
+2026-03-13 10:45:16,499 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:16,500 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 11:00:14,630 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 11:00:15,011 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:15,011 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 11:17:08,124 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:08,126 - INFO - Sleeping... Waking up in 13.43 minutes.
+2026-03-13 11:31:00,201 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:31:00,203 - INFO - Sleeping... Waking up in 14.22 minutes.
+2026-03-13 11:45:13,665 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:13,667 - INFO - Sleeping... Waking up in 15.31 minutes.
+2026-03-13 12:58:33,432 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 12:58:33,691 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:33,691 - INFO - Sleeping... Waking up in 1.92 minutes.
+2026-03-13 13:00:29,037 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 13:00:29,338 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:29,339 - INFO - Sleeping... Waking up in 14.76 minutes.
+2026-03-13 13:24:09,347 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:24:09,348 - INFO - Sleeping... Waking up in 6.36 minutes.
+2026-03-13 13:31:33,398 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:31:33,399 - INFO - Sleeping... Waking up in 13.95 minutes.
+2026-03-13 13:45:30,570 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:30,572 - INFO - Sleeping... Waking up in 14.80 minutes.
+2026-03-13 14:00:18,736 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 14:00:19,020 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:19,020 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-13 17:33:28,726 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:28,728 - INFO - USD_SEK Resetting Monthly Trend 
+2026-03-13 17:33:28,823 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 17:33:28,969 - INFO - USD_SEK Syncing historical state... Finding the signal.
+2026-03-13 17:33:29,060 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:29,062 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:29,062 - INFO - Sleeping... Waking up in 11.99 minutes.
+2026-03-13 17:35:43,534 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:43,534 - INFO - USD_SEK Resetting Monthly Trend 
+2026-03-13 17:35:43,629 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 17:35:43,720 - INFO - USD_SEK Syncing historical state... Finding the signal.
+2026-03-13 17:35:43,804 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:43,806 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:43,810 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:43,811 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:43,813 - INFO - USD_SEK Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:43,813 - INFO - Sleeping... Waking up in 9.41 minutes.
+2026-03-13 17:45:08,583 - INFO - USD_SEK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:08,584 - INFO - Sleeping... Waking up in 15.14 minutes.
+2026-03-13 17:49:34,874 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:34,875 - INFO - USD_SEK Resetting Monthly Trend 
+2026-03-13 17:49:34,952 - INFO - USD_SEK Resetting 4-Hour Boundary.
+2026-03-13 17:49:35,043 - INFO - USD_SEK Syncing historical state... Finding the signal.
+2026-03-13 17:49:35,122 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:35,124 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:35,128 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:35,130 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:35,131 - INFO - USD_SEK Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:35,131 - INFO - Sleeping... Waking up in 10.92 minutes.

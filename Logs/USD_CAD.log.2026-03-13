@@ -1,0 +1,72 @@
+2026-03-13 10:33:16,835 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:16,836 - INFO - USD_CAD Resetting Monthly Trend 
+2026-03-13 10:33:16,945 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 10:33:17,069 - INFO - USD_CAD Syncing historical state... Finding the signal.
+2026-03-13 10:33:17,200 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:17,202 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:17,203 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:17,203 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:17,204 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:17,206 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:17,206 - INFO - USD_CAD Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:17,206 - INFO - [USD_CAD] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:33:20,923 - INFO - Sleeping... Waking up in 12.16 minutes.
+2026-03-13 10:45:30,583 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:30,584 - INFO - Sleeping... Waking up in 14.83 minutes.
+2026-03-13 11:00:20,649 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 11:00:21,126 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:21,127 - INFO - Sleeping... Waking up in 14.83 minutes.
+2026-03-13 11:17:05,714 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:05,716 - INFO - Sleeping... Waking up in 13.48 minutes.
+2026-03-13 11:31:00,859 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:31:00,861 - INFO - Sleeping... Waking up in 14.14 minutes.
+2026-03-13 11:45:09,230 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:09,232 - INFO - Sleeping... Waking up in 15.36 minutes.
+2026-03-13 12:58:32,207 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 12:58:32,582 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:32,583 - INFO - Sleeping... Waking up in 2.01 minutes.
+2026-03-13 13:00:33,314 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 13:00:33,592 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:33,592 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 13:25:28,199 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:25:28,199 - INFO - Sleeping... Waking up in 4.92 minutes.
+2026-03-13 13:30:23,710 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:30:23,712 - INFO - Sleeping... Waking up in 15.14 minutes.
+2026-03-13 13:45:32,238 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:32,240 - INFO - Sleeping... Waking up in 14.73 minutes.
+2026-03-13 14:00:15,853 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 14:00:23,633 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:23,635 - INFO - Sleeping... Waking up in 15.11 minutes.
+2026-03-13 17:33:34,739 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:34,740 - INFO - USD_CAD Resetting Monthly Trend 
+2026-03-13 17:33:34,818 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:33:34,897 - INFO - USD_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:33:34,992 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:34,993 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:34,993 - INFO - Sleeping... Waking up in 11.85 minutes.
+2026-03-13 17:35:49,559 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:49,560 - INFO - USD_CAD Resetting Monthly Trend 
+2026-03-13 17:35:49,668 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:35:49,795 - INFO - USD_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:35:49,933 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:49,936 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:49,940 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:49,941 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:49,943 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:49,947 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:49,948 - INFO - USD_CAD Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:49,949 - INFO - Sleeping... Waking up in 9.30 minutes.
+2026-03-13 17:45:07,737 - INFO - USD_CAD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:07,739 - INFO - Sleeping... Waking up in 15.19 minutes.
+2026-03-13 17:49:40,902 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:40,905 - INFO - USD_CAD Resetting Monthly Trend 
+2026-03-13 17:49:41,005 - INFO - USD_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:49:41,095 - INFO - USD_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:49:41,302 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:41,305 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:41,309 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:41,310 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:41,313 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:41,317 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:41,318 - INFO - USD_CAD Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:41,319 - INFO - Sleeping... Waking up in 10.89 minutes.

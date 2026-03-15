@@ -1,0 +1,69 @@
+2026-03-13 10:26:51,593 - INFO - Thread started. Syncing state...
+2026-03-13 10:26:51,596 - INFO - USD_HUF Resetting Monthly Trend 
+2026-03-13 10:26:51,682 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 10:26:51,778 - INFO - USD_HUF Syncing historical state... Finding the signal.
+2026-03-13 10:26:51,878 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:26:51,879 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:26:51,883 - INFO - USD_HUF Final Sync Result: SignalState.SHORT
+2026-03-13 10:26:51,883 - INFO - [USD_HUF] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:26:53,832 - INFO - Sleeping... Waking up in 3.55 minutes.
+2026-03-13 10:32:11,537 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:11,537 - INFO - USD_HUF Resetting Monthly Trend 
+2026-03-13 10:32:11,621 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 10:32:11,719 - INFO - USD_HUF Syncing historical state... Finding the signal.
+2026-03-13 10:32:11,843 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:11,844 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:11,848 - INFO - USD_HUF Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:11,848 - INFO - [USD_HUF] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:32:12,259 - INFO - Sleeping... Waking up in 13.28 minutes.
+2026-03-13 10:45:29,256 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:29,258 - INFO - Sleeping... Waking up in 14.64 minutes.
+2026-03-13 11:00:07,686 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 11:00:07,918 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:07,919 - INFO - Sleeping... Waking up in 15.22 minutes.
+2026-03-13 11:17:16,205 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:16,207 - INFO - Sleeping... Waking up in 13.12 minutes.
+2026-03-13 11:30:49,677 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:30:49,678 - INFO - Sleeping... Waking up in 14.32 minutes.
+2026-03-13 11:45:08,707 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:08,709 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 12:58:09,953 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 12:58:10,233 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:10,233 - INFO - Sleeping... Waking up in 2.04 minutes.
+2026-03-13 13:00:12,650 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 13:00:12,839 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:12,839 - INFO - Sleeping... Waking up in 15.34 minutes.
+2026-03-13 13:25:30,498 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:25:30,499 - INFO - Sleeping... Waking up in 4.90 minutes.
+2026-03-13 13:30:24,845 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:30:24,846 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-13 13:45:23,706 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:23,707 - INFO - Sleeping... Waking up in 14.89 minutes.
+2026-03-13 14:00:16,932 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 14:00:17,112 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:17,112 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-13 17:32:29,469 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:29,472 - INFO - USD_HUF Resetting Monthly Trend 
+2026-03-13 17:32:29,648 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 17:32:29,772 - INFO - USD_HUF Syncing historical state... Finding the signal.
+2026-03-13 17:32:30,407 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:32:30,409 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:30,409 - INFO - Sleeping... Waking up in 12.84 minutes.
+2026-03-13 17:34:44,234 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:44,235 - INFO - USD_HUF Resetting Monthly Trend 
+2026-03-13 17:34:44,342 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 17:34:44,442 - INFO - USD_HUF Syncing historical state... Finding the signal.
+2026-03-13 17:34:44,596 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:34:44,599 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:34:44,607 - INFO - USD_HUF Final Sync Result: SignalState.SHORT
+2026-03-13 17:34:44,608 - INFO - Sleeping... Waking up in 10.73 minutes.
+2026-03-13 17:45:28,586 - INFO - USD_HUF Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:28,588 - INFO - Sleeping... Waking up in 15.05 minutes.
+2026-03-13 17:48:35,614 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:35,616 - INFO - USD_HUF Resetting Monthly Trend 
+2026-03-13 17:48:35,885 - INFO - USD_HUF Resetting 4-Hour Boundary.
+2026-03-13 17:48:35,977 - INFO - USD_HUF Syncing historical state... Finding the signal.
+2026-03-13 17:48:36,099 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:36,102 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:36,110 - INFO - USD_HUF Final Sync Result: SignalState.SHORT
+2026-03-13 17:48:36,110 - INFO - Sleeping... Waking up in 11.94 minutes.

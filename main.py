@@ -1,14 +1,15 @@
 import os
 import time
 import threading
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import random 
 from zoneinfo import ZoneInfo
-
 from Core.oanda_client import OandaClient
 from Core.smsNotifier import TelegramNotifier
 from strategies.stoch_bollinger import Stoch_Bolinger
+from Core.ledger import AlertLedger
+import glob
 
 def get_seconds_to_next_m15():
     """Calculates the exact seconds until the next 15-minute candle close (:00, :15, :30, :45)."""
@@ -31,6 +32,7 @@ def get_seconds_to_next_m15():
     return seconds_to_sleep
 
 def strategy_worker(bot_instance):
+
     bot_instance.log("Thread started. Syncing state...")
     bot_instance.run_cycle()
     
@@ -47,11 +49,52 @@ def strategy_worker(bot_instance):
         time.sleep(total_sleep)
         bot_instance.run_cycle()
 
+def dispatcher_loop(ledger, notifier):
+   
+    print("[Dispatcher] Monitoring ledger for updates...")
+    while True:
+        # Check every 30 seconds for a change
+        time.sleep(30) 
+
+        if ledger.has_updates():
+            print("[Dispatcher] Update detected! Sending ledger...")
+            
+            # 1. Generate the message
+            message = ledger.get_ledger_with_history()
+            
+            # 2. Send the alert
+            try:
+                notifier.send_alert(message)
+                # 3. Only mark as sent if Telegram actually accepted the message
+                ledger.mark_all_as_sent()
+            except Exception as e:
+                print(f"[Dispatcher] Failed to send update: {e}")
+        else:
+            # Quietly log to terminal so you know it's alive
+            # print("[Dispatcher] No new updates.") 
+            pass
+
 if __name__ == "__main__":
 
     print("Booting Quantitative Engine...")
 
     load_dotenv()
+
+    # --- NEW: Clear active logs on boot ---
+    print("Sweeping old active log files...")
+    # This finds all base .log files but leaves rotated backups untouched
+    for log_path in glob.glob("Logs/*.log"):
+        try:
+            os.remove(log_path)
+        except Exception as e:
+            print(f"Could not clear {log_path}: {e}")
+
+
+    ledger =AlertLedger()
+
+    # CLEAR DATA HERE ONCE, NOT IN THE WORKER
+    ledger.clear_monthly_data()
+
 
     # 1. Instantiate the Stateless Services (Actuators/Sensors)
     # target_emails = os.getenv("TARGET_PHONE_EMAIL")
@@ -70,10 +113,13 @@ if __name__ == "__main__":
     #     target_sms_email=email_list
     # )
 
-    sms_client = tms = TelegramNotifier( 
+    tms = TelegramNotifier( 
     token = os.getenv("TELEGRAM_API_TOKEN"), 
     chat_ids= os.getenv("GROUP_ID")
     )
+
+    # tms= TelegramNotifier(token = os.getenv("TELEGRAM_API_TOKEN"), 
+    # chat_ids= os.getenv("PERSONAL_ID"))
 
     
 
@@ -88,7 +134,13 @@ if __name__ == "__main__":
     bots =[]
 
     for pair_name in  bots_names:
-        bots.append(Stoch_Bolinger(pair_name, db_client, sms_client))
+        bots.append(Stoch_Bolinger(pair_name, db_client, tms, ledger))
+    
+
+    # 5. Start the Master Dispatcher Thread
+    dispatch_thread = threading.Thread(target=dispatcher_loop, args=(ledger, tms))
+    dispatch_thread.daemon = True
+    dispatch_thread.start()
 
 
     # 3. The Thread Spawner

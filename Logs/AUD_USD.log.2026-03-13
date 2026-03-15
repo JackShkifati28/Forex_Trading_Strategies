@@ -1,0 +1,56 @@
+2026-03-13 10:33:03,771 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:03,772 - INFO - AUD_USD Resetting Monthly Trend 
+2026-03-13 10:33:03,916 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 10:33:04,014 - INFO - AUD_USD Syncing historical state... Finding the signal.
+2026-03-13 10:33:04,136 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:04,137 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:04,137 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:04,139 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:04,142 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:04,144 - INFO - AUD_USD Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:04,144 - INFO - Sleeping... Waking up in 12.48 minutes.
+2026-03-13 10:45:32,807 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-13 11:00:16,169 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 11:00:16,493 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 11:17:11,080 - INFO - Sleeping... Waking up in 13.18 minutes.
+2026-03-13 11:30:48,012 - INFO - Sleeping... Waking up in 14.70 minutes.
+2026-03-13 11:45:30,316 - INFO - Sleeping... Waking up in 15.04 minutes.
+2026-03-13 12:58:33,843 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 12:58:34,002 - INFO - Sleeping... Waking up in 1.67 minutes.
+2026-03-13 13:00:14,496 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 13:00:14,716 - INFO - Sleeping... Waking up in 15.04 minutes.
+2026-03-13 13:24:11,699 - INFO - Sleeping... Waking up in 6.00 minutes.
+2026-03-13 13:31:14,185 - INFO - Sleeping... Waking up in 14.20 minutes.
+2026-03-13 13:45:26,306 - INFO - Sleeping... Waking up in 14.86 minutes.
+2026-03-13 14:00:17,994 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 14:00:18,377 - INFO - Sleeping... Waking up in 15.18 minutes.
+2026-03-13 17:33:21,699 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:21,701 - INFO - AUD_USD Resetting Monthly Trend 
+2026-03-13 17:33:21,803 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 17:33:21,964 - INFO - AUD_USD Syncing historical state... Finding the signal.
+2026-03-13 17:33:22,063 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:33:22,064 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:22,064 - INFO - Sleeping... Waking up in 11.82 minutes.
+2026-03-13 17:35:36,490 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:36,490 - INFO - AUD_USD Resetting Monthly Trend 
+2026-03-13 17:35:36,585 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 17:35:36,966 - INFO - AUD_USD Syncing historical state... Finding the signal.
+2026-03-13 17:35:37,082 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:37,083 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:37,085 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:37,087 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:37,092 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:37,093 - INFO - AUD_USD Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:37,093 - INFO - Sleeping... Waking up in 9.75 minutes.
+2026-03-13 17:45:22,260 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 17:49:27,851 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:27,852 - INFO - AUD_USD Resetting Monthly Trend 
+2026-03-13 17:49:28,192 - INFO - AUD_USD Resetting 4-Hour Boundary.
+2026-03-13 17:49:28,430 - INFO - AUD_USD Syncing historical state... Finding the signal.
+2026-03-13 17:49:28,536 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:28,538 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:28,541 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:28,543 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:28,548 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:28,550 - INFO - AUD_USD Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:28,550 - INFO - Sleeping... Waking up in 11.09 minutes.

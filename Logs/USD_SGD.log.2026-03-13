@@ -1,0 +1,50 @@
+2026-03-13 10:32:52,714 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:52,715 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-13 10:32:52,808 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 10:32:52,897 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-13 10:32:52,969 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:52,970 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:52,972 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:52,973 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 10:32:52,973 - INFO - Sleeping... Waking up in 12.61 minutes.
+2026-03-13 10:45:29,935 - INFO - Sleeping... Waking up in 14.61 minutes.
+2026-03-13 11:00:06,540 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 11:00:06,870 - INFO - Sleeping... Waking up in 15.16 minutes.
+2026-03-13 11:17:11,066 - INFO - Sleeping... Waking up in 13.33 minutes.
+2026-03-13 11:30:57,445 - INFO - Sleeping... Waking up in 14.53 minutes.
+2026-03-13 11:45:29,539 - INFO - Sleeping... Waking up in 14.77 minutes.
+2026-03-13 12:58:16,947 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 12:58:17,169 - INFO - Sleeping... Waking up in 1.84 minutes.
+2026-03-13 13:00:07,403 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 13:00:07,675 - INFO - Sleeping... Waking up in 15.34 minutes.
+2026-03-13 13:25:25,490 - INFO - Sleeping... Waking up in 4.84 minutes.
+2026-03-13 13:30:15,844 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 13:45:06,545 - INFO - Sleeping... Waking up in 15.14 minutes.
+2026-03-13 14:00:14,810 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 14:00:17,695 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 17:33:10,659 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:10,660 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-13 17:33:10,748 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:33:10,833 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:33:10,961 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:10,961 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:10,962 - INFO - Sleeping... Waking up in 12.20 minutes.
+2026-03-13 17:35:25,441 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:25,442 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-13 17:35:25,553 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:35:25,658 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:35:25,754 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:25,757 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:25,762 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:25,765 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 17:35:25,765 - INFO - Sleeping... Waking up in 9.99 minutes.
+2026-03-13 17:45:25,017 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 17:49:16,800 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:16,802 - INFO - USD_SGD Resetting Monthly Trend 
+2026-03-13 17:49:16,889 - INFO - USD_SGD Resetting 4-Hour Boundary.
+2026-03-13 17:49:16,997 - INFO - USD_SGD Syncing historical state... Finding the signal.
+2026-03-13 17:49:17,111 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:17,114 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:17,120 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:17,152 - INFO - USD_SGD Final Sync Result: SignalState.BUY
+2026-03-13 17:49:17,152 - INFO - Sleeping... Waking up in 10.93 minutes.

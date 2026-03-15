@@ -1,0 +1,66 @@
+2026-03-13 10:33:13,821 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:13,824 - INFO - USD_CZK Resetting Monthly Trend 
+2026-03-13 10:33:13,924 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 10:33:14,017 - INFO - USD_CZK Syncing historical state... Finding the signal.
+2026-03-13 10:33:14,142 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:14,143 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:14,146 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:14,147 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:14,148 - INFO - USD_CZK Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:14,148 - INFO - [USD_CZK] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:33:20,794 - INFO - Sleeping... Waking up in 11.95 minutes.
+2026-03-13 10:45:18,160 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:18,161 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-13 11:00:22,565 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 11:00:23,031 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:23,031 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-13 11:17:22,125 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:22,125 - INFO - Sleeping... Waking up in 12.82 minutes.
+2026-03-13 11:30:37,992 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:30:37,993 - INFO - Sleeping... Waking up in 14.89 minutes.
+2026-03-13 11:45:31,840 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:31,842 - INFO - Sleeping... Waking up in 15.03 minutes.
+2026-03-13 12:58:35,214 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 12:58:35,465 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:35,465 - INFO - Sleeping... Waking up in 1.90 minutes.
+2026-03-13 13:00:29,714 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 13:00:30,058 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:30,058 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-13 13:25:26,015 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:25:26,016 - INFO - Sleeping... Waking up in 4.83 minutes.
+2026-03-13 13:30:15,863 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:30:15,863 - INFO - Sleeping... Waking up in 14.86 minutes.
+2026-03-13 13:45:07,381 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:07,382 - INFO - Sleeping... Waking up in 15.15 minutes.
+2026-03-13 14:00:16,580 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 14:00:16,807 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:16,808 - INFO - Sleeping... Waking up in 14.95 minutes.
+2026-03-13 17:33:31,733 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:31,734 - INFO - USD_CZK Resetting Monthly Trend 
+2026-03-13 17:33:31,816 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 17:33:31,885 - INFO - USD_CZK Syncing historical state... Finding the signal.
+2026-03-13 17:33:31,982 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:31,984 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:31,984 - INFO - Sleeping... Waking up in 11.84 minutes.
+2026-03-13 17:35:46,544 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:46,544 - INFO - USD_CZK Resetting Monthly Trend 
+2026-03-13 17:35:46,651 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 17:35:46,727 - INFO - USD_CZK Syncing historical state... Finding the signal.
+2026-03-13 17:35:46,824 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:46,825 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:46,829 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:46,831 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:46,832 - INFO - USD_CZK Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:46,832 - INFO - Sleeping... Waking up in 9.49 minutes.
+2026-03-13 17:45:16,219 - INFO - USD_CZK Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:16,221 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-13 17:49:37,892 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:37,894 - INFO - USD_CZK Resetting Monthly Trend 
+2026-03-13 17:49:38,006 - INFO - USD_CZK Resetting 4-Hour Boundary.
+2026-03-13 17:49:38,097 - INFO - USD_CZK Syncing historical state... Finding the signal.
+2026-03-13 17:49:38,213 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:38,216 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:38,223 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:38,226 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:38,227 - INFO - USD_CZK Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:38,228 - INFO - Sleeping... Waking up in 10.56 minutes.

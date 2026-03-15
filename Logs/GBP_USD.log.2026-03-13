@@ -1,0 +1,66 @@
+2026-03-13 10:33:02,764 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:02,765 - INFO - GBP_USD Resetting Monthly Trend 
+2026-03-13 10:33:02,899 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 10:33:03,016 - INFO - GBP_USD Syncing historical state... Finding the signal.
+2026-03-13 10:33:03,116 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:03,117 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:03,120 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:03,122 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:03,123 - INFO - GBP_USD Final Sync Result: SignalState.BUY
+2026-03-13 10:33:03,123 - INFO - [GBP_USD] BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.
+2026-03-13 10:33:03,534 - INFO - Sleeping... Waking up in 12.09 minutes.
+2026-03-13 10:45:09,269 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 10:45:09,271 - INFO - Sleeping... Waking up in 15.03 minutes.
+2026-03-13 11:00:10,869 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 11:00:11,103 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:00:11,104 - INFO - Sleeping... Waking up in 15.27 minutes.
+2026-03-13 11:17:22,111 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:17:22,113 - INFO - Sleeping... Waking up in 13.07 minutes.
+2026-03-13 11:30:52,847 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:30:52,849 - INFO - Sleeping... Waking up in 14.50 minutes.
+2026-03-13 11:45:23,305 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:45:23,306 - INFO - Sleeping... Waking up in 15.17 minutes.
+2026-03-13 12:58:35,063 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 12:58:35,556 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 12:58:35,557 - INFO - Sleeping... Waking up in 1.51 minutes.
+2026-03-13 13:00:06,121 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 13:00:06,329 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:00:06,330 - INFO - Sleeping... Waking up in 15.14 minutes.
+2026-03-13 13:24:09,178 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:24:09,178 - INFO - Sleeping... Waking up in 6.15 minutes.
+2026-03-13 13:31:21,664 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:31:21,666 - INFO - Sleeping... Waking up in 14.18 minutes.
+2026-03-13 13:45:32,504 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:45:32,505 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 14:00:30,535 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 14:00:31,007 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 14:00:31,009 - INFO - Sleeping... Waking up in 14.66 minutes.
+2026-03-13 17:33:20,694 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:20,695 - INFO - GBP_USD Resetting Monthly Trend 
+2026-03-13 17:33:20,798 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 17:33:21,032 - INFO - GBP_USD Syncing historical state... Finding the signal.
+2026-03-13 17:33:21,153 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:33:21,154 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:21,154 - INFO - Sleeping... Waking up in 11.88 minutes.
+2026-03-13 17:35:35,486 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:35,486 - INFO - GBP_USD Resetting Monthly Trend 
+2026-03-13 17:35:35,597 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 17:35:35,712 - INFO - GBP_USD Syncing historical state... Finding the signal.
+2026-03-13 17:35:35,840 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:35,842 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:35,847 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:35,849 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:35,850 - INFO - GBP_USD Final Sync Result: SignalState.BUY
+2026-03-13 17:35:35,850 - INFO - Sleeping... Waking up in 9.64 minutes.
+2026-03-13 17:45:14,388 - INFO - GBP_USD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 17:45:14,389 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 17:49:26,850 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:26,852 - INFO - GBP_USD Resetting Monthly Trend 
+2026-03-13 17:49:26,977 - INFO - GBP_USD Resetting 4-Hour Boundary.
+2026-03-13 17:49:27,064 - INFO - GBP_USD Syncing historical state... Finding the signal.
+2026-03-13 17:49:27,173 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:27,175 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:27,181 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:27,183 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:27,184 - INFO - GBP_USD Final Sync Result: SignalState.BUY
+2026-03-13 17:49:27,184 - INFO - Sleeping... Waking up in 10.65 minutes.

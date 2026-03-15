@@ -1,0 +1,60 @@
+2026-03-13 10:32:43,676 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:43,676 - INFO - CHF_ZAR Resetting Monthly Trend 
+2026-03-13 10:32:43,871 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 10:32:43,941 - INFO - CHF_ZAR Syncing historical state... Finding the signal.
+2026-03-13 10:32:44,040 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:44,042 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:44,046 - INFO - CHF_ZAR Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:44,046 - INFO - [CHF_ZAR] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:32:46,644 - INFO - Sleeping... Waking up in 12.42 minutes.
+2026-03-13 10:45:11,818 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:11,818 - INFO - Sleeping... Waking up in 15.11 minutes.
+2026-03-13 11:00:18,402 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 11:00:18,799 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:18,799 - INFO - Sleeping... Waking up in 15.24 minutes.
+2026-03-13 11:17:27,806 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:27,806 - INFO - Sleeping... Waking up in 13.02 minutes.
+2026-03-13 11:30:55,312 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:30:55,313 - INFO - Sleeping... Waking up in 14.41 minutes.
+2026-03-13 11:45:19,974 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:19,974 - INFO - Sleeping... Waking up in 14.88 minutes.
+2026-03-13 12:58:14,269 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 12:58:14,459 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:14,459 - INFO - Sleeping... Waking up in 2.07 minutes.
+2026-03-13 13:00:18,399 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 13:00:18,614 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:18,615 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 13:15:26,493 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:15:26,495 - INFO - Sleeping... Waking up in 15.13 minutes.
+2026-03-13 13:40:14,821 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:40:14,823 - INFO - Sleeping... Waking up in 5.27 minutes.
+2026-03-13 13:45:31,415 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:31,415 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 14:00:28,860 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 14:00:29,075 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:29,075 - INFO - Sleeping... Waking up in 14.62 minutes.
+2026-03-13 17:33:01,622 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:01,623 - INFO - CHF_ZAR Resetting Monthly Trend 
+2026-03-13 17:33:01,724 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:33:01,807 - INFO - CHF_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:33:01,909 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:01,911 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:01,911 - INFO - Sleeping... Waking up in 12.34 minutes.
+2026-03-13 17:35:16,396 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:16,396 - INFO - CHF_ZAR Resetting Monthly Trend 
+2026-03-13 17:35:16,496 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:35:16,723 - INFO - CHF_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:35:16,823 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:16,826 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:16,831 - INFO - CHF_ZAR Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:16,832 - INFO - Sleeping... Waking up in 10.24 minutes.
+2026-03-13 17:45:31,083 - INFO - CHF_ZAR Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:31,084 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-13 17:49:07,757 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:07,758 - INFO - CHF_ZAR Resetting Monthly Trend 
+2026-03-13 17:49:07,839 - INFO - CHF_ZAR Resetting 4-Hour Boundary.
+2026-03-13 17:49:07,973 - INFO - CHF_ZAR Syncing historical state... Finding the signal.
+2026-03-13 17:49:08,060 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:08,064 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:08,070 - INFO - CHF_ZAR Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:08,071 - INFO - Sleeping... Waking up in 11.06 minutes.

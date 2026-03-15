@@ -1,0 +1,63 @@
+2026-03-13 10:32:31,632 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:31,634 - INFO - CHF_JPY Resetting Monthly Trend 
+2026-03-13 10:32:31,754 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 10:32:31,847 - INFO - CHF_JPY Syncing historical state... Finding the signal.
+2026-03-13 10:32:31,944 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:31,945 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:31,946 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:31,946 - INFO - CHF_JPY Final Sync Result: SignalState.BUY
+2026-03-13 10:32:31,946 - INFO - [CHF_JPY] BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.
+2026-03-13 10:32:32,351 - INFO - Sleeping... Waking up in 12.69 minutes.
+2026-03-13 10:45:13,648 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 10:45:13,650 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-13 11:00:09,103 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 11:00:09,500 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:00:09,500 - INFO - Sleeping... Waking up in 15.08 minutes.
+2026-03-13 11:17:09,298 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:17:09,299 - INFO - Sleeping... Waking up in 12.95 minutes.
+2026-03-13 11:30:32,670 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:30:32,673 - INFO - Sleeping... Waking up in 14.64 minutes.
+2026-03-13 11:45:11,205 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:45:11,207 - INFO - Sleeping... Waking up in 15.33 minutes.
+2026-03-13 12:58:32,507 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 12:58:32,719 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 12:58:32,719 - INFO - Sleeping... Waking up in 1.76 minutes.
+2026-03-13 13:00:18,203 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 13:00:18,457 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:00:18,458 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 13:24:13,464 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:24:13,465 - INFO - Sleeping... Waking up in 6.27 minutes.
+2026-03-13 13:31:32,115 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:31:32,117 - INFO - Sleeping... Waking up in 13.93 minutes.
+2026-03-13 13:45:27,810 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:45:27,811 - INFO - Sleeping... Waking up in 14.94 minutes.
+2026-03-13 14:00:24,247 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 14:00:24,515 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 14:00:24,515 - INFO - Sleeping... Waking up in 14.93 minutes.
+2026-03-13 17:32:49,560 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:49,563 - INFO - CHF_JPY Resetting Monthly Trend 
+2026-03-13 17:32:49,655 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:32:49,766 - INFO - CHF_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:32:49,857 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:32:49,857 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:49,857 - INFO - Sleeping... Waking up in 12.52 minutes.
+2026-03-13 17:35:04,332 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:04,332 - INFO - CHF_JPY Resetting Monthly Trend 
+2026-03-13 17:35:04,479 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:35:04,571 - INFO - CHF_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:35:04,698 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:04,704 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:04,708 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:04,710 - INFO - CHF_JPY Final Sync Result: SignalState.BUY
+2026-03-13 17:35:04,710 - INFO - Sleeping... Waking up in 10.47 minutes.
+2026-03-13 17:45:32,984 - INFO - CHF_JPY Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 17:45:32,985 - INFO - Sleeping... Waking up in 14.70 minutes.
+2026-03-13 17:48:55,706 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:55,708 - INFO - CHF_JPY Resetting Monthly Trend 
+2026-03-13 17:48:55,883 - INFO - CHF_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:48:55,972 - INFO - CHF_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:48:56,077 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:56,082 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:56,086 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:56,087 - INFO - CHF_JPY Final Sync Result: SignalState.BUY
+2026-03-13 17:48:56,087 - INFO - Sleeping... Waking up in 11.50 minutes.

@@ -1,0 +1,47 @@
+2026-03-13 10:32:35,646 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:35,647 - INFO - AUD_CHF Resetting Monthly Trend 
+2026-03-13 10:32:35,893 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 10:32:36,006 - INFO - AUD_CHF Syncing historical state... Finding the signal.
+2026-03-13 10:32:36,212 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:36,213 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:36,217 - INFO - AUD_CHF Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:36,217 - INFO - Sleeping... Waking up in 12.53 minutes.
+2026-03-13 10:45:08,084 - INFO - Sleeping... Waking up in 15.35 minutes.
+2026-03-13 11:00:28,811 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 11:00:29,235 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-13 11:17:19,303 - INFO - Sleeping... Waking up in 12.97 minutes.
+2026-03-13 11:30:44,165 - INFO - Sleeping... Waking up in 14.74 minutes.
+2026-03-13 11:45:28,723 - INFO - Sleeping... Waking up in 14.68 minutes.
+2026-03-13 12:58:10,792 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 12:58:10,966 - INFO - Sleeping... Waking up in 2.28 minutes.
+2026-03-13 13:00:27,957 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 13:00:28,301 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-13 13:25:29,772 - INFO - Sleeping... Waking up in 4.93 minutes.
+2026-03-13 13:30:25,871 - INFO - Sleeping... Waking up in 14.78 minutes.
+2026-03-13 13:45:12,611 - INFO - Sleeping... Waking up in 15.06 minutes.
+2026-03-13 14:00:16,177 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 14:00:16,486 - INFO - Sleeping... Waking up in 15.23 minutes.
+2026-03-13 17:32:53,581 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:53,583 - INFO - AUD_CHF Resetting Monthly Trend 
+2026-03-13 17:32:53,702 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:32:53,816 - INFO - AUD_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:32:54,016 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:32:54,016 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:54,016 - INFO - Sleeping... Waking up in 12.68 minutes.
+2026-03-13 17:35:08,353 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:08,354 - INFO - AUD_CHF Resetting Monthly Trend 
+2026-03-13 17:35:08,466 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:35:08,542 - INFO - AUD_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:35:08,654 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:08,659 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:08,665 - INFO - AUD_CHF Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:08,665 - INFO - Sleeping... Waking up in 10.30 minutes.
+2026-03-13 17:45:27,004 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-13 17:48:59,726 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:59,728 - INFO - AUD_CHF Resetting Monthly Trend 
+2026-03-13 17:48:59,836 - INFO - AUD_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:48:59,947 - INFO - AUD_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:49:00,074 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:00,077 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:00,081 - INFO - AUD_CHF Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:00,082 - INFO - Sleeping... Waking up in 11.58 minutes.

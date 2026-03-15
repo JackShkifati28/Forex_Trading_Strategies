@@ -6,11 +6,12 @@ import os
 from logging.handlers import TimedRotatingFileHandler
 
 class BaseStrategy(ABC):
-    def __init__(self, pair, api_client, notifier):
+    def __init__(self, pair, api_client, notifier, ledger):
         # --- DEPENDENCY INJECTION ---
         self.pair = pair
         self.api_client = api_client
         self.notifier = notifier
+        self.ledger = ledger
         
         # --- THREAD-SAFE STATE MACHINE ---
         # This state belongs ONLY to this specific currency pair instance.
@@ -28,7 +29,7 @@ class BaseStrategy(ABC):
         # 1. File Handler: Creates 'logs/EUR_USD.log', rotates at midnight
         # 'when="midnight"' creates a new file every day
         log_file = os.path.join(log_dir, f"{self.pair}.log")
-        file_handler = TimedRotatingFileHandler(log_file, when="midnight", interval=1, backupCount=30)
+        file_handler = TimedRotatingFileHandler(log_file, when="W0", interval=1, backupCount=4)
         file_formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
         file_handler.setFormatter(file_formatter)
 

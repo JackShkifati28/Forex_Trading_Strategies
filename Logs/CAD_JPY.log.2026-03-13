@@ -1,0 +1,40 @@
+2026-03-13 10:32:13,548 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:13,549 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-13 10:32:13,692 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 10:32:13,806 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-13 10:32:13,949 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:32:13,949 - INFO - Sleeping... Waking up in 13.04 minutes.
+2026-03-13 10:45:16,337 - INFO - Sleeping... Waking up in 15.11 minutes.
+2026-03-13 11:00:22,913 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 11:00:23,181 - INFO - Sleeping... Waking up in 14.86 minutes.
+2026-03-13 11:17:09,793 - INFO - Sleeping... Waking up in 13.27 minutes.
+2026-03-13 11:30:52,207 - INFO - Sleeping... Waking up in 14.51 minutes.
+2026-03-13 11:45:23,134 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-13 12:58:18,580 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 12:58:18,854 - INFO - Sleeping... Waking up in 1.82 minutes.
+2026-03-13 13:00:08,087 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 13:00:08,251 - INFO - Sleeping... Waking up in 15.23 minutes.
+2026-03-13 13:24:16,882 - INFO - Sleeping... Waking up in 6.20 minutes.
+2026-03-13 13:31:31,345 - INFO - Sleeping... Waking up in 13.80 minutes.
+2026-03-13 13:45:19,523 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 14:00:16,851 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 14:00:17,161 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 17:32:31,478 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:31,479 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-13 17:32:31,585 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:32:31,688 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:32:31,827 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:32:31,827 - INFO - Sleeping... Waking up in 12.77 minutes.
+2026-03-13 17:34:46,248 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:46,248 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-13 17:34:46,354 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:34:46,433 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:34:46,524 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:34:46,524 - INFO - Sleeping... Waking up in 10.37 minutes.
+2026-03-13 17:45:08,832 - INFO - Sleeping... Waking up in 15.33 minutes.
+2026-03-13 17:48:37,622 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:37,623 - INFO - CAD_JPY Resetting Monthly Trend 
+2026-03-13 17:48:38,279 - INFO - CAD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:48:38,478 - INFO - CAD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:48:38,568 - INFO - CAD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:48:38,568 - INFO - Sleeping... Waking up in 11.47 minutes.

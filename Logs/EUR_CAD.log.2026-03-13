@@ -1,0 +1,58 @@
+2026-03-13 10:07:33,607 - INFO - Thread started. Syncing state...
+2026-03-13 10:07:33,609 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:16:01,756 - INFO - Thread started. Syncing state...
+2026-03-13 10:16:01,758 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:21:56,732 - INFO - Thread started. Syncing state...
+2026-03-13 10:21:56,733 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:24:27,890 - INFO - Thread started. Syncing state...
+2026-03-13 10:24:27,891 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:24:28,346 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 10:24:28,440 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 10:24:28,999 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:24:29,000 - INFO - Sleeping... Waking up in 5.98 minutes.
+2026-03-13 10:25:11,585 - INFO - Thread started. Syncing state...
+2026-03-13 10:25:11,586 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:25:12,294 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 10:25:12,392 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 10:25:12,485 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:25:12,485 - INFO - Sleeping... Waking up in 5.31 minutes.
+2026-03-13 10:32:10,528 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:10,529 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 10:32:11,457 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 10:32:11,537 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 10:32:11,637 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:32:11,637 - INFO - Sleeping... Waking up in 13.02 minutes.
+2026-03-13 10:45:12,922 - INFO - Sleeping... Waking up in 15.27 minutes.
+2026-03-13 11:00:28,942 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 11:00:29,291 - INFO - Sleeping... Waking up in 14.94 minutes.
+2026-03-13 11:17:20,361 - INFO - Sleeping... Waking up in 12.80 minutes.
+2026-03-13 11:30:34,485 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-13 11:45:34,194 - INFO - Sleeping... Waking up in 14.81 minutes.
+2026-03-13 12:58:24,446 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 12:58:24,631 - INFO - Sleeping... Waking up in 1.81 minutes.
+2026-03-13 13:00:13,051 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 13:00:13,259 - INFO - Sleeping... Waking up in 14.93 minutes.
+2026-03-13 13:15:25,828 - INFO - Sleeping... Waking up in 15.11 minutes.
+2026-03-13 13:40:12,901 - INFO - Sleeping... Waking up in 5.04 minutes.
+2026-03-13 13:45:15,491 - INFO - Sleeping... Waking up in 15.09 minutes.
+2026-03-13 14:00:20,967 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 14:00:21,148 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-13 17:32:28,463 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:28,463 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 17:32:29,011 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:32:29,637 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:32:29,739 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:32:29,739 - INFO - Sleeping... Waking up in 12.69 minutes.
+2026-03-13 17:34:43,228 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:43,228 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 17:34:43,586 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:34:43,684 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:34:43,789 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:34:43,789 - INFO - Sleeping... Waking up in 10.54 minutes.
+2026-03-13 17:45:16,230 - INFO - Sleeping... Waking up in 14.88 minutes.
+2026-03-13 17:48:34,608 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:34,608 - INFO - EUR_CAD Resetting Monthly Trend 
+2026-03-13 17:48:35,126 - INFO - EUR_CAD Resetting 4-Hour Boundary.
+2026-03-13 17:48:35,675 - INFO - EUR_CAD Syncing historical state... Finding the signal.
+2026-03-13 17:48:35,778 - INFO - EUR_CAD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:48:35,778 - INFO - Sleeping... Waking up in 11.78 minutes.

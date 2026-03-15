@@ -1,0 +1,69 @@
+2026-03-13 10:32:29,623 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:29,623 - INFO - EUR_NZD Resetting Monthly Trend 
+2026-03-13 10:32:29,806 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 10:32:29,902 - INFO - EUR_NZD Syncing historical state... Finding the signal.
+2026-03-13 10:32:30,035 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:30,038 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:30,039 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:30,040 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:30,043 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:30,043 - INFO - EUR_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:30,043 - INFO - [EUR_NZD] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:32:30,470 - INFO - Sleeping... Waking up in 12.76 minutes.
+2026-03-13 10:45:16,168 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:16,169 - INFO - Sleeping... Waking up in 15.02 minutes.
+2026-03-13 11:00:17,330 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 11:00:17,616 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:17,616 - INFO - Sleeping... Waking up in 15.04 minutes.
+2026-03-13 11:17:14,758 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:14,760 - INFO - Sleeping... Waking up in 13.33 minutes.
+2026-03-13 11:31:00,908 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:31:00,909 - INFO - Sleeping... Waking up in 14.55 minutes.
+2026-03-13 11:45:34,268 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:34,269 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 12:58:32,959 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 12:58:33,140 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:33,140 - INFO - Sleeping... Waking up in 2.02 minutes.
+2026-03-13 13:00:34,232 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 13:00:35,430 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:35,430 - INFO - Sleeping... Waking up in 14.92 minutes.
+2026-03-13 13:25:27,585 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:25:27,586 - INFO - Sleeping... Waking up in 5.09 minutes.
+2026-03-13 13:30:32,909 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:30:32,910 - INFO - Sleeping... Waking up in 14.97 minutes.
+2026-03-13 13:45:31,374 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:31,376 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-13 14:00:14,663 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 14:00:23,123 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:23,123 - INFO - Sleeping... Waking up in 15.16 minutes.
+2026-03-13 17:32:47,553 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:47,555 - INFO - EUR_NZD Resetting Monthly Trend 
+2026-03-13 17:32:47,806 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:32:47,961 - INFO - EUR_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:32:48,102 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:32:48,102 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:48,102 - INFO - Sleeping... Waking up in 12.51 minutes.
+2026-03-13 17:35:02,325 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:02,326 - INFO - EUR_NZD Resetting Monthly Trend 
+2026-03-13 17:35:02,452 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:35:02,546 - INFO - EUR_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:35:02,636 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:02,643 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:02,646 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:02,648 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:02,654 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:02,655 - INFO - EUR_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:02,655 - INFO - Sleeping... Waking up in 10.18 minutes.
+2026-03-13 17:45:13,886 - INFO - EUR_NZD Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:13,888 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-13 17:48:53,696 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:53,697 - INFO - EUR_NZD Resetting Monthly Trend 
+2026-03-13 17:48:53,779 - INFO - EUR_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:48:53,890 - INFO - EUR_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:48:54,010 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:54,017 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:54,019 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:54,022 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:54,027 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:54,028 - INFO - EUR_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 17:48:54,028 - INFO - Sleeping... Waking up in 11.55 minutes.

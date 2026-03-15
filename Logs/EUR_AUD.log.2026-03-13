@@ -1,0 +1,40 @@
+2026-03-13 10:33:17,842 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:17,843 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-13 10:33:17,937 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 10:33:18,022 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-13 10:33:18,135 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:33:18,135 - INFO - Sleeping... Waking up in 11.88 minutes.
+2026-03-13 10:45:10,987 - INFO - Sleeping... Waking up in 15.17 minutes.
+2026-03-13 11:00:20,938 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 11:00:21,300 - INFO - Sleeping... Waking up in 15.05 minutes.
+2026-03-13 11:17:19,252 - INFO - Sleeping... Waking up in 13.16 minutes.
+2026-03-13 11:30:55,500 - INFO - Sleeping... Waking up in 14.57 minutes.
+2026-03-13 11:45:30,051 - INFO - Sleeping... Waking up in 14.98 minutes.
+2026-03-13 12:58:30,215 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 12:58:30,378 - INFO - Sleeping... Waking up in 1.76 minutes.
+2026-03-13 13:00:15,705 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 13:00:15,908 - INFO - Sleeping... Waking up in 15.20 minutes.
+2026-03-13 13:25:25,127 - INFO - Sleeping... Waking up in 5.05 minutes.
+2026-03-13 13:30:28,060 - INFO - Sleeping... Waking up in 15.07 minutes.
+2026-03-13 13:45:32,522 - INFO - Sleeping... Waking up in 14.91 minutes.
+2026-03-13 14:00:27,174 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 14:00:27,449 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-13 17:33:35,741 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:35,742 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-13 17:33:35,827 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:33:35,950 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:33:36,663 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:33:36,663 - INFO - Sleeping... Waking up in 11.69 minutes.
+2026-03-13 17:35:50,561 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:50,562 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-13 17:35:50,688 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:35:50,808 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:35:50,912 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:35:50,913 - INFO - Sleeping... Waking up in 9.27 minutes.
+2026-03-13 17:45:07,111 - INFO - Sleeping... Waking up in 15.30 minutes.
+2026-03-13 17:49:41,909 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:41,910 - INFO - EUR_AUD Resetting Monthly Trend 
+2026-03-13 17:49:42,018 - INFO - EUR_AUD Resetting 4-Hour Boundary.
+2026-03-13 17:49:42,106 - INFO - EUR_AUD Syncing historical state... Finding the signal.
+2026-03-13 17:49:42,212 - INFO - EUR_AUD Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:49:42,213 - INFO - Sleeping... Waking up in 10.54 minutes.

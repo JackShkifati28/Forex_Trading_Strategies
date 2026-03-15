@@ -1,0 +1,48 @@
+2026-03-13 10:33:05,779 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:05,781 - INFO - AUD_JPY Resetting Monthly Trend 
+2026-03-13 10:33:05,877 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 10:33:05,984 - INFO - AUD_JPY Syncing historical state... Finding the signal.
+2026-03-13 10:33:06,172 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:06,177 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:33:06,179 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:06,181 - INFO - AUD_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:06,181 - INFO - Sleeping... Waking up in 12.09 minutes.
+2026-03-13 10:45:11,807 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 11:00:12,047 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 11:00:12,455 - INFO - Sleeping... Waking up in 15.29 minutes.
+2026-03-13 11:17:24,724 - INFO - Sleeping... Waking up in 12.77 minutes.
+2026-03-13 11:30:37,600 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-13 11:45:21,277 - INFO - Sleeping... Waking up in 14.99 minutes.
+2026-03-13 12:58:21,780 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 12:58:22,095 - INFO - Sleeping... Waking up in 1.94 minutes.
+2026-03-13 13:00:18,707 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 13:00:18,930 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 13:15:26,051 - INFO - Sleeping... Waking up in 14.81 minutes.
+2026-03-13 13:39:55,508 - INFO - Sleeping... Waking up in 5.47 minutes.
+2026-03-13 13:45:24,001 - INFO - Sleeping... Waking up in 14.71 minutes.
+2026-03-13 14:00:06,393 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 14:00:17,406 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 17:33:23,705 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:23,706 - INFO - AUD_JPY Resetting Monthly Trend 
+2026-03-13 17:33:23,811 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:33:24,028 - INFO - AUD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:33:24,111 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:24,112 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:24,112 - INFO - Sleeping... Waking up in 12.07 minutes.
+2026-03-13 17:35:38,506 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:38,507 - INFO - AUD_JPY Resetting Monthly Trend 
+2026-03-13 17:35:38,657 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:35:38,749 - INFO - AUD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:35:38,901 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:38,905 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:38,908 - INFO - AUD_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:38,908 - INFO - Sleeping... Waking up in 9.61 minutes.
+2026-03-13 17:45:15,528 - INFO - Sleeping... Waking up in 14.88 minutes.
+2026-03-13 17:49:29,856 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:29,856 - INFO - AUD_JPY Resetting Monthly Trend 
+2026-03-13 17:49:29,989 - INFO - AUD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:49:30,118 - INFO - AUD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:49:30,216 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:30,220 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:30,223 - INFO - AUD_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:30,223 - INFO - Sleeping... Waking up in 10.76 minutes.

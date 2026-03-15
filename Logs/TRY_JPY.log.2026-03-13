@@ -1,0 +1,57 @@
+2026-03-13 10:33:07,789 - INFO - Thread started. Syncing state...
+2026-03-13 10:33:07,790 - INFO - TRY_JPY Resetting Monthly Trend 
+2026-03-13 10:33:07,925 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 10:33:08,004 - INFO - TRY_JPY Syncing historical state... Finding the signal.
+2026-03-13 10:33:08,111 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:33:08,114 - INFO - TRY_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 10:33:08,114 - INFO - [TRY_JPY] SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.
+2026-03-13 10:33:13,137 - INFO - Sleeping... Waking up in 12.13 minutes.
+2026-03-13 10:45:21,028 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 10:45:21,030 - INFO - Sleeping... Waking up in 15.17 minutes.
+2026-03-13 11:00:31,266 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 11:00:31,701 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:00:31,701 - INFO - Sleeping... Waking up in 14.73 minutes.
+2026-03-13 11:17:10,102 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:17:10,104 - INFO - Sleeping... Waking up in 13.13 minutes.
+2026-03-13 11:30:44,165 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:30:44,166 - INFO - Sleeping... Waking up in 14.81 minutes.
+2026-03-13 11:45:32,810 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 11:45:32,812 - INFO - Sleeping... Waking up in 14.74 minutes.
+2026-03-13 12:58:18,762 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 12:58:18,969 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 12:58:18,969 - INFO - Sleeping... Waking up in 2.01 minutes.
+2026-03-13 13:00:19,770 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 13:00:19,980 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:00:19,981 - INFO - Sleeping... Waking up in 14.80 minutes.
+2026-03-13 13:15:24,635 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:15:24,636 - INFO - Sleeping... Waking up in 14.72 minutes.
+2026-03-13 13:39:48,718 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:39:48,721 - INFO - Sleeping... Waking up in 5.48 minutes.
+2026-03-13 13:45:17,580 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 13:45:17,581 - INFO - Sleeping... Waking up in 15.08 minutes.
+2026-03-13 14:00:22,441 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 14:00:22,697 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 14:00:22,698 - INFO - Sleeping... Waking up in 15.10 minutes.
+2026-03-13 17:33:25,715 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:25,717 - INFO - TRY_JPY Resetting Monthly Trend 
+2026-03-13 17:33:25,834 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:33:25,925 - INFO - TRY_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:33:26,052 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:33:26,052 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:26,052 - INFO - Sleeping... Waking up in 11.93 minutes.
+2026-03-13 17:35:40,516 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:40,517 - INFO - TRY_JPY Resetting Monthly Trend 
+2026-03-13 17:35:40,600 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:35:40,685 - INFO - TRY_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:35:40,770 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:40,775 - INFO - TRY_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:40,776 - INFO - Sleeping... Waking up in 9.88 minutes.
+2026-03-13 17:45:33,462 - INFO - TRY_JPY Monitoring | Momentum: SHORT | Last Signal: SignalState.SHORT
+2026-03-13 17:45:33,464 - INFO - Sleeping... Waking up in 14.88 minutes.
+2026-03-13 17:49:31,867 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:31,869 - INFO - TRY_JPY Resetting Monthly Trend 
+2026-03-13 17:49:31,972 - INFO - TRY_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:49:32,082 - INFO - TRY_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:49:32,180 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:32,187 - INFO - TRY_JPY Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:32,188 - INFO - Sleeping... Waking up in 10.91 minutes.

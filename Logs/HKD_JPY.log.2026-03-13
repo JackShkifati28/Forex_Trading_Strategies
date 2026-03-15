@@ -1,0 +1,40 @@
+2026-03-13 10:32:20,587 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:20,588 - INFO - HKD_JPY Resetting Monthly Trend 
+2026-03-13 10:32:20,713 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 10:32:20,856 - INFO - HKD_JPY Syncing historical state... Finding the signal.
+2026-03-13 10:32:20,966 - INFO - HKD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 10:32:20,966 - INFO - Sleeping... Waking up in 13.10 minutes.
+2026-03-13 10:45:27,183 - INFO - Sleeping... Waking up in 14.70 minutes.
+2026-03-13 11:00:09,117 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 11:00:12,633 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-13 11:17:02,547 - INFO - Sleeping... Waking up in 13.12 minutes.
+2026-03-13 11:30:36,266 - INFO - Sleeping... Waking up in 14.73 minutes.
+2026-03-13 11:45:20,043 - INFO - Sleeping... Waking up in 15.13 minutes.
+2026-03-13 12:58:29,333 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 12:58:29,584 - INFO - Sleeping... Waking up in 1.67 minutes.
+2026-03-13 13:00:10,072 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 13:00:10,253 - INFO - Sleeping... Waking up in 15.17 minutes.
+2026-03-13 13:24:15,160 - INFO - Sleeping... Waking up in 6.11 minutes.
+2026-03-13 13:31:24,518 - INFO - Sleeping... Waking up in 13.88 minutes.
+2026-03-13 13:45:17,288 - INFO - Sleeping... Waking up in 15.29 minutes.
+2026-03-13 14:00:34,544 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 14:00:34,889 - INFO - Sleeping... Waking up in 14.86 minutes.
+2026-03-13 17:32:38,509 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:38,511 - INFO - HKD_JPY Resetting Monthly Trend 
+2026-03-13 17:32:38,603 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:32:38,691 - INFO - HKD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:32:38,799 - INFO - HKD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:32:38,799 - INFO - Sleeping... Waking up in 12.72 minutes.
+2026-03-13 17:34:53,282 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:53,282 - INFO - HKD_JPY Resetting Monthly Trend 
+2026-03-13 17:34:53,387 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:34:54,625 - INFO - HKD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:34:54,744 - INFO - HKD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:34:54,745 - INFO - Sleeping... Waking up in 10.36 minutes.
+2026-03-13 17:45:16,392 - INFO - Sleeping... Waking up in 15.13 minutes.
+2026-03-13 17:48:44,654 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:44,655 - INFO - HKD_JPY Resetting Monthly Trend 
+2026-03-13 17:48:44,818 - INFO - HKD_JPY Resetting 4-Hour Boundary.
+2026-03-13 17:48:44,934 - INFO - HKD_JPY Syncing historical state... Finding the signal.
+2026-03-13 17:48:45,024 - INFO - HKD_JPY Info: Price has not traveled between both bands in the last 150 candles.
+2026-03-13 17:48:45,024 - INFO - Sleeping... Waking up in 11.76 minutes.

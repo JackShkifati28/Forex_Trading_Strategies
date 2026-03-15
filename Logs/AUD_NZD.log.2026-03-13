@@ -1,0 +1,44 @@
+2026-03-13 10:32:21,588 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:21,589 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-13 10:32:21,702 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 10:32:21,801 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-13 10:32:21,903 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:21,912 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:21,912 - INFO - Sleeping... Waking up in 12.91 minutes.
+2026-03-13 10:45:16,609 - INFO - Sleeping... Waking up in 15.20 minutes.
+2026-03-13 11:00:28,766 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 11:00:29,055 - INFO - Sleeping... Waking up in 14.96 minutes.
+2026-03-13 11:17:21,446 - INFO - Sleeping... Waking up in 13.05 minutes.
+2026-03-13 11:30:50,769 - INFO - Sleeping... Waking up in 14.29 minutes.
+2026-03-13 11:45:08,773 - INFO - Sleeping... Waking up in 15.27 minutes.
+2026-03-13 12:58:26,393 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 12:58:26,865 - INFO - Sleeping... Waking up in 1.70 minutes.
+2026-03-13 13:00:08,585 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 13:00:08,782 - INFO - Sleeping... Waking up in 15.01 minutes.
+2026-03-13 13:15:26,077 - INFO - Sleeping... Waking up in 14.85 minutes.
+2026-03-13 13:39:58,038 - INFO - Sleeping... Waking up in 5.14 minutes.
+2026-03-13 13:45:06,740 - INFO - Sleeping... Waking up in 15.33 minutes.
+2026-03-13 14:00:26,788 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 14:00:27,083 - INFO - Sleeping... Waking up in 14.70 minutes.
+2026-03-13 17:32:39,513 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:39,515 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-13 17:32:39,605 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:32:39,702 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:32:39,824 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:32:39,835 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 17:32:39,835 - INFO - Sleeping... Waking up in 12.60 minutes.
+2026-03-13 17:34:54,288 - INFO - Thread started. Syncing state...
+2026-03-13 17:34:54,288 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-13 17:34:54,625 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:34:54,805 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:34:54,909 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:34:54,919 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 17:34:54,919 - INFO - Sleeping... Waking up in 10.61 minutes.
+2026-03-13 17:45:31,825 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 17:48:45,658 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:45,659 - INFO - AUD_NZD Resetting Monthly Trend 
+2026-03-13 17:48:45,750 - INFO - AUD_NZD Resetting 4-Hour Boundary.
+2026-03-13 17:48:45,928 - INFO - AUD_NZD Syncing historical state... Finding the signal.
+2026-03-13 17:48:46,072 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:46,077 - INFO - AUD_NZD Final Sync Result: SignalState.SHORT
+2026-03-13 17:48:46,077 - INFO - Sleeping... Waking up in 11.65 minutes.

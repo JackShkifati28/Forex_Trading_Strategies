@@ -1,0 +1,44 @@
+2026-03-13 10:32:44,681 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:44,681 - INFO - EUR_CHF Resetting Monthly Trend 
+2026-03-13 10:32:44,769 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 10:32:44,853 - INFO - EUR_CHF Syncing historical state... Finding the signal.
+2026-03-13 10:32:44,942 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:44,945 - INFO - EUR_CHF Final Sync Result: SignalState.BUY
+2026-03-13 10:32:44,945 - INFO - Sleeping... Waking up in 12.63 minutes.
+2026-03-13 10:45:23,005 - INFO - Sleeping... Waking up in 14.87 minutes.
+2026-03-13 11:00:14,907 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 11:00:15,165 - INFO - Sleeping... Waking up in 15.15 minutes.
+2026-03-13 11:17:18,842 - INFO - Sleeping... Waking up in 12.94 minutes.
+2026-03-13 11:30:41,700 - INFO - Sleeping... Waking up in 14.75 minutes.
+2026-03-13 11:45:27,087 - INFO - Sleeping... Waking up in 14.65 minutes.
+2026-03-13 12:58:07,534 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 12:58:08,621 - INFO - Sleeping... Waking up in 2.03 minutes.
+2026-03-13 13:00:10,706 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 13:00:10,979 - INFO - Sleeping... Waking up in 15.28 minutes.
+2026-03-13 13:25:24,827 - INFO - Sleeping... Waking up in 4.74 minutes.
+2026-03-13 13:30:09,269 - INFO - Sleeping... Waking up in 15.25 minutes.
+2026-03-13 13:45:24,808 - INFO - Sleeping... Waking up in 15.06 minutes.
+2026-03-13 14:00:28,587 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 14:00:28,812 - INFO - Sleeping... Waking up in 14.85 minutes.
+2026-03-13 17:33:02,629 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:02,631 - INFO - EUR_CHF Resetting Monthly Trend 
+2026-03-13 17:33:02,754 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:33:02,962 - INFO - EUR_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:33:03,067 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:03,073 - INFO - EUR_CHF Final Sync Result: SignalState.BUY
+2026-03-13 17:33:03,073 - INFO - Sleeping... Waking up in 12.33 minutes.
+2026-03-13 17:35:17,400 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:17,400 - INFO - EUR_CHF Resetting Monthly Trend 
+2026-03-13 17:35:17,492 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:35:17,608 - INFO - EUR_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:35:17,709 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:17,716 - INFO - EUR_CHF Final Sync Result: SignalState.BUY
+2026-03-13 17:35:17,717 - INFO - Sleeping... Waking up in 10.06 minutes.
+2026-03-13 17:45:21,381 - INFO - Sleeping... Waking up in 14.84 minutes.
+2026-03-13 17:49:08,761 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:08,762 - INFO - EUR_CHF Resetting Monthly Trend 
+2026-03-13 17:49:08,844 - INFO - EUR_CHF Resetting 4-Hour Boundary.
+2026-03-13 17:49:08,933 - INFO - EUR_CHF Syncing historical state... Finding the signal.
+2026-03-13 17:49:09,036 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:09,041 - INFO - EUR_CHF Final Sync Result: SignalState.BUY
+2026-03-13 17:49:09,041 - INFO - Sleeping... Waking up in 11.36 minutes.

@@ -1,0 +1,53 @@
+2026-03-13 10:32:57,743 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:57,744 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-13 10:32:57,843 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 10:32:57,949 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-13 10:32:58,031 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:58,033 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:58,033 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:58,034 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:58,036 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-13 10:32:58,036 - INFO - Sleeping... Waking up in 12.35 minutes.
+2026-03-13 10:45:18,835 - INFO - Sleeping... Waking up in 14.93 minutes.
+2026-03-13 11:00:14,640 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 11:00:22,550 - INFO - Sleeping... Waking up in 14.75 minutes.
+2026-03-13 11:17:03,627 - INFO - Sleeping... Waking up in 13.46 minutes.
+2026-03-13 11:30:57,412 - INFO - Sleeping... Waking up in 14.32 minutes.
+2026-03-13 11:45:16,968 - INFO - Sleeping... Waking up in 15.00 minutes.
+2026-03-13 12:58:18,560 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 12:58:18,963 - INFO - Sleeping... Waking up in 2.11 minutes.
+2026-03-13 13:00:25,548 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 13:00:25,913 - INFO - Sleeping... Waking up in 14.68 minutes.
+2026-03-13 13:15:24,256 - INFO - Sleeping... Waking up in 14.82 minutes.
+2026-03-13 13:39:54,332 - INFO - Sleeping... Waking up in 5.44 minutes.
+2026-03-13 13:45:21,138 - INFO - Sleeping... Waking up in 14.81 minutes.
+2026-03-13 14:00:09,560 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 14:00:17,124 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-13 17:33:15,676 - INFO - Thread started. Syncing state...
+2026-03-13 17:33:15,677 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-13 17:33:15,765 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 17:33:15,880 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-13 17:33:16,037 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:33:16,037 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.update_status() got an unexpected keyword argument 'override_time'
+2026-03-13 17:33:16,037 - INFO - Sleeping... Waking up in 12.25 minutes.
+2026-03-13 17:35:30,462 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:30,462 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-13 17:35:30,554 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 17:35:30,876 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-13 17:35:30,974 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:30,980 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:30,982 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:30,985 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:30,990 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-13 17:35:30,991 - INFO - Sleeping... Waking up in 9.63 minutes.
+2026-03-13 17:45:08,639 - INFO - Sleeping... Waking up in 15.42 minutes.
+2026-03-13 17:49:21,820 - INFO - Thread started. Syncing state...
+2026-03-13 17:49:21,823 - INFO - GBP_PLN Resetting Monthly Trend 
+2026-03-13 17:49:22,425 - INFO - GBP_PLN Resetting 4-Hour Boundary.
+2026-03-13 17:49:22,533 - INFO - GBP_PLN Syncing historical state... Finding the signal.
+2026-03-13 17:49:22,648 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:22,655 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:22,657 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:49:22,660 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:49:22,665 - INFO - GBP_PLN Final Sync Result: SignalState.SHORT
+2026-03-13 17:49:22,666 - INFO - Sleeping... Waking up in 10.73 minutes.

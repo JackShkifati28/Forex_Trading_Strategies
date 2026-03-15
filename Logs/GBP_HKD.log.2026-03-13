@@ -1,0 +1,66 @@
+2026-03-13 10:32:30,630 - INFO - Thread started. Syncing state...
+2026-03-13 10:32:30,631 - INFO - GBP_HKD Resetting Monthly Trend 
+2026-03-13 10:32:30,722 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 10:32:30,824 - INFO - GBP_HKD Syncing historical state... Finding the signal.
+2026-03-13 10:32:30,931 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:30,932 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:30,935 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 10:32:30,937 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 10:32:30,937 - INFO - GBP_HKD Final Sync Result: SignalState.BUY
+2026-03-13 10:32:30,937 - INFO - [GBP_HKD] BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.
+2026-03-13 10:32:31,379 - INFO - Sleeping... Waking up in 12.75 minutes.
+2026-03-13 10:45:16,254 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 10:45:16,255 - INFO - Sleeping... Waking up in 15.23 minutes.
+2026-03-13 11:00:30,027 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 11:00:30,347 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:00:30,347 - INFO - Sleeping... Waking up in 14.80 minutes.
+2026-03-13 11:17:13,043 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:17:13,043 - INFO - Sleeping... Waking up in 13.25 minutes.
+2026-03-13 11:30:54,314 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:30:54,315 - INFO - Sleeping... Waking up in 14.52 minutes.
+2026-03-13 11:45:25,400 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 11:45:25,401 - INFO - Sleeping... Waking up in 15.03 minutes.
+2026-03-13 12:58:28,359 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 12:58:28,608 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 12:58:28,608 - INFO - Sleeping... Waking up in 1.79 minutes.
+2026-03-13 13:00:15,848 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 13:00:16,031 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:00:16,031 - INFO - Sleeping... Waking up in 15.18 minutes.
+2026-03-13 13:25:23,733 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:25:23,734 - INFO - Sleeping... Waking up in 5.17 minutes.
+2026-03-13 13:30:33,808 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:30:33,810 - INFO - Sleeping... Waking up in 14.93 minutes.
+2026-03-13 13:45:29,748 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 13:45:29,749 - INFO - Sleeping... Waking up in 14.95 minutes.
+2026-03-13 14:00:27,044 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 14:00:27,371 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 14:00:27,371 - INFO - Sleeping... Waking up in 14.90 minutes.
+2026-03-13 17:32:48,559 - INFO - Thread started. Syncing state...
+2026-03-13 17:32:48,560 - INFO - GBP_HKD Resetting Monthly Trend 
+2026-03-13 17:32:48,656 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 17:32:48,761 - INFO - GBP_HKD Syncing historical state... Finding the signal.
+2026-03-13 17:32:48,884 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:32:48,885 - INFO - CRITICAL ERROR in run_cycle: AlertLedger.deactivate_signal() got an unexpected keyword argument 'override_time'
+2026-03-13 17:32:48,885 - INFO - Sleeping... Waking up in 12.67 minutes.
+2026-03-13 17:35:03,326 - INFO - Thread started. Syncing state...
+2026-03-13 17:35:03,327 - INFO - GBP_HKD Resetting Monthly Trend 
+2026-03-13 17:35:03,570 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 17:35:03,724 - INFO - GBP_HKD Syncing historical state... Finding the signal.
+2026-03-13 17:35:03,823 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:03,825 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:03,832 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:35:03,836 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:35:03,836 - INFO - GBP_HKD Final Sync Result: SignalState.BUY
+2026-03-13 17:35:03,837 - INFO - Sleeping... Waking up in 10.41 minutes.
+2026-03-13 17:45:28,252 - INFO - GBP_HKD Monitoring | Momentum: BUY | Last Signal: SignalState.BUY
+2026-03-13 17:45:28,254 - INFO - Sleeping... Waking up in 14.68 minutes.
+2026-03-13 17:48:54,704 - INFO - Thread started. Syncing state...
+2026-03-13 17:48:54,706 - INFO - GBP_HKD Resetting Monthly Trend 
+2026-03-13 17:48:54,814 - INFO - GBP_HKD Resetting 4-Hour Boundary.
+2026-03-13 17:48:55,018 - INFO - GBP_HKD Syncing historical state... Finding the signal.
+2026-03-13 17:48:55,119 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:55,122 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:55,128 - INFO - Trip Completed: Bottom -> Top. Signal is now SHORT.
+2026-03-13 17:48:55,132 - INFO - Trip Completed: Top -> Bottom. Signal is now BUY.
+2026-03-13 17:48:55,132 - INFO - GBP_HKD Final Sync Result: SignalState.BUY
+2026-03-13 17:48:55,133 - INFO - Sleeping... Waking up in 11.58 minutes.
