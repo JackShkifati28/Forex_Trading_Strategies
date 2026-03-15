@@ -8,12 +8,13 @@ from Core.indicator import Indicator
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 import requests
+from Core.visualizer import Visualizer
 
 # loading variables from .env file
 load_dotenv() 
 
-raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
-email_list = raw_emails_string.split(",")
+# raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
+# email_list = raw_emails_string.split(",")
 
 # ms_client = SMSNotifier(
 #         sender_email=os.getenv("GMAIL_ADDRESS"),
@@ -21,12 +22,12 @@ email_list = raw_emails_string.split(",")
 #         target_sms_email=email_list
 #     )
 
-tms = TelegramNotifier( 
-    token = os.getenv("TELEGRAM_API_TOKEN"), 
-    chat_ids= os.getenv("GROUP_ID")
-    )
+# tms = TelegramNotifier( 
+#     token = os.getenv("TELEGRAM_API_TOKEN"), 
+#     chat_ids= os.getenv("GROUP_ID")
+#     )
 
-tms.send_alert("This is a test message")
+# tms.send_alert("This is a test message")
 
 
 
@@ -37,7 +38,20 @@ db_client = OandaClient(
 
 
 
-# df_monthly = db_client.get_candles("USD_CNH", "M", 20)
+df_monthly = db_client.get_candles("USD_CNH", "M", 21)
+
+df =Indicator.stocastic(df_monthly)
+Visualizer.plot_stoch(df, "USD_CNH" ,"Monthly")
+
+
+df_4hour = db_client.get_candles("USD_CNH", "H4", 100)
+
+df = Indicator.bollinger(df_4hour)
+
+
+Visualizer.plot_bollinger(df, "USD_CNH" ," Four Hour")
+
+
 
 # df_4hour= db_client.get_candles("USD_CNH", "H4", 150)
 
@@ -59,14 +73,16 @@ db_client = OandaClient(
 # print(datetime.now(timezone.utc))
 
 # Define the NY timezone
-ny_tz = ZoneInfo("America/New_York")
+# ny_tz = ZoneInfo("America/New_York")
 
-# Get current time specifically for NY
-now_ny = datetime.now(ny_tz)
+# # Get current time specifically for NY
+# now_ny = datetime.now(ny_tz)
 
-# Get the month as an integer (1-12)
-current_month = now_ny.month
-current_hour = now_ny.hour
+# # Get the month as an integer (1-12)
+# current_month = now_ny.month
+# current_hour = now_ny.hour
+
+
 
 # print(f"Current NY Month: {current_month}")
 # print(f"Current NY Hour: {current_hour}")

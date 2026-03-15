@@ -33,9 +33,9 @@ class Visualizer:
 
         apds = [
         # Layer 1: Bollinger Bands (On top of the candles, Panel 0)
-        mpf.make_addplot(df['BBU_20_2.0_2.0'], color='blue', width=2, linestyle='dashed'),
-        mpf.make_addplot(df['BBM_20_2.0_2.0'], color='blue', width=2, linestyle='dotted'),
-        mpf.make_addplot(df['BBL_20_2.0_2.0'], color='blue', width=2, linestyle='dashed')
+        mpf.make_addplot(df['BBU_30_2.0_2.0'], color='blue', width=2, linestyle='dashed'),
+        mpf.make_addplot(df['BBM_30_2.0_2.0'], color='blue', width=2, linestyle='dotted'),
+        mpf.make_addplot(df['BBL_30_2.0_2.0'], color='blue', width=2, linestyle='dashed')
         ]
 
         mpf.plot(

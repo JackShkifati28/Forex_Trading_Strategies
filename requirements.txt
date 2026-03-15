@@ -1,0 +1,10 @@
+# --- Environment & API ---
+python-dotenv
+requests
+
+# --- Data & Quantitative Analysis ---
+pandas
+pandas-ta
+
+# --- Visualization ---
+mplfinance
