@@ -46,7 +46,7 @@ class Stoch_Bolinger(BaseStrategy):
         self.log(f"{self.pair} Syncing historical state... Finding the signal.")
 
         # Getting 150 candles of 4 Hour data 
-        df_sync = self.fetch_candles("H4", 150)
+        df_sync = self.fetch_candles("H4", 180)
 
         if df_sync is None:
             self.log("Sync failed: Could not fetch H4 candles.")
@@ -74,7 +74,7 @@ class Stoch_Bolinger(BaseStrategy):
             lower = df['BBL_30_2.0_2.0'].iloc[i]
 
             # Get the exact time of THIS historical candle
-            raw_time = df.index[i]
+            raw_time = df['Date'].iloc[i]
             candle_time_str = self._format_oanda_time(raw_time)
 
             # CASE 1: Price touches the TOP band
@@ -124,6 +124,9 @@ class Stoch_Bolinger(BaseStrategy):
 
         # Final reporting
         self.last_touched_band = last_hit_band or "UNKNOWN"
+
+        # FIX 2: Lock the door so run_cycle doesn't duplicate the final signal
+        self.is_message_sent = True
         
         if self.last_signal == SignalState.SEARCHING:
             self.log(f"{self.pair} Info: Price has not traveled between both bands in the last 150 candles.")

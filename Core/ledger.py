@@ -140,9 +140,10 @@ class AlertLedger:
 
     def get_ledger_with_history(self):
         """Generates the bundled Telegram message with clean, multi-line formatting."""
+
         with self._get_connection() as conn:
             active_rows = conn.execute(
-                "SELECT pair, signal, trend, timestamp FROM alerts ORDER BY timestamp DESC"
+                "SELECT pair, signal, trend, timestamp FROM alerts ORDER BY pair ASC"
             ).fetchall()
 
             history_rows = conn.execute(
@@ -166,9 +167,9 @@ class AlertLedger:
                 # Map Trend to UP/DOWN
                 trend_raw = str(row[2])
                 if trend_raw == "BUY":
-                    direction = " STOCH UP 📈"
+                    direction = " STOCH UP 🟢"
                 elif trend_raw == "SHORT":
-                    direction = "STOCH DOWN 📉"
+                    direction = "STOCH DOWN 🔴"
                 else:
                     direction = trend_raw
 
@@ -177,7 +178,7 @@ class AlertLedger:
 
                 # Build the multi-line card
                 msg += f"🔹 *{pair}*\n"
-                msg += f"  ├ Monthly Direction: {direction}\n"
+                msg += f"  ├ Monthly: {direction}\n"
                 msg += f"  ├ Signal: {signal_clean}\n"
                 msg += f"  └ Time: {time_val}\n\n"
 

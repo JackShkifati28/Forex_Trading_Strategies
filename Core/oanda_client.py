@@ -33,6 +33,8 @@ class OandaClient:
             # Catches physical internet disconnection (e.g., your WiFi is down)
             raise SystemExit(f" Critical Network Failure: {e}")
     
+
+    
     def getPairs(self):
 
         url =f"{self.base_url}/v3/accounts/{self.account_id}/instruments"
@@ -45,8 +47,8 @@ class OandaClient:
                 instruments_list = data['instruments']
                 pair_names=[item['name'] for item in instruments_list]
                 return pair_names
-
-
+            else:
+                raise Exception(f"Failed to fetch pairs. HTTP {r.status_code}")
                
         except requests.exceptions.RequestException as e:
             # Catches physical internet disconnection (e.g., your WiFi is down)
@@ -85,8 +87,13 @@ class OandaClient:
             return pd.DataFrame(data_list)
 
         else:
-            print(f"Error {response.status_code}: {response.text}")
-            return None
+            # Clean up the massive HTML dumps from 502/503 errors
+            # Removes newlines and grabs just the first 150 characters
+            clean_error = str(response.text).replace('\n', ' ').replace('\r', '')[:150]
+            
+            # RAISE the exception to trigger the BaseStrategy backoff
+            raise Exception(f"HTTP {response.status_code}: {clean_error}...")
+            
 
         
 

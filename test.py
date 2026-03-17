@@ -38,18 +38,22 @@ db_client = OandaClient(
 
 
 
-df_monthly = db_client.get_candles("USD_CNH", "M", 21)
+df_monthly = db_client.get_candles("CAD_JPY", "H4", 150)
 
-df =Indicator.stocastic(df_monthly)
-Visualizer.plot_stoch(df, "USD_CNH" ,"Monthly")
+# print(df_monthly.head(20))
 
-
-df_4hour = db_client.get_candles("USD_CNH", "H4", 100)
-
-df = Indicator.bollinger(df_4hour)
+# df =Indicator.stocastic(df_monthly)
+# Visualizer.plot_stoch(df, "CAD_JPY" ,"Monthly")
 
 
-Visualizer.plot_bollinger(df, "USD_CNH" ," Four Hour")
+# df_4hour = db_client.get_candles("USD_CNH", "H4", 100)
+
+df = Indicator.bollinger(df_monthly)
+
+print(df.head(10))
+
+
+# Visualizer.plot_bollinger(df, "USD_CNH" ," Four Hour")
 
 
 

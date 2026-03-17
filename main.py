@@ -52,6 +52,7 @@ def strategy_worker(bot_instance):
 def dispatcher_loop(ledger, notifier):
    
     print("[Dispatcher] Monitoring ledger for updates...")
+   
     while True:
         # Check every 30 seconds for a change
         time.sleep(30) 

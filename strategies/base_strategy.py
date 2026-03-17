@@ -75,15 +75,18 @@ class BaseStrategy(ABC):
             except Exception as e:
                 # This catches connection resets and timeout errors
                 print(f"[{self.pair}] API Exception: {e}")
+                self.log(f"API Exception: {e}")
             
             retries += 1
             if retries < max_retries:
                 # Exponential backoff: 2, 4, 8, 16... plus jitter
                 wait_time = (2 ** retries) + random.uniform(0.1, 1.0)
                 print(f"[{self.pair}] Network issue. Retry {retries}/{max_retries} in {wait_time:.2f}s...")
+                self.log(f"Network issue. Retry {retries}/{max_retries} in {wait_time:.2f}s...")
                 time.sleep(wait_time)
         
         print(f"[{self.pair}] CRITICAL: Could not recover connection after {max_retries} retries.")
+        self.log(f"CRITICAL: Could not recover connection after {max_retries} retries.")
         return None
 
     
