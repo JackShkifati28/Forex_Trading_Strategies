@@ -28,6 +28,7 @@ class Stoch_Bolinger(BaseStrategy):
         self.last_signal= SignalState.SEARCHING
         self.last_touched_band = None
         self.is_message_sent =False
+        self.last_trigger_time = None
     
     
     def _format_oanda_time(self, raw_time):
@@ -64,7 +65,7 @@ class Stoch_Bolinger(BaseStrategy):
         # 2. IMPORTANT: Drop NaNs and fix the index so 0 is the first valid candle
         df = df.dropna().reset_index(drop=True)
     
-        n = len(df) # This will be 121
+        n = len(df) # This will be 150
 
 
         for i in range(n):
@@ -89,6 +90,9 @@ class Stoch_Bolinger(BaseStrategy):
 
                     self.last_signal = SignalState.SHORT
                     self.log(f"Trip Completed: Bottom -> Top. Signal is now SHORT.")
+
+                    # NEW: Update the RAM cache!
+                    self.last_trigger_time = candle_time_str
         
 
                     if self.cached_monthly_trend =="SHORT":
@@ -109,6 +113,8 @@ class Stoch_Bolinger(BaseStrategy):
 
                     self.last_signal = SignalState.BUY
                     self.log(f"Trip Completed: Top -> Bottom. Signal is now BUY.")
+                    # NEW: Update the RAM cache!
+                    self.last_trigger_time = candle_time_str
 
                     if self.cached_monthly_trend =="BUY":
                         self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend ,override_time=candle_time_str)
@@ -155,16 +161,19 @@ class Stoch_Bolinger(BaseStrategy):
         self.log(f"{self.pair} Resetting 4-Hour Boundary.")
         
         df_h4 = self.fetch_candles( "H4", 50)
+
         
         if df_h4 is None:
             self.log(f"{self.pair} Network dropped. Skipping this cycle.")
             return
+        
 
         df_h4 = Indicator.bollinger(df_h4)
             
             # 4. 4H Trigger Logic
         self.cached_4h_lower = df_h4['BBL_30_2.0_2.0'].iloc[-1]
         self.cached_4h_upper = df_h4['BBU_30_2.0_2.0'].iloc[-1]
+
 
     
     def _get_15Min(self):
@@ -177,6 +186,8 @@ class Stoch_Bolinger(BaseStrategy):
             
         high = df_m15 ['High'].iloc[-1]
         low =  df_m15 ['Low'].iloc[-1]
+        # NEW: Extract the raw Oanda UTC time from the live candle
+        raw_time = df_m15['Date'].iloc[-1]
 
         if high >= self.cached_4h_upper:
             
@@ -187,7 +198,8 @@ class Stoch_Bolinger(BaseStrategy):
             
                 self.last_signal = SignalState.SHORT        
                 self.is_message_sent =False
-                
+                # NEW: Format to NY Time and save it!
+                self.last_trigger_time = self._format_oanda_time(raw_time)
 
             # Update RAM so we don't buy again until it hits the top band and comes back down
             self.last_touched_band = "UPPER"
@@ -202,6 +214,8 @@ class Stoch_Bolinger(BaseStrategy):
 
                 self.last_signal = SignalState.BUY
                 self.is_message_sent =False
+                 # NEW: Format to NY Time and save it!
+                self.last_trigger_time = self._format_oanda_time(raw_time)
 
              # Update RAM
             self.last_touched_band = "LOWER"
@@ -245,7 +259,7 @@ class Stoch_Bolinger(BaseStrategy):
                 if self.cached_monthly_trend == "BUY" and self.last_signal == SignalState.BUY:
                     # Update RAM so we don't buy again until it hits the top band and comes back down
                     # self.alert("BUY POTENTIAL: Traveled Top-to-Bottom. Price hit Lower Band.")
-                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend)
+                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend, override_time=self.last_trigger_time)
                     self.is_message_sent =True
                     self.log(f"Trip Completed: Top -> Bottom. Signal is now BUY.")
                    
@@ -253,7 +267,7 @@ class Stoch_Bolinger(BaseStrategy):
                     
                 elif self.cached_monthly_trend == "SHORT" and self.last_signal == SignalState.SHORT:
                     # self.alert("SHORT POTENTIAL: Traveled Bottom-to-Top. Price hit Upper Band.")
-                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend)
+                    self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend, override_time=self.last_trigger_time)
                     self.is_message_sent =True
                     self.log(f"Trip Completed: Bottom -> Top. Signal is now SHORT.")
                 
