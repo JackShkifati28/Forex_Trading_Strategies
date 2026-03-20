@@ -38,7 +38,7 @@ db_client = OandaClient(
 
 
 
-df_monthly = db_client.get_candles("CAD_JPY", "H4", 150)
+# df_monthly = db_client.get_candles("CAD_JPY", "H4", 150)
 
 # print(df_monthly.head(20))
 
@@ -48,9 +48,9 @@ df_monthly = db_client.get_candles("CAD_JPY", "H4", 150)
 
 # df_4hour = db_client.get_candles("USD_CNH", "H4", 100)
 
-df = Indicator.bollinger(df_monthly)
+# df = Indicator.bollinger(df_monthly)
 
-print(df.head(10))
+# print(df.head(10))
 
 
 # Visualizer.plot_bollinger(df, "USD_CNH" ," Four Hour")
@@ -77,10 +77,16 @@ print(df.head(10))
 # print(datetime.now(timezone.utc))
 
 # Define the NY timezone
-# ny_tz = ZoneInfo("America/New_York")
+ny_tz = ZoneInfo("America/New_York")
 
 # # Get current time specifically for NY
-# now_ny = datetime.now(ny_tz)
+now_ny = datetime.now(ny_tz)
+
+currnt_date= f"Date: {now_ny.date():%m-%d-%Y}"
+currnt_time = f"Time: {now_ny.time():%H:%M:%S}"
+
+print(currnt_date)
+print(currnt_time)
 
 # # Get the month as an integer (1-12)
 # current_month = now_ny.month
@@ -96,6 +102,8 @@ print(df.head(10))
 
 
 
+# bots_names = db_client.getPairs()
 
+# print(bots_names)
 
  
