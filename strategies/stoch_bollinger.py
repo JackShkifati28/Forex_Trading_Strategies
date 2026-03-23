@@ -3,6 +3,7 @@ from Core.indicator import Indicator
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from enum import Enum, auto
+import numpy as np
 
 class SignalState(Enum):
     SEARCHING= auto()
@@ -39,9 +40,9 @@ class Stoch_Bolinger(BaseStrategy):
             utc_dt = datetime.strptime(clean_str, "%Y-%m-%d %H:%M:%S")
             utc_dt = utc_dt.replace(tzinfo=ZoneInfo("UTC"))
             ny_dt = utc_dt.astimezone(ZoneInfo("America/New_York"))
-            return ny_dt.strftime("%Y-%m-%d %H:%M:%S")
+            return ny_dt.strftime("%m-%d-%Y %H:%M:%S")
         except:
-            return datetime.now(ZoneInfo("America/New_York")).strftime("%Y-%m-%d %H:%M:%S")
+            return datetime.now(ZoneInfo("America/New_York")).strftime("%m-%d-%Y %H:%M:%S")
 
     def _Sync(self):
         
@@ -71,22 +72,28 @@ class Stoch_Bolinger(BaseStrategy):
         for i in range(n):
 
             high = df['High'].iloc[i]
+            r_h = np.round(high, 4)
             low = df['Low'].iloc[i]
+            r_l = np.round(low, 4)
             upper = df['BBU_30_2.0_2.0'].iloc[i]
+            r_u = np.round(upper , 4)
             lower = df['BBL_30_2.0_2.0'].iloc[i]
+            r_lr = np.round(lower, 4)
 
             # Get the exact time of THIS historical candle
             raw_time = df['Date'].iloc[i]
             candle_time_str = self._format_oanda_time(raw_time)
 
             # CASE 1: Price touches the TOP band
-            if high >= upper:
+            # if high >= upper:
+            if r_h >=r_u:
                 # If our previous landmark was the BOTTOM, we just completed a BUY trip
                 # and now we are ready to look for a SHORT
                 if last_hit_band == "LOWER":
 
                     if self.last_signal != SignalState.SEARCHING:
                         self.ledger.deactivate_signal(self.pair ,override_time=candle_time_str)
+                        self.log(f"Decativated Signal {self.last_signal} at time {candle_time_str}")
 
                     self.last_signal = SignalState.SHORT
                     self.log(f"Trip Completed: Bottom -> Top. Signal is now SHORT.")
@@ -103,13 +110,14 @@ class Stoch_Bolinger(BaseStrategy):
                 last_hit_band = "UPPER"
 
             # CASE 2: Price touches the BOTTOM band
-            elif low <= lower:
+            elif  r_l <= r_lr:
                 # If our previous landmark was the TOP, we just completed a SHORT trip
                 # and now we are ready to look for a BUY
                 if last_hit_band == "UPPER":
 
                     if self.last_signal != SignalState.SEARCHING:
                         self.ledger.deactivate_signal(self.pair, override_time=candle_time_str)
+                        self.log(f"Decativated Signal {self.last_signal} at time {candle_time_str}")
 
                     self.last_signal = SignalState.BUY
                     self.log(f"Trip Completed: Top -> Bottom. Signal is now BUY.")

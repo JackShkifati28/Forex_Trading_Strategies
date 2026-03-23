@@ -106,7 +106,7 @@ class AlertLedger:
     def update_status(self, pair, signal, trend ,override_time=None):
         """Adds or updates an active signal with New York time or historical time."""
         # Use the provided historical time if it exists, otherwise use current NY time
-        now_str = override_time if override_time else datetime.now(self.tz).strftime('%Y-%m-%d %H:%M:%S')
+        now_str = override_time if override_time else datetime.now(self.tz).strftime('%m-%d-%Y %H:%M:%S')
         
         query = """
             INSERT INTO alerts (pair, signal, trend, timestamp, sent)
@@ -149,7 +149,7 @@ class AlertLedger:
 
     def deactivate_signal(self, pair, override_time=None):
         """Archives an active signal into history and removes it from live alerts."""
-        now_str = override_time if override_time else datetime.now(self.tz).strftime('%Y-%m-%d %H:%M:%S')
+        now_str = override_time if override_time else datetime.now(self.tz).strftime('%m-%d-%Y %H:%M:%S')
         
         # READS don't need the lock
         with self._get_connection() as conn:
@@ -231,7 +231,7 @@ class AlertLedger:
                 
                 msg += f"  ├ Monthly: {direction}\n"
                 msg += f"  ├ Signal: {signal_clean}\n"
-                msg += f"  └ Timestemp: {time_val}\n\n"
+                msg += f"  └ Ts: {time_val}\n\n"
 
         msg += "─" * 15 + "\n\n"
 
