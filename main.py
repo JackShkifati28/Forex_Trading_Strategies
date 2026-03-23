@@ -1,6 +1,7 @@
 import os
 import time
-import threading
+import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import random 
@@ -11,14 +12,15 @@ from strategies.stoch_bollinger import Stoch_Bolinger
 from Core.ledger import AlertLedger
 import glob
 
+# --- CONFIGURATION ---
+MAX_WORKERS = 10  # The benchmarked sweet spot!
+
 def get_seconds_to_next_m15():
+
     """Calculates the exact seconds until the next 15-minute candle close (:00, :15, :30, :45)."""
 
     ny_tz = ZoneInfo("America/New_York")
-       
-        # Get current time specifically for NY
     now = datetime.now(ny_tz)
-   
     
     # Calculate how many minutes until the next 15-minute boundary
     minutes_to_next = 15 - (now.minute % 15)
@@ -29,51 +31,7 @@ def get_seconds_to_next_m15():
     
     # Add a 5-second buffer to ensure Oanda has actually painted the new candle
     seconds_to_sleep = (next_run_time - now).total_seconds() + 5
-    return seconds_to_sleep
-
-def strategy_worker(bot_instance):
-
-    bot_instance.log("Thread started. Syncing state...")
-    bot_instance.run_cycle()
-    
-    while True:
-        # Get the exact base time
-        base_sleep = get_seconds_to_next_m15()
-        
-        # THE FIX: Add a random delay between 1 and 30 seconds
-        jitter = random.uniform(1, 30)
-        total_sleep = base_sleep + jitter
-        
-        bot_instance.log(f"Sleeping... Waking up in {total_sleep/60:.2f} minutes.")
-        
-        time.sleep(total_sleep)
-        bot_instance.run_cycle()
-
-def dispatcher_loop(ledger, notifier):
-   
-    print("[Dispatcher] Monitoring ledger for updates...")
-   
-    while True:
-        # Check every 30 seconds for a change
-        time.sleep(30) 
-
-        if ledger.has_updates():
-            print("[Dispatcher] Update detected! Sending ledger...")
-            
-            # 1. Generate the message
-            message = ledger.get_ledger_with_history()
-            
-            # 2. Send the alert
-            try:
-                notifier.send_alert(message)
-                # 3. Only mark as sent if Telegram actually accepted the message
-                ledger.mark_all_as_sent()
-            except Exception as e:
-                print(f"[Dispatcher] Failed to send update: {e}")
-        else:
-            # Quietly log to terminal so you know it's alive
-            # print("[Dispatcher] No new updates.") 
-            pass
+    return max(seconds_to_sleep, 1.0)
 
 if __name__ == "__main__":
 
@@ -93,8 +51,17 @@ if __name__ == "__main__":
 
     ledger =AlertLedger()
 
-    # CLEAR DATA HERE ONCE, NOT IN THE WORKER
-    ledger.clear_monthly_data()
+   # --- THE PRODUCTION-SAFE WIPE COMMAND ---
+    # Run the bot with: python main.py --wipe 
+    # Otherwise, it defaults to keeping your data safely intact.
+    if "--wipe" in sys.argv:
+        print("⚠️ '--wipe' flag detected. Purging all database records...")
+        ledger.clear_monthly_data()
+        # Optional: You could also add a command here to run a SQL query 
+        # to TRUNCATE your signal_history table so you don't get duplicates!
+        print("✅ Database cleared. Starting fresh.")
+    else:
+        print("💾 Booting with existing database records intact.")
 
 
     # 1. Instantiate the Stateless Services (Actuators/Sensors)
@@ -119,52 +86,56 @@ if __name__ == "__main__":
     chat_ids= os.getenv("PERSONAL_ID")
     )
 
-    # tms= TelegramNotifier(token = os.getenv("TELEGRAM_API_TOKEN"), 
-    # chat_ids= os.getenv("PERSONAL_ID"))
-
-    
-
-    # # 2. Instantiate the independent, stateful Strategy Agents
-    # bots = [
-    #     stoch_bollinger("AUD_CAD", db_client, sms_client),
-    #     stoch_bollinger("EUR_USD", db_client, sms_client),
-    #     stoch_bollinger("GBP_JPY", db_client, sms_client)
-    # ]
-
     bots_names = db_client.getPairs()
-    bots =[]
+    bots = [Stoch_Bolinger(pair_name, db_client, tms, ledger) for pair_name in bots_names]
 
-    for pair_name in  bots_names:
-        bots.append(Stoch_Bolinger(pair_name, db_client, tms, ledger))
-    
-
-    # 5. Start the Master Dispatcher Thread
-    dispatch_thread = threading.Thread(target=dispatcher_loop, args=(ledger, tms))
-    dispatch_thread.daemon = True
-    dispatch_thread.start()
-
-
-    # 3. The Thread Spawner
-    active_threads = []
-    
-    for bot in bots:
-        # We create an OS-level thread for each currency pair.
-        # target = the function to run. args = what to pass into that function.
-        t = threading.Thread(target=strategy_worker, args=(bot,))
-        
-        # Daemon threads automatically die when you press Ctrl+C to kill the main program
-        t.daemon = True 
-        t.start()
-        active_threads.append(t)
-        
-        # Slight stagger so we don't bombard the Oanda API with 10 concurrent requests
-        time.sleep(1)
-
-    print("All threads active. Engine is running.")
-
-    # 4. Keep the main program alive
     try:
+
         while True:
-            time.sleep(60) # The main thread just idles forever while the worker threads do the heavy lifting
+
+            start_time = time.time()
+            
+            print(f"\n--- Starting Cycle at {datetime.now(ZoneInfo('America/New_York')).strftime('%H:%M:%S')} NY Time ---")
+            
+            # --- THE THREAD POOL BARRIER ---
+            # This processes all 68 bots using 10 concurrent threads. 
+            # The script will pause here until EVERY bot finishes its run_cycle.
+            with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+                
+                futures = [executor.submit(bot.run_cycle) for bot in bots]
+                
+                # This catches and prints any hidden crashes inside the threads!
+                for f in futures:
+                    f.result()
+            
+            execution_time = time.time() - start_time
+
+            print(f"✅ All {len(bots)} pairs completed in {execution_time:.2f} seconds.")
+
+            # --- MASTER DISPATCHER ---
+            # Because we waited for the ThreadPool to finish, we are 100% guaranteed
+            # that the database is completely synced before we check it.
+
+            print("[Dispatcher] Checking ledger for updates...")
+            
+            if ledger.has_updates():
+                print("[Dispatcher] Update detected! Sending unified ledger...")
+
+                message = ledger.get_ledger_with_history()
+
+                try:
+                    tms.send_alert(message)
+                    ledger.mark_all_as_sent()
+
+                except Exception as e:
+                    print(f"[Dispatcher] Failed to send Telegram update: {e}")
+            else:
+                print("[Dispatcher] No new updates.")
+
+            # --- PRECISION TIMING ---
+            sleep_seconds = get_seconds_to_next_m15()
+            print(f"⏳ Sleeping for {sleep_seconds / 60:.2f} minutes until the next candle...")
+            time.sleep(sleep_seconds)
+
     except KeyboardInterrupt:
-        print("\n Shutting down engine...")
+        print("\n🛑 Shutting down engine cleanly...")

@@ -56,7 +56,8 @@ class AlertLedger:
                     signal TEXT,
                     trend TEXT,
                     activated_at TEXT,
-                    deactivated_at TEXT
+                    deactivated_at TEXT,
+                    UNIQUE(pair, activated_at)
                 )
             """)
     
@@ -159,7 +160,7 @@ class AlertLedger:
         if row:
             # 1. Archive to history
             insert_query = """
-                INSERT INTO signal_history (pair, signal, trend, activated_at, deactivated_at)
+                INSERT OR IGNORE INTO signal_history (pair, signal, trend, activated_at, deactivated_at)
                 VALUES (?, ?, ?, ?, ?)
             """
             self._execute_query(insert_query, (pair, row[0], row[1], row[2], now_str))

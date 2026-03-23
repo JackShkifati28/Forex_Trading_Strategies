@@ -71,14 +71,11 @@ class Stoch_Bolinger(BaseStrategy):
 
         for i in range(n):
 
-            high = df['High'].iloc[i]
-            r_h = np.round(high, 4)
-            low = df['Low'].iloc[i]
-            r_l = np.round(low, 4)
-            upper = df['BBU_30_2.0_2.0'].iloc[i]
-            r_u = np.round(upper , 4)
-            lower = df['BBL_30_2.0_2.0'].iloc[i]
-            r_lr = np.round(lower, 4)
+            high = np.round(df['High'].iloc[i], 4)
+            low = np.round(df['Low'].iloc[i], 4)
+            upper = np.round( df['BBU_30_2.0_2.0'].iloc[i],4)
+            lower = np.round( df['BBL_30_2.0_2.0'].iloc[i], 4)
+    
 
             # Get the exact time of THIS historical candle
             raw_time = df['Date'].iloc[i]
@@ -86,7 +83,7 @@ class Stoch_Bolinger(BaseStrategy):
 
             # CASE 1: Price touches the TOP band
             # if high >= upper:
-            if r_h >=r_u:
+            if high >=upper:
                 # If our previous landmark was the BOTTOM, we just completed a BUY trip
                 # and now we are ready to look for a SHORT
                 if last_hit_band == "LOWER":
@@ -110,7 +107,7 @@ class Stoch_Bolinger(BaseStrategy):
                 last_hit_band = "UPPER"
 
             # CASE 2: Price touches the BOTTOM band
-            elif  r_l <= r_lr:
+            elif  low <= lower:
                 # If our previous landmark was the TOP, we just completed a SHORT trip
                 # and now we are ready to look for a BUY
                 if last_hit_band == "UPPER":
@@ -179,8 +176,8 @@ class Stoch_Bolinger(BaseStrategy):
         df_h4 = Indicator.bollinger(df_h4)
             
             # 4. 4H Trigger Logic
-        self.cached_4h_lower = df_h4['BBL_30_2.0_2.0'].iloc[-1]
-        self.cached_4h_upper = df_h4['BBU_30_2.0_2.0'].iloc[-1]
+        self.cached_4h_lower = np.round(df_h4['BBL_30_2.0_2.0'].iloc[-1], 4)
+        self.cached_4h_upper = np.round(df_h4['BBU_30_2.0_2.0'].iloc[-1], 4)
 
 
     
@@ -192,8 +189,12 @@ class Stoch_Bolinger(BaseStrategy):
             self.log(f"{self.pair} Network dropped during 15m fetch. Skipping cycle.")
             return
             
-        high = df_m15 ['High'].iloc[-1]
-        low =  df_m15 ['Low'].iloc[-1]
+
+        high = np.round(df_m15['High'].iloc[-1], 4)
+        low = np.round(df_m15['Low'].iloc[-1], 4)
+       
+    
+
         # NEW: Extract the raw Oanda UTC time from the live candle
         raw_time = df_m15['Date'].iloc[-1]
 
