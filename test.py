@@ -56,10 +56,10 @@ db_client = OandaClient(
         account_id=os.getenv("ACCOUNT_ID")
     )
 
-# check_db()
+check_db()
 
 
-df_monthly = db_client.get_candles("CAD_CHF", "H4", 180)
+# df_monthly = db_client.get_candles("CAD_CHF", "H4", 180)
 
 # print(df_monthly.head(20))
 
@@ -69,11 +69,11 @@ df_monthly = db_client.get_candles("CAD_CHF", "H4", 180)
 
 # df_4hour = db_client.get_candles("USD_CNH", "H4", 100)
 
-df = Indicator.bollinger(df_monthly)
+# df = Indicator.bollinger(df_monthly)
 
 # # value = df.loc[df['Date'] == '2026-03-17T13:00:00.000000000', 'BBB_30_2.0_2.0']
 
-print(df.tail(25))
+# print(df.tail(25))
 
 # history_rows = conn.execute(
 #                 "SELECT pair, signal, trend, deactivated_at FROM signal_history "
