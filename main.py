@@ -2,6 +2,7 @@ import os
 import time
 import sys
 from concurrent.futures import ThreadPoolExecutor
+import concurrent.futures
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import random 
@@ -72,8 +73,8 @@ if __name__ == "__main__":
         account_id=os.getenv("ACCOUNT_ID")
     )
     
-    raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
-    email_list = raw_emails_string.split(",")
+    # raw_emails_string = os.getenv("TARGET_PHONE_EMAIL")
+    # email_list = raw_emails_string.split(",")
 
     # sms_client = SMSNotifier(
     #     sender_email=os.getenv("GMAIL_ADDRESS"),
@@ -83,7 +84,7 @@ if __name__ == "__main__":
 
     tms = TelegramNotifier( 
     token = os.getenv("TELEGRAM_API_TOKEN"), 
-    chat_ids= os.getenv("PERSONAL_ID")
+    chat_ids= os.getenv("GROUP_ID")
     )
 
     bots_names = db_client.getPairs()
@@ -102,11 +103,17 @@ if __name__ == "__main__":
             # The script will pause here until EVERY bot finishes its run_cycle.
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
                 
-                futures = [executor.submit(bot.run_cycle) for bot in bots]
+                # Map the future to the bot name so we know who crashes
+                future_to_bot = {executor.submit(bot.run_cycle): bot.pair for bot in bots}
                 
                 # This catches and prints any hidden crashes inside the threads!
-                for f in futures:
-                    f.result()
+                # as_completed allows us to process them as they finish and enforce a strict timeout
+                for future in concurrent.futures.as_completed(future_to_bot, timeout=30):
+                    pair_name = future_to_bot[future]
+                    try:
+                        future.result() 
+                    except Exception as e:
+                        print(f"[{pair_name}] ⚠️ Engine caught an error and skipped this cycle: {e}")
             
             execution_time = time.time() - start_time
 

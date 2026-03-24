@@ -24,7 +24,7 @@ class OandaClient:
         
         url = f"{self.base_url}/v3/accounts/{self.account_id}/summary"
         try:
-            response = requests.get(url, headers=self.headers)
+            response = requests.get(url, headers=self.headers, timeout=10)
 
             if response.status_code != 200:
                raise ConnectionError(f"Oanda Connection Failed! Status: {response.status_code}. Response: {response.text}")
@@ -40,7 +40,7 @@ class OandaClient:
         url =f"{self.base_url}/v3/accounts/{self.account_id}/instruments"
 
         try:
-            r = requests.get(url, headers=self.headers)
+            r = requests.get(url, headers=self.headers, timeout=10)
 
             if r.status_code == 200:
                 data=r.json()
@@ -63,7 +63,7 @@ class OandaClient:
 
         try:
 
-            response = requests.get(url, headers=self.headers, params= params)
+            response = requests.get(url, headers=self.headers, params= params, timeout=10)
         
         except requests.exceptions.RequestException as e:
             print(f"[{pair}] Network disconnected! Cannot reach Oanda: {e}")
