@@ -578,6 +578,10 @@ class AlertLedger:
             msg += "_No active signals._\n\n"
         else:
             for i, row in enumerate(active_rows):
+                
+                if i== 0:
+                     i=1
+                
                 pair, signal_raw, trend_raw, time_val, sent_status = row
 
                 signal_clean = str(signal_raw).replace("SignalState.", "")
