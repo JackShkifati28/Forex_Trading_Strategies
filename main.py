@@ -5,7 +5,6 @@ from concurrent.futures import ThreadPoolExecutor
 import concurrent.futures
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
-import random 
 from zoneinfo import ZoneInfo
 from Core.oanda_client import OandaClient
 from Core.smsNotifier import TelegramNotifier
@@ -103,10 +102,8 @@ if __name__ == "__main__":
             # The script will pause here until EVERY bot finishes its run_cycle.
             with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
                 
-                # Map the future to the bot name so we know who crashes
                 future_to_bot = {executor.submit(bot.run_cycle): bot.pair for bot in bots}
                 
-                # This catches and prints any hidden crashes inside the threads!
                 # as_completed allows us to process them as they finish and enforce a strict timeout
                 for future in concurrent.futures.as_completed(future_to_bot, timeout=30):
                     pair_name = future_to_bot[future]

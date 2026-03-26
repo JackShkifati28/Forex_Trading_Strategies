@@ -21,19 +21,53 @@ class TelegramNotifier:
         except Exception as e:
             print(f"Telegram Boot Warning: {e}")
 
+
     def send_alert(self, message_body):
-       
         url = f"https://api.telegram.org/bot{self.token}/sendMessage"
-        payload = {
-            "chat_id": self.chat_ids , 
-            "text": f"🔔 *Forex Alert*\n{message_body}", 
-            "parse_mode": "Markdown"
-            }
+        
+        # 1. Intelligently split the massive string into chunks under 4,000 chars
+        chunks = []
+        current_chunk = ""
+        
+        # Splitting by '\n\n' ensures we never cut a currency pair's data in half
+        for block in message_body.split('\n\n'):
+            if len(current_chunk) + len(block) + 2 > 4000:
+                chunks.append(current_chunk)
+                current_chunk = block + "\n\n"
+            else:
+                current_chunk += block + "\n\n"
+                
+        if current_chunk.strip():
+            chunks.append(current_chunk.strip())
+
+        # 2. Fire off the chunks one by one
         try:
-            requests.post(url, data=payload, timeout=10)
-            print(f"Telegram sent to {self.chat_ids }")
+            for i, chunk in enumerate(chunks):
+                # Add a Part 1/2 header ONLY if it actually got split up
+                if len(chunks) > 1:
+                    text_to_send = f"🔔 *Forex Alert (Part {i+1}/{len(chunks)})*\n\n{chunk}"
+                else:
+                    text_to_send = f"🔔 *Forex Alert*\n\n{chunk}"
+                
+                payload = {
+                    "chat_id": self.chat_ids, 
+                    "text": text_to_send, 
+                    "parse_mode": "Markdown"
+                }
+                
+                response = requests.post(url, json=payload, timeout=10)
+                response.raise_for_status() # Instantly catches any future 400 errors
+                
+            print(f"✅ Telegram successfully sent to {self.chat_ids} in {len(chunks)} parts.")
+            
+        except requests.exceptions.HTTPError as err:
+            print(f"🚨 TELEGRAM REJECTED THE MESSAGE!")
+            print(f"Error Details: {response.text}") 
+            raise  # Forces main.py to abort so it DOES NOT mark the DB as sent!
+            
         except Exception as e:
-             print(f"Telegram failed for {self.chat_ids }: {e}")
+            print(f"🚨 Telegram Network Error: {e}")
+            raise  # Forces main.py to abort
 
 class SMSNotifier:
     def __init__(self, sender_email, sender_password, target_sms_email):
