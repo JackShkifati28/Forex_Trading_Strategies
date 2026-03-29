@@ -408,7 +408,8 @@ class AlertLedger:
                 CREATE TABLE IF NOT EXISTS alerts (
                     pair TEXT PRIMARY KEY,
                     signal TEXT,
-                    trend TEXT,
+                    montly_trend TEXT,
+                    weekly_trend TEXT,
                     timestamp TEXT,
                     sent INTEGER DEFAULT 0
                 )
@@ -418,7 +419,8 @@ class AlertLedger:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     pair TEXT,
                     signal TEXT,
-                    trend TEXT,
+                    montly_trend TEXT,
+                    weekly_trend  TEXT,
                     activated_at TEXT,
                     deactivated_at TEXT,
                     UNIQUE(pair, activated_at)
@@ -463,19 +465,20 @@ class AlertLedger:
 
         print("🚀 [Ledger] Monthly Reset Complete.")
 
-    def update_status(self, pair: str, signal, trend: str, override_time: str = None):
+    def update_status(self, pair: str, signal, montly_trend: str, weekly_trend: str, override_time: str = None):
         """Adds or updates an active signal."""
         now_str = override_time or datetime.now(self.tz).strftime('%m-%d-%Y %H:%M:%S')
         query = """
-            INSERT INTO alerts (pair, signal, trend, timestamp, sent)
-            VALUES (?, ?, ?, ?, 0)
+            INSERT INTO alerts (pair, signal, montly_trend, weekly_trend, timestamp, sent)
+            VALUES (?, ?, ?, ? ,?, 0)
             ON CONFLICT(pair) DO UPDATE SET
                 sent = CASE WHEN excluded.signal != alerts.signal THEN 0 ELSE alerts.sent END,
                 signal = excluded.signal,
-                trend = excluded.trend,
+                montly_trend = excluded.montly_trend,
+                weekly_trend = excluded.weekly_trend,
                 timestamp = excluded.timestamp
         """
-        self._execute_write(query, (pair, str(signal), trend, now_str), raise_on_error=True)
+        self._execute_write(query, (pair, str(signal),montly_trend, weekly_trend, now_str), raise_on_error=True)
 
     def deactivate_signal(self, pair: str, override_time: str = None):
         """
@@ -488,17 +491,17 @@ class AlertLedger:
             conn = self._get_connection()
             try:
                 row = conn.execute(
-                    "SELECT signal, trend, timestamp FROM alerts WHERE pair = ?", (pair,)
+                    "SELECT signal, montly_trend, weekly_trend, timestamp FROM alerts WHERE pair = ?", (pair,)
                 ).fetchone()
 
                 if row:
                     conn.execute(
                         """
                         INSERT OR IGNORE INTO signal_history
-                            (pair, signal, trend, activated_at, deactivated_at)
-                        VALUES (?, ?, ?, ?, ?)
+                            (pair, signal, montly_trend, weekly_trend, activated_at, deactivated_at)
+                        VALUES (?, ?, ?, ?, ?, ?)
                         """,
-                        (pair, row[0], row[1], row[2], now_str)
+                        (pair, row[0], row[1], row[2], row[3],now_str)
                     )
                     conn.execute("DELETE FROM alerts WHERE pair = ?", (pair,))
                     conn.commit()
@@ -523,10 +526,10 @@ class AlertLedger:
     # -------------------------------------------------------------------------
 
     def _fetch_active_rows(self) -> list:
-        """Single source of truth for reading the current alerts table."""
         conn = self._get_connection()
+        # FIX: Select the actual column names
         return conn.execute(
-            "SELECT pair, signal, trend, timestamp, sent FROM alerts ORDER BY pair ASC"
+            "SELECT pair, signal, montly_trend, weekly_trend, timestamp, sent FROM alerts ORDER BY pair ASC"
         ).fetchall()
 
     def has_updates(self) -> bool:
@@ -581,16 +584,25 @@ class AlertLedger:
                 
                 i=i+1
                 
-                pair, signal_raw, trend_raw, time_val, sent_status = row
+                pair, signal_raw, monthly_trend_raw, weekly_trend_raw ,time_val, sent_status = row
 
                 signal_clean = str(signal_raw).replace("SignalState.", "")
 
-                if trend_raw == "BUY":
+                if monthly_trend_raw == "BUY":
                     direction = "STOCH UP 🟢"
-                elif trend_raw == "SHORT":
+                elif monthly_trend_raw == "SHORT":
                     direction = "STOCH DOWN 🔴"
                 else:
-                    direction = trend_raw
+                    direction = monthly_trend_raw
+                
+                if weekly_trend_raw == "BUY":
+                    direction2 = "STOCH UP 🟢"
+                elif weekly_trend_raw == "SHORT":
+                    direction2 = "STOCH DOWN 🔴"
+                else:
+                    direction2 = weekly_trend_raw
+                
+
 
                 if sent_status == 0:
                     msg += f"🔶 ({i}). *{pair}* Newly Added! \n"
@@ -598,7 +610,7 @@ class AlertLedger:
                     msg += f"🔷 ({i}). *{pair}*\n"
 
                 msg += f"  ├ Monthly: {direction}\n"
-                msg += f"  ├ Signal: {signal_clean}\n"
+                msg += f"  ├ Weekly: {direction2}\n"
                 msg += f"  └ Ts: {time_val}\n\n"
 
         msg += "─" * 15 + "\n\n"
