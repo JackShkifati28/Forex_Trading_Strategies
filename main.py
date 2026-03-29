@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
     tms = TelegramNotifier( 
     token = os.getenv("TELEGRAM_API_TOKEN"), 
-    chat_ids= os.getenv("ID")
+    chat_ids= os.getenv("GROUP_ID")
     )
 
     bots_names = db_client.getPairs()

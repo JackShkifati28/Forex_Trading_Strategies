@@ -5,4 +5,9 @@ __pycache__/
 *.pyc
 ForexEngineNotes
 Logs/
-forex-bot-key.pem
+*.pem
+*.key
+# Databases
+Logs/*.db
+Logs/*.db-journal
+Logs/*.db-wal
