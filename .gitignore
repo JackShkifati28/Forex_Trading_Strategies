@@ -5,4 +5,4 @@ __pycache__/
 *.pyc
 ForexEngineNotes
 Logs/
-forex-bot-key
+forex-bot-key.pem
