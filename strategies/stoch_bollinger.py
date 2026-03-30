@@ -177,8 +177,8 @@ class Stoch_Bolinger(BaseStrategy):
          
          df_weekly = Indicator.stocastic(df_weekly)
 
-         k_weekly = df_weekly['STOCHk_14_3_3'].iloc[-1]
-         d_weekly = df_weekly['STOCHd_14_3_3'].iloc[-1]
+         k_weekly = df_weekly['STOCHk_14_3_3'].iloc[-2]
+         d_weekly = df_weekly['STOCHd_14_3_3'].iloc[-2]
 
          self.cached_weekly_trend = "BUY" if  k_weekly > d_weekly else "SHORT"
 
