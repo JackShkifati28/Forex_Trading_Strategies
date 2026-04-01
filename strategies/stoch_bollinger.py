@@ -222,8 +222,8 @@ class Stoch_Bolinger(BaseStrategy):
             
             if self.last_touched_band =="LOWER":
 
-                if self.last_signal != SignalState.SEARCHING:
-                        self.ledger.deactivate_signal(self.pair)
+                # if self.last_signal != SignalState.SEARCHING:
+                #         self.ledger.deactivate_signal(self.pair)
             
                 self.last_signal = SignalState.SHORT        
                 self.is_message_sent =False
@@ -238,8 +238,8 @@ class Stoch_Bolinger(BaseStrategy):
 
             if self.last_touched_band =="UPPER":
                 
-                if self.last_signal != SignalState.SEARCHING:
-                    self.ledger.deactivate_signal(self.pair)
+                # if self.last_signal != SignalState.SEARCHING:
+                #     self.ledger.deactivate_signal(self.pair)
 
                 self.last_signal = SignalState.BUY
                 self.is_message_sent =False
@@ -267,11 +267,13 @@ class Stoch_Bolinger(BaseStrategy):
             # Run every month
             if self.last_month_fetch is None or self.last_month_fetch != current_month:
                 self._get_Month()
+                self.is_message_sent =False
                 self.last_month_fetch = current_month
 
             #Run every week
             if self.last_weekly_fetch is None or self.last_weekly_fetch != current_week:
                 self._get_weekly()
+                self.is_message_sent =False
                 self.last_weekly_fetch = current_week
 
             # Run every 4 hours
@@ -305,6 +307,11 @@ class Stoch_Bolinger(BaseStrategy):
                     self.ledger.update_status(self.pair, self.last_signal, self.cached_monthly_trend,self.cached_weekly_trend ,override_time=self.last_trigger_time)
                     self.is_message_sent =True
                     self.log(f"Trip Completed: Bottom -> Top. Signal is now SHORT.")
+                
+                else: 
+                     self.ledger.deactivate_signal(self.pair)
+                     self.is_message_sent =True
+                     self.log(f"Deactivated Signal.")
                 
             else:
                 self.log(f"{self.pair} Monitoring | Momentum: { self.cached_monthly_trend} | Last Signal: {self.last_signal}")
