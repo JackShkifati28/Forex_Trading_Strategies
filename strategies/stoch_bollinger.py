@@ -314,7 +314,7 @@ class Stoch_Bolinger(BaseStrategy):
                      self.log(f"Deactivated Signal.")
                 
             else:
-                self.log(f"{self.pair} Monitoring | Momentum: { self.cached_monthly_trend} | Last Signal: {self.last_signal}")
+                self.log(f"{self.pair} Monitoring | Monthly Momentum: { self.cached_monthly_trend} | Weekly Momentum: {self.cached_weekly_trend} | Last Signal: {self.last_signal}")
         
         except Exception as e:
             self.log(f"CRITICAL ERROR in run_cycle: {e}")
