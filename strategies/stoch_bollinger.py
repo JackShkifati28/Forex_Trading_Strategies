@@ -251,18 +251,18 @@ class Stoch_Bolinger(BaseStrategy):
         
         
     def run_cycle(self):
-
-
         ny_tz = ZoneInfo("America/New_York")
        
-        # Get current time specifically for NY
+            # Get current time specifically for NY
         now_ny = datetime.now(ny_tz)
+        current_4hour = (now_ny.hour//4)*4
 
-        current_month = now_ny.month
-        current_week = now_ny.strftime("%U")
-        current_hour = now_ny.hour
 
         try:
+
+            current_month = self.fetch_candles("M",3)['Date'].iloc[-1]
+            last_week = self.fetch_candles("W",4)['Date'].iloc[-1]
+          
          
             # Run every month
             if self.last_month_fetch is None or self.last_month_fetch != current_month:
@@ -271,16 +271,16 @@ class Stoch_Bolinger(BaseStrategy):
                 self.last_month_fetch = current_month
 
             #Run every week
-            if self.last_weekly_fetch is None or self.last_weekly_fetch != current_week:
+            if self.last_weekly_fetch is None or self.last_weekly_fetch !=  last_week:
                 self._get_weekly()
                 self.is_message_sent =False
-                self.last_weekly_fetch = current_week
+                self.last_weekly_fetch =  last_week
 
             # Run every 4 hours
-            if self.cached_4h_upper is None or current_hour != self.last_4h_fetch_hour:
+            if self.cached_4h_upper is None or  current_4hour!= self.last_4h_fetch_hour:
                 self._get_4hour()
                 # Lock the cache so it doesn't fetch again this hour
-                self.last_4h_fetch_hour = current_hour
+                self.last_4h_fetch_hour = current_4hour
         
             # INITIAL SYNC (Run only once at startup)
             if self.last_touched_band is None: 

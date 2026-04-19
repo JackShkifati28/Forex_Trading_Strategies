@@ -1,35 +1,35 @@
-# importing os module for environment variables
+# # importing os module for environment variables
 import os
-# importing necessary functions from dotenv library
+# # importing necessary functions from dotenv library
 from dotenv import load_dotenv, dotenv_values 
 from Core.oanda_client import OandaClient
-from Core.smsNotifier import TelegramNotifier
+# from Core.smsNotifier import TelegramNotifier
 from Core.indicator import Indicator
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 import requests
-from Core.visualizer import Visualizer
-import sqlite3
+# from Core.visualizer import Visualizer
+# import sqlite3
 
-def check_db():
-    conn = sqlite3.connect("Logs/trading_ledger.db")
+# def check_db():
+#     conn = sqlite3.connect("Logs/trading_ledger.db")
     
-    print("=== ACTIVE ALERTS (CAD_CHF) ===")
-    active = conn.execute("SELECT * FROM alerts WHERE pair='CAD_CHF'").fetchall()
-    if not active:
-        print("No active alerts found.")
-    for row in active:
-        print(f"Pair: {row[0]} | Signal: {row[1]} | Trend: {row[2]} | Time: {row[3]} | Sent: {row[4]}")
+#     print("=== ACTIVE ALERTS (CAD_CHF) ===")
+#     active = conn.execute("SELECT * FROM alerts WHERE pair='CAD_CHF'").fetchall()
+#     if not active:
+#         print("No active alerts found.")
+#     for row in active:
+#         print(f"Pair: {row[0]} | Signal: {row[1]} | Trend: {row[2]} | Time: {row[3]} | Sent: {row[4]}")
         
-    print("\n=== SIGNAL HISTORY (CAD_CHF) ===")
-    history = conn.execute("SELECT * FROM signal_history WHERE pair='CAD_CHF' ORDER BY id ASC").fetchall()
-    if not history:
-        print("No history found.")
-    for row in history:
-        print(f"ID: {row[0]} | Pair: {row[1]} | Signal: {row[2]} | Trend: {row[3]} | Activated: {row[4]} | Deactivated: {row[5]}")
+#     print("\n=== SIGNAL HISTORY (CAD_CHF) ===")
+#     history = conn.execute("SELECT * FROM signal_history WHERE pair='CAD_CHF' ORDER BY id ASC").fetchall()
+#     if not history:
+#         print("No history found.")
+#     for row in history:
+#         print(f"ID: {row[0]} | Pair: {row[1]} | Signal: {row[2]} | Trend: {row[3]} | Activated: {row[4]} | Deactivated: {row[5]}")
 
-# check_db()
-# loading variables from .env file
+# # check_db()
+# # loading variables from .env file
 load_dotenv() 
 
 
@@ -40,12 +40,12 @@ load_dotenv()
 #         sender_email=os.getenv("GMAIL_ADDRESS"),
 #         sender_password=os.getenv("GMAIL_APP_PASSWORD"),
 #         target_sms_email=email_list
-#     )
+# #     )
 
-tms = TelegramNotifier( 
-    token = os.getenv("TELEGRAM_API_TOKEN"), 
-    chat_ids= os.getenv("PERSONAL_ID")
-    )
+# tms = TelegramNotifier( 
+#     token = os.getenv("TELEGRAM_API_TOKEN"), 
+#     chat_ids= os.getenv("PERSONAL_ID")
+#     )
 
 
 
@@ -56,7 +56,7 @@ db_client = OandaClient(
         account_id=os.getenv("ACCOUNT_ID")
     )
 
-check_db()
+# check_db()
 
 
 # df_monthly = db_client.get_candles("CAD_CHF", "H4", 180)
@@ -107,10 +107,18 @@ check_db()
 # print(datetime.now(timezone.utc))
 
 # Define the NY timezone
-# ny_tz = ZoneInfo("America/New_York")
+ny_tz = ZoneInfo("America/New_York")
 
 # # # Get current time specifically for NY
-# now_ny = datetime.now(ny_tz)
+now_ny = datetime.now(ny_tz)
+
+week=db_client.get_candles("USD_CNH","M", 3)['Date'].iloc[-2]
+
+print(week)
+
+
+
+
 
 # currnt_date= f"Date: {now_ny.date():%m-%d-%Y}"
 # currnt_time = f"Time: {now_ny.time():%H:%M:%S}"
@@ -128,7 +136,7 @@ check_db()
 # print(f"Current NY Hour: {current_hour}")
 
 
-tms.send_alert("Testing Message")
+# tms.send_alert("Testing Message")
 
 
 
@@ -136,4 +144,13 @@ tms.send_alert("Testing Message")
 
 # print(bots_names)
 
+
+# ny_tz = ZoneInfo("America/New_York")
+       
+#         # Get current time specifically for NY
+# now_ny = datetime.now(ny_tz)
+
+# current_week = now_ny.strftime("%U")
+
+# print(current_week)
  
