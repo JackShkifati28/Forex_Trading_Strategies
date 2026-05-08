@@ -318,3 +318,4 @@ class Stoch_Bolinger(BaseStrategy):
         
         except Exception as e:
             self.log(f"CRITICAL ERROR in run_cycle: {e}")
+

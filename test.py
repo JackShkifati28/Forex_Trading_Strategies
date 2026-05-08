@@ -8,6 +8,7 @@ from Core.indicator import Indicator
 from datetime import datetime, timedelta, timezone
 from zoneinfo import ZoneInfo
 import requests
+import pandas as pd
 # from Core.visualizer import Visualizer
 # import sqlite3
 
@@ -112,9 +113,11 @@ ny_tz = ZoneInfo("America/New_York")
 # # # Get current time specifically for NY
 now_ny = datetime.now(ny_tz)
 
-week=db_client.get_candles("USD_CNH","M", 3)['Date'].iloc[-2]
+week=db_client.get_candles("USD_CNH","W", 4)
 
-print(week)
+completed_weekly = week[week['Complete'] == True]
+last_week = completed_weekly['Date']
+print(last_week)
 
 
 
