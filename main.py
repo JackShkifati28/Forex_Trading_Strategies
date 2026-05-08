@@ -289,8 +289,9 @@ if __name__ == "__main__":
             if ledger.has_updates():
                 log.info("[Dispatcher] Update detected — sending unified ledger.")
                 try:
-                    tms.send_alert(ledger.get_ledger_with_history())
-                    ledger.mark_all_as_sent()
+                    message, sent_pairs = ledger.get_ledger_with_history()
+                    tms.send_alert(message)
+                    ledger.mark_pairs_as_sent(sent_pairs)
                 except Exception as e:
                     log.error(f"[Dispatcher] Failed to send Telegram update: {e}")
             else:
