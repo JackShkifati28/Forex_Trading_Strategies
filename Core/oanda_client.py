@@ -184,17 +184,10 @@ class OandaClient:
         return pairs
 
     def get_candles(self, pair: str, granularity: str = "M", count: int = 20) -> Optional[pd.DataFrame]:
-        # Skip pairs we already know the account isn't authorized for.
-        if pair in self._unauthorized_pairs:
-            return None
-
         url = f"{self.base_url}/v3/instruments/{pair}/candles"
         params = {"count": count, "granularity": granularity}
 
-        # Let ConnectionError propagate — BaseStrategy.fetch_candles distinguishes
-        # transient (raise) from permanent (return None), and we need to preserve
-        # that distinction here. Returning None for transport errors would cause
-        # the strategy to silently skip the cycle instead of retrying.
+        # Let ConnectionError propagate — BaseStrategy.fetch_candles handles retries.
         response = self._get(url, params=params)
 
         if response.status_code == 200:
@@ -209,22 +202,9 @@ class OandaClient:
                 "Complete": bool(c["complete"]),
             } for c in candles])
 
-        # Permanent failures — don't trigger backoff in the strategy
-        if response.status_code in (401, 403):
-            if pair not in self._unauthorized_pairs:
-                log.warning(f"[{pair}] HTTP {response.status_code} — account not authorized "
-                            f"for this pair. Removing from active rotation.")
-                self._unauthorized_pairs.add(pair)
-            return None
-
-        if response.status_code == 404:
-            log.warning(f"[{pair}] HTTP 404 — instrument not found. Skipping.")
-            self._unauthorized_pairs.add(pair)
-            return None
-
-        # Transient — let the strategy's backoff handle it
-        clean_error = str(response.text).replace("\n", " ").replace("\r", "")[:150]
-        raise Exception(f"HTTP {response.status_code}: {clean_error}...")
+        # Anything non-200 is a problem — raise and let the strategy's backoff retry.
+        clean = str(response.text).replace("\n", " ").replace("\r", "")[:150]
+        raise Exception(f"HTTP {response.status_code} for {pair}: {clean}")
 
     def close(self):
         """Call this on shutdown to release the connection pool cleanly."""
