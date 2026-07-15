@@ -38,8 +38,6 @@ jobs:
         # Pin pandas to 2.x to ensure compatibility, and install dependencies
         pip install requests "pandas<3.0.0" python-dotenv numpy
         
-        # Download the master branch zip directly
-        pip install pandas-ta-classic
 
     # Step D: Run the test suite
     - name: Execute Pytest Suite
