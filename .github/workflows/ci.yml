@@ -45,6 +45,7 @@ jobs:
     - name: Execute Pytest Suite
       # Provide dummy environment variables so os.getenv() doesn't fail during imports
       env:
+        PYTHONPATH: ${{ github.workspace }}
         API_TOKEN: "dummy_oanda_token_123"
         ACCOUNT_ID: "dummy_account_id_456"
         TELEGRAM_API_TOKEN: "dummy_telegram_token_789"
