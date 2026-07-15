@@ -2,7 +2,6 @@ import pytest
 import threading
 import os
 from Core.ledger import AlertLedger
-import pandas_ta as ta
 
 def test_ledger_thread_safety(tmp_path):
     """Simulates 50 threads writing to the SQLite database simultaneously."""

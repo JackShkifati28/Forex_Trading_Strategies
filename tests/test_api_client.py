@@ -2,7 +2,6 @@ import pytest
 import requests
 from requests.exceptions import Timeout
 from unittest.mock import patch
-import pandas_ta as ta
 from Core.oanda_client import OandaClient
 
 @patch("requests.Session.get")
