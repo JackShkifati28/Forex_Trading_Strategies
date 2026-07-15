@@ -39,7 +39,7 @@ jobs:
         
         # Install your core project libraries
         # If you have a requirements.txt file, you can replace the line below with: pip install -r requirements.txt
-        pip install requests pandas pandas-ta python-dotenv numpy
+        pip install requests pandas pandas-ta-classic python-dotenv numpy
 
     # Step D: Run the test suite
     - name: Execute Pytest Suite
