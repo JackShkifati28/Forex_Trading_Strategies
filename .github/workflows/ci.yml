@@ -39,7 +39,7 @@ jobs:
         pip install requests "pandas<3.0.0" python-dotenv numpy
         
         # Download the master branch zip directly
-        pip install https://github.com/twopirllc/pandas-ta/archive/master.zip
+        pip install pandas-ta-classic
 
     # Step D: Run the test suite
     - name: Execute Pytest Suite
