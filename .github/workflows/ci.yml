@@ -1,0 +1,53 @@
+name: Forex Engine CI/CD
+
+# 1. Trigger the workflow on pushes and pull requests to the main branch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    # Use standard Linux servers as they are the cheapest and industry standard
+    runs-on: ubuntu-latest
+    
+    # Run the tests on multiple Python versions to ensure compatibility
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11"]
+
+    steps:
+    # Step A: Download your repository code onto the runner
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    # Step B: Install the specific Python version from the matrix
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip' # Speeds up future runs by caching dependencies
+
+    # Step C: Install dependencies
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        
+        # Install testing frameworks
+        pip install pytest pytest-mock pytest-benchmark
+        
+        # Install your core project libraries
+        # If you have a requirements.txt file, you can replace the line below with: pip install -r requirements.txt
+        pip install requests pandas pandas-ta python-dotenv numpy
+
+    # Step D: Run the test suite
+    - name: Execute Pytest Suite
+      # Provide dummy environment variables so os.getenv() doesn't fail during imports
+      env:
+        API_TOKEN: "dummy_oanda_token_123"
+        ACCOUNT_ID: "dummy_account_id_456"
+        TELEGRAM_API_TOKEN: "dummy_telegram_token_789"
+        GROUP_ID: "dummy_group_id_000"
+      run: |
+        pytest tests/ -v
