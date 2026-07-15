@@ -38,9 +38,8 @@ jobs:
         # Pin pandas to 2.x to ensure compatibility, and install dependencies
         pip install requests "pandas<3.0.0" python-dotenv numpy
         
-        # Bypass git authentication by downloading the repository zip directly
-        pip install https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
-  
+        # Download the master branch zip directly
+        pip install https://github.com/twopirllc/pandas-ta/archive/master.zip
 
     # Step D: Run the test suite
     - name: Execute Pytest Suite
