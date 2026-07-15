@@ -1,4 +1,5 @@
 import pytest
+import pandas_ta as ta
 from strategies.stoch_bollinger import Stoch_Bolinger, SignalState
 
 def test_strategy_sync_logic_identifies_short(dummy_candle_data, mock_dependencies):

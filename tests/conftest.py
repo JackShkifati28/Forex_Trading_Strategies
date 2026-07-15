@@ -1,5 +1,6 @@
 import pytest
 import pandas as pd
+import pandas_ta as ta
 from datetime import datetime, timedelta
 
 @pytest.fixture
