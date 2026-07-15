@@ -28,7 +28,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
         cache: 'pip' # Speeds up future runs by caching dependencies
-
+    
     # Step C: Install dependencies
     - name: Install Dependencies
       run: |
@@ -38,8 +38,9 @@ jobs:
         # Pin pandas to 2.x to ensure compatibility, and install dependencies
         pip install requests "pandas<3.0.0" python-dotenv numpy
         
-        # Install the original pandas-ta directly from the source repository
-        pip install git+https://github.com/twopirllc/pandas-ta.git
+        # Bypass git authentication by downloading the repository zip directly
+        pip install https://github.com/twopirllc/pandas-ta/archive/refs/heads/main.zip
+  
 
     # Step D: Run the test suite
     - name: Execute Pytest Suite
